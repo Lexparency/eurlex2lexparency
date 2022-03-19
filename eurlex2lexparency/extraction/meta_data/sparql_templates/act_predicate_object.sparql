@@ -1,0 +1,6 @@
+SELECT DISTINCT ?p ?value
+WHERE {{
+   ?s ?p ?value .
+   ?s cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+   FILTER (?p != cdm:work_cites_work) .
+}}

@@ -1,0 +1,12 @@
+select ?celex ?title
+WHERE {{
+	?s eli:cites ?o .
+    ?o eli:id_local ?celex .
+    ?o eli:is_realized_by ?exp .
+    ?exp eli:language lang:{lang3} .
+    ?exp eli:title ?title .
+    ?s eli:id_local '{celex}' .
+    FILTER( regex(?celex, '^3[0-9]{{4}}[RLDF][0-9]{{4}}$') ) .
+
+}}
+LIMIT 1000

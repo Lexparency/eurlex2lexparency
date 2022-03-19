@@ -1,0 +1,11 @@
+SELECT DISTINCT ?p ?value
+WHERE {{
+   ?value ?p ?s .
+   ?s cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+   OPTIONAL {{
+      ?expression cdm:expression_belongs_to_work ?value .
+      ?expression cdm:expression_uses_language ?lang .
+   }}
+   FILTER (?p != cdm:work_cites_work) .
+   FILTER (?p != cdm:resource_legal_corrects_resource_legal || (?p = cdm:resource_legal_corrects_resource_legal && ?lang = lang:{lang3}) ) .
+}}

@@ -1,0 +1,27 @@
+SELECT DISTINCT ?c_celex ?date ?lang
+WHERE {{
+  {{
+    SELECT ?c_celex ?date ?lang
+    WHERE {{
+       ?work cdm:act_consolidated_based_on_resource_legal ?base .
+       ?base cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+       ?work cdm:resource_legal_id_celex ?c_celex .
+       ?work cdm:act_consolidated_date ?date .
+       ?expression cdm:expression_belongs_to_work ?work .
+       ?expression cdm:expression_uses_language ?lang .
+    }}
+  }}
+UNION
+  {{
+    SELECT ?c_celex ?date ?lang
+    WHERE {{
+       ?work cdm:act_consolidated_based_on_resource_legal ?base .
+       ?base cdm:resource_legal_id_celex ?celex .
+       ?work cdm:resource_legal_id_celex ?c_celex .
+       ?work cdm:act_consolidated_date ?date .
+       ?expression cdm:expression_belongs_to_work ?work .
+       ?expression cdm:expression_uses_language ?lang .
+       FILTER( str(?celex) = '{celex}' ) .
+    }}
+  }}
+}}

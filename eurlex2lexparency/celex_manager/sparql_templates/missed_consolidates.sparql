@@ -1,0 +1,7 @@
+SELECT ?celex
+WHERE {{
+   ?work cdm:resource_legal_id_celex ?celex .
+   ?work cdm:act_consolidated_date ?date .
+   FILTER( regex(?celex, '^0[0-9]{{4}}[RLDF][0-9]{{4}}-{year}[0-9]{{4}}$') ) .
+}}
+ORDER BY ?celex

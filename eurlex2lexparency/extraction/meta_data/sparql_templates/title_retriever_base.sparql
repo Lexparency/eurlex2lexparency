@@ -1,0 +1,10 @@
+SELECT ?work ?id_local ?title
+WHERE {{
+   ?work cdm:resource_legal_id_celex ?id_local .
+   OPTIONAL {{
+       ?exp cdm:expression_title ?title .
+       ?exp cdm:expression_uses_language lang:{lang_3} .
+       ?exp cdm:expression_belongs_to_work ?work .
+   }}
+   FILTER({filter}) .
+}}

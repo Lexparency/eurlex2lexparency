@@ -1,0 +1,311 @@
+<MATH>
+    <COMPARER>
+        <FORMULA.S>
+            <EXPR>
+                <HT TYPE="ITALIC">Risk</HT> – <HT TYPE="ITALIC">weighted exposure amount</HT>
+            </EXPR>
+            = 
+            <EXPR>
+                <HT TYPE="ITALIC">RW</HT> · <HT TYPE="ITALIC">exposure value</HT>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>{\mathrm{Risk} - \text{weighted exposure amount}} = {\mathrm{RW} \cdot \text{exposure value}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <HT TYPE="ITALIC">RW</HT>
+            = 
+            <EXPR>
+                <EXPR TYPE="BRACKET">
+                    <HT TYPE="ITALIC">LGD</HT> · <HT TYPE="ITALIC">N</HT>
+                    <EXPR TYPE="BRACKET">
+                        <EXPR>
+                            <EXPR>1</EXPR>
+                            <OVER/>
+                            <EXPR>
+                                <ROOT/>
+                                <EXPR>1 – <HT TYPE="ITALIC">R</HT></EXPR>
+                            </EXPR>
+                        </EXPR>
+                        ·
+                        <HT TYPE="ITALIC">G</HT>
+                        <EXPR TYPE="BRACKET"><HT TYPE="ITALIC">PD</HT></EXPR>
+                        +
+                        <ROOT/>
+                            <EXPR>
+                                <EXPR><HT TYPE="ITALIC">R</HT></EXPR>
+                                <OVER/>
+                                <EXPR>1 – <HT TYPE="ITALIC">R</HT></EXPR>
+                            </EXPR>
+                            ·
+                            <HT TYPE="ITALIC">G</HT>
+                            <EXPR TYPE="BRACKET">0.999</EXPR>
+                    </EXPR>
+                    –
+                    <EXPR><HT TYPE="ITALIC">LGD</HT> · <HT TYPE="ITALIC">PD</HT></EXPR>
+                </EXPR>
+                ·
+                <EXPR>
+                    <EXPR>1 + 
+                    <EXPR>
+                    <EXPR TYPE="BRACKET"><HT TYPE="ITALIC">M</HT> – 2,5</EXPR>
+                    ·
+                    <HT TYPE="ITALIC">b</HT></EXPR></EXPR><OVER/>
+                    <EXPR>1 – <EXPR>1,5 · <HT TYPE="ITALIC">b</HT></EXPR></EXPR>
+                </EXPR>
+                · 12,5 · 1,06
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>\mathrm{RW} = {\left (\mathrm{LGD} \cdot \mathrm{N} \left ({\frac{1}{\sqrt{{1 - \mathrm{R}}}}} \cdot \mathrm{G} (\mathrm{PD}) + \sqrt{{\frac{\mathrm{R}}{1 - \mathrm{R}}}} \cdot \mathrm{G} (0.999)\right ) - {\mathrm{LGD} \cdot \mathrm{PD}}\right ) \cdot {\frac{1 + {(\mathrm{M} - 2,5) \cdot \mathrm{b}}}{1 - {1,5 \cdot \mathrm{b}}}} \cdot 12,5 \cdot 1,06}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <HT TYPE="ITALIC">R</HT>
+            =
+            <EXPR>
+                <EXPR>
+                    0.12 · 
+                    <EXPR>
+                        <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50 · <HT TYPE="ITALIC">PD</HT></IND></EXPR>
+                        <OVER/>
+                        <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50</IND></EXPR>
+                    </EXPR>
+                </EXPR>
+                +
+                <EXPR>
+                    0.24 ·
+                    <EXPR TYPE="BRACKET">
+                        1 –
+                        <EXPR>
+                            <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50 · <HT TYPE="ITALIC">PD</HT></IND></EXPR>
+                            <OVER/>
+                            <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50</IND></EXPR>
+                        </EXPR>
+                    </EXPR>
+                </EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>\mathrm{R} = {{0.12 \cdot {\frac{1 - \mathrm{e} ^{- 50 \cdot \mathrm{PD}}}{1 - \mathrm{e} ^{- 50}}}} + {0.24 \cdot \left (1 - {\frac{1 - \mathrm{e} ^{- 50 \cdot \mathrm{PD}}}{1 - \mathrm{e} ^{- 50}}}\right )}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <EXPR><HT TYPE="ITALIC">Risk</HT> – <HT TYPE="ITALIC">weighted exposure amount</HT></EXPR>
+            =
+            <EXPR><HT TYPE="ITALIC">RW</HT> · <HT TYPE="ITALIC">exposure value</HT> ·
+                <EXPR TYPE="BRACKET">
+                    0.15 +
+                    <EXPR>160 · <HT TYPE="ITALIC">PD</HT><IND LOC="SUB"><HT TYPE="ITALIC">pp</HT></IND></EXPR>
+                </EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>{\mathrm{Risk} - \text{weighted exposure amount}} = {\mathrm{RW} \cdot \text{exposure value} \cdot (0.15 + {160 \cdot \mathrm{PD} _{\mathrm{pp}}})}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <HT TYPE="ITALIC">R</HT>
+            =
+            <EXPR>
+                <EXPR>
+                    0.12 · 
+                    <EXPR>
+                        <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50 · <HT TYPE="ITALIC">PD</HT></IND></EXPR>
+                        <OVER/>
+                        <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50</IND></EXPR>
+                    </EXPR>
+                </EXPR>
+                +
+                <EXPR>0.24 · 
+                    <EXPR TYPE="BRACKET">
+                        1 – 
+                        <EXPR>
+                            <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50 · <HT TYPE="ITALIC">PD</HT></IND></EXPR>
+                            <OVER/>
+                            <EXPR>1 – <HT TYPE="ITALIC">e</HT><IND LOC="SUP">– 50</IND></EXPR>
+                        </EXPR>
+                    </EXPR>
+                </EXPR>
+                –
+                <EXPR>
+                    0.04 · 
+                    <EXPR TYPE="BRACKET">
+                        1 – 
+                        <EXPR>
+                            <EXPR>
+                                min
+                                <EXPR TYPE="BRACE">max<EXPR TYPE="BRACE">5,<HT TYPE="ITALIC">S</HT></EXPR>,50</EXPR>
+                                – 5
+                            </EXPR>
+                            <OVER/>
+                            <EXPR>45</EXPR>
+                        </EXPR>
+                    </EXPR>
+                </EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>\mathrm{R} = {{0.12 \cdot {\frac{1 - \mathrm{e} ^{- 50 \cdot \mathrm{PD}}}{1 - \mathrm{e} ^{- 50}}}} + {0.24 \cdot \left (1 - {\frac{1 - \mathrm{e} ^{- 50 \cdot \mathrm{PD}}}{1 - \mathrm{e} ^{- 50}}}\right )} - {0.04 \cdot \left (1 - {\frac{\min \{\max \{5, \mathrm{S}\} ,50\} - 5}{45}}\right )}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA>
+            <HT TYPE="ITALIC">RW</HT>
+            =
+            <EXPR>
+                max
+                <EXPR TYPE="BRACE">
+                    0,12.5 ·
+                    <EXPR TYPE="BRACKET"><HT TYPE="ITALIC">LGD</HT> – <HT TYPE="ITALIC">EL</HT><IND LOC="SUB"><HT TYPE="ITALIC">BE</HT></IND></EXPR>
+                </EXPR>
+            </EXPR>
+        </FORMULA>
+        <LATEX>\mathrm{RW} = {\max \{0,12.5 \cdot (\mathrm{LGD} - \mathrm{EL} _{\mathrm{BE}})\}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA>
+            <HT TYPE="ITALIC">b</HT>
+            = 
+            <EXPR>
+                <EXPR TYPE="BRACKET">
+                    0.11852 – 0.05478 · ln
+                    <EXPR TYPE="BRACKET"><HT TYPE="ITALIC">PD</HT></EXPR>
+                </EXPR>
+                <IND LOC="SUP">2</IND>
+            </EXPR>
+        </FORMULA>
+        <LATEX>\mathrm{b} = {(0.11852 - 0.05478 \cdot \ln (\mathrm{PD})) ^{2}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            12.5 · 
+            <EXPR>
+                <EXPR>
+                    <HT TYPE="ITALIC">S</HT>
+                    <EXPR TYPE="SQBRACKET"><HT TYPE="ITALIC">L</HT> + <HT TYPE="ITALIC">T</HT></EXPR>
+                    –
+                    <HT TYPE="ITALIC">S</HT>
+                    <EXPR TYPE="SQBRACKET"><HT TYPE="ITALIC">L</HT></EXPR>
+                </EXPR>
+                <OVER/>
+                <EXPR><HT TYPE="ITALIC">T</HT></EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>12.5 \cdot {\frac{\mathrm{S} [\mathrm{L} + \mathrm{T}] - \mathrm{S} [\mathrm{L}]}{\mathrm{T}}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <HT TYPE="ITALIC">Exposure value</HT> 
+            = 
+            <EXPR>
+                <HT TYPE="ITALIC">β</HT>
+                · max
+                <EXPR TYPE="BRACE">
+                    <HT TYPE="ITALIC">CMV</HT>
+                    – 
+                    <HT TYPE="ITALIC">CMC</HT>
+                    , Σ
+                    <IND LOC="UNDER"><HT TYPE="ITALIC">j</HT></IND>
+                    <EXPR TYPE="BAR">
+                        Σ
+                        <IND LOC="UNDER"><HT TYPE="ITALIC">i</HT></IND>
+                        <HT TYPE="ITALIC">RPT</HT>
+                        <IND LOC="SUB"><HT TYPE="ITALIC">ij</HT></IND>
+                        – Σ
+                        <IND LOC="UNDER"><HT TYPE="ITALIC">l</HT></IND>
+                        <HT TYPE="ITALIC">RPC</HT>
+                        <IND LOC="SUB"><HT TYPE="ITALIC">lj</HT></IND>
+                    </EXPR>
+                    ·
+                    <HT TYPE="ITALIC">CCRM</HT>
+                    <IND LOC="SUB"><HT TYPE="ITALIC">j</HT></IND>
+                </EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>\text{Exposure value} = {\mathrm{\beta} \cdot \max \left \{\mathrm{CMV} - \mathrm{CMC} , \sum _{\mathrm{j}} \left |\sum _{\mathrm{i}} \mathrm{RPT} _{\mathrm{ij}} - \sum _{\mathrm{l}} \mathrm{RPC} _{\mathrm{lj}}\right | \cdot \mathrm{CCRM} _{\mathrm{j}}\right \}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            &#916;H<IND LOC="SUB">c (product)</IND>
+            =
+            <EXPR>
+                &#931;<IND LOC="OVER">n</IND><IND LOC="UNDER">i</IND>
+            </EXPR>
+            <EXPR TYPE="SQBRACKET">
+                w<IND LOC="SUB">i</IND> % &#215; &#916;H<IND LOC="SUB">c(i)</IND>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>\Delta H _{c (product)} = {\sum ^{n} _{i}} [w _{i} \% \times \Delta H _{c(i)}]</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            16&#215;
+            <EXPR>&#931;<IND LOC="OVER">n</IND><IND LOC="UNDER">i</IND></EXPR>
+            <EXPR TYPE="BRACKET">
+                <EXPR>n<IND LOC="SUB">i</IND>&#215;c<IND LOC="SUB">i</IND></EXPR>
+                <OVER/>
+                <EXPR>m<IND LOC="SUB">i</IND></EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>16 \times {\sum ^{n} _{i}} \left (\frac{n _{i} \times c _{i}}{m _{i}}\right )</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <EXPR>100</EXPR>
+            <OVER/>
+            <EXPR>ATE<IND LOC="SUB">mix</IND></EXPR>
+            =
+            <EXPR>&#931;<IND LOC="UNDER">n</IND></EXPR>
+            <EXPR>
+                <EXPR>C<IND LOC="SUB">i</IND></EXPR>
+                <OVER/>
+                <EXPR>ATE<IND LOC="SUB">i</IND></EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>\frac{100}{\mathrm{ATE} _{\mathrm{mix}}} = {\sum _{n}} {\frac{C _{i}}{\mathrm{ATE} _{i}}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <EXPR>
+                <EXPR>100-<EXPR TYPE="BRACKET">&#931; C <IND LOC="SUB">unknown if</IND> &gt; 10 %</EXPR></EXPR>
+                <OVER/>
+                <EXPR>ATE<IND LOC="SUB">mix</IND></EXPR>
+            </EXPR>
+            =
+            <EXPR>&#931;<IND LOC="UNDER">n</IND></EXPR>
+            <EXPR>
+                <EXPR>C<IND LOC="SUB">i</IND></EXPR>
+                <OVER/>
+                <EXPR>ATE<IND LOC="SUB">i</IND></EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>{\frac{100 - (\Sigma C _{\text{unknown if}} &gt; 10 \%)}{\mathrm{ATE} _{\mathrm{mix}}}} = {\sum _{n}} {\frac{C _{i}}{\mathrm{ATE} _{i}}}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <EXPR>
+                <EXPR>Dynamic viscosity <EXPR TYPE="BRACKET">mPa s</EXPR></EXPR>
+                <OVER/>
+                <EXPR>Density <EXPR TYPE="BRACKET">g/cm<IND LOC="SUP">3</IND></EXPR></EXPR>
+            </EXPR>
+            =
+            <EXPR>Kinematic viscosity <EXPR TYPE="BRACKET">mm<IND LOC="SUP">2</IND>/s</EXPR></EXPR>
+        </FORMULA.S>
+        <LATEX>{\frac{\text{Dynamic viscosity} (\text{mPa s})}{\mathrm{Density} (g / cm ^{3})}} = {\text{Kinematic viscosity} (mm ^{2} / s)}</LATEX>
+    </COMPARER>
+    <COMPARER>
+        <FORMULA.S>
+            <EXPR>
+                <EXPR>&#931;Ci</EXPR>
+                <OVER/>
+                <EXPR>C(E)L<IND LOC="SUB">50m</IND></EXPR>
+            </EXPR>
+                =
+            <EXPR>
+                &#931;<IND LOC="UNDER">&#951;</IND>
+                <EXPR>
+                    <EXPR>Ci</EXPR>
+                    <OVER/>
+                    <EXPR>C(E)L<IND LOC="SUB">50i</IND></EXPR>
+                </EXPR>
+            </EXPR>
+        </FORMULA.S>
+        <LATEX>{\frac{\Sigma Ci}{C(E)L _{50m}}} = {\sum _{\eta} {\frac{Ci}{C(E)L _{50i}}}}</LATEX>
+    </COMPARER>
+</MATH>

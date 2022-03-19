@@ -1,0 +1,11 @@
+SELECT ?celex ?title
+WHERE {{
+   ?o cdm:work_cites_work ?s .
+   ?o cdm:resource_legal_id_celex ?celex .
+   ?exp cdm:expression_belongs_to_work ?o .
+   ?exp cdm:expression_uses_language lang:{lang3} .
+   ?exp cdm:expression_title ?title .
+   ?s cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+   FILTER( regex(?celex, '^3[0-9]{{4}}[RLDF][0-9]{{4}}$') ) .
+}}
+LIMIT 1000

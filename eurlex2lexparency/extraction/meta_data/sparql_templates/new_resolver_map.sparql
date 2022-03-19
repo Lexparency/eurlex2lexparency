@@ -1,0 +1,6 @@
+SELECT ?item ?label
+WHERE {{
+   ?item a euvoc:{type} .
+   ?item skos:prefLabel ?label .
+   FILTER(LANG(?label) = '{language}')
+}}

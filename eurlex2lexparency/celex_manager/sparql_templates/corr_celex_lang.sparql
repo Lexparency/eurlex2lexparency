@@ -1,0 +1,39 @@
+SELECT DISTINCT ?c_num ?date ?lang
+WHERE {{
+  {{
+     SELECT ?c_num ?date ?lang
+     WHERE {{
+       ?basis cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+       ?work cdm:resource_legal_corrects_resource_legal ?basis .
+       ?work cdm:work_date_document ?date .
+       ?work cdm:resource_legal_number_corrigendum ?c_num .
+       ?expression cdm:expression_belongs_to_work ?work .
+       ?expression cdm:expression_uses_language ?lang .
+     }}
+  }}
+UNION
+  {{
+     SELECT ?c_num ?date ?lang
+     WHERE {{
+       ?basis cdm:resource_legal_id_celex ?celex .
+       ?work cdm:resource_legal_corrects_resource_legal ?basis .
+       ?work cdm:work_date_document ?date .
+       ?work cdm:resource_legal_number_corrigendum ?c_num .
+       ?expression cdm:expression_belongs_to_work ?work .
+       ?expression cdm:expression_uses_language ?lang .
+       FILTER( str(?celex) = '{celex}' ) .
+     }}
+  }}
+UNION
+  {{
+     SELECT ?c_num ?date ?lang
+     WHERE {{
+       ?work cdm:resource_legal_id_celex ?celex .
+       ?work cdm:work_date_document ?date .
+       ?work cdm:resource_legal_number_corrigendum ?c_num .
+       ?expression cdm:expression_belongs_to_work ?work .
+       ?expression cdm:expression_uses_language ?lang .
+       FILTER( regex(?celex, '^{celex}R\\([0-9]{{2}}\\)$') ) .
+     }}
+  }}
+}}

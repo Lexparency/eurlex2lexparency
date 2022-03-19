@@ -1,0 +1,5 @@
+SELECT ?celex
+WHERE {{
+    ?s eli:id_local ?celex .
+    FILTER( regex( ?celex, '^3[0-9]{{4}}[RLDF][0-9]{ddd}$' ) )
+}}

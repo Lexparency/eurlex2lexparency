@@ -1,0 +1,5 @@
+SELECT ?in_force
+WHERE {{
+    ?work cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+    ?work cdm:resource_legal_in-force ?in_force .
+}}

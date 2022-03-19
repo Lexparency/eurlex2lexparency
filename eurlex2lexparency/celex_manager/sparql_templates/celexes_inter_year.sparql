@@ -1,0 +1,6 @@
+SELECT ?celex
+WHERE {{
+   ?work cdm:resource_legal_id_celex ?celex .
+   FILTER( regex(?celex, '^3{year}{inter}[0-9]{{4}}$') ) .
+}}
+ORDER BY ?celex

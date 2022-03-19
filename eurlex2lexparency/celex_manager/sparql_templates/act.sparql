@@ -1,0 +1,13 @@
+SELECT ?celex ?in_force ?date ?lang
+WHERE {{
+    ?work cdm:resource_legal_id_celex ?celex .
+    OPTIONAL {{
+        ?work cdm:resource_legal_in-force ?in_force .
+    }}
+    ?work cdm:work_date_creation_legacy ?date .
+    ?expression cdm:expression_belongs_to_work ?work .
+    ?expression cdm:expression_uses_language ?lang
+    FILTER(?date >= '{first}'^^xsd:date) .
+    FILTER(?date <= '{ultimo}'^^xsd:date) .
+    FILTER( regex(?celex, '^3{year}{act_type}[0-9]{{4}}$') )
+}}

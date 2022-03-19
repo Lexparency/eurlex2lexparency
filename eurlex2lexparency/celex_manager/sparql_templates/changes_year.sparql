@@ -1,0 +1,8 @@
+SELECT DISTINCT ?s_celex ?o_celex
+WHERE {{
+   ?s cdm:resource_legal_id_celex ?s_celex .
+   ?s cdm:{change} ?o .
+   ?o cdm:resource_legal_id_celex ?o_celex .
+   ?s cdm:resource_legal_year '{year}'^^xsd:gYear .
+   FILTER( regex( ?o_celex, '^3[0-9]{{4}}[RLDF][0-9]{{4}}$' ) ) .
+}}

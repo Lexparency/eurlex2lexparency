@@ -1,0 +1,2289 @@
+<LEXP.COMBINED>
+  <CONS.ACT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://formex.publications.europa.eu/schema/formex-05.56-20160701.xd">
+    <INFO.CONSLEG CONSLEG.DATE="20191206" CONSLEG.REF="2014L0065" DATE.LAST.MOD="20191211" END="NEW.MOD" END.DATE="20210325" LEG.VAL="DIR" PROD.SEQ="005.001.0" SOURCE.END="32019L2034" START.DATE="20200326"/>
+    <INFO.PROD PROD.DATE="20191206" PROD.SYSTEM="CONSLEG.NEW" PRODUCER="ES"/>
+    <CONS.DOC>
+      <BIB.INSTANCE>
+        <DOCUMENT.REF FILE="CL2014L0065DE0050010.0001.doc.xml">
+          <LG.OJ>DE</LG.OJ>
+          <PAGE.FIRST>1</PAGE.FIRST>
+        </DOCUMENT.REF>
+        <DATE ISO="20200326">20200326</DATE>
+        <LG.DOC>DE</LG.DOC>
+        <PAGE.FIRST>1</PAGE.FIRST>
+        <PAGE.SEQ>1</PAGE.SEQ>
+        <PAGE.LAST>141</PAGE.LAST>
+        <PAGE.TOTAL>141</PAGE.TOTAL>
+      </BIB.INSTANCE>
+      <FAM.COMP LEG.VAL="DIR">
+        <BIB.DATA>
+          <BIB.INSTANCE.CONS>
+            <DOCUMENT.REF.CONS>
+              <COLL>L</COLL>
+              <NO.OJ>173</NO.OJ>
+              <YEAR>2014</YEAR>
+              <LG.OJ>DE</LG.OJ>
+              <PAGE.FIRST>349</PAGE.FIRST>
+              <PAGE.SEQ>1</PAGE.SEQ>
+              <VOLUME.REF>01</VOLUME.REF>
+            </DOCUMENT.REF.CONS>
+            <EEA/>
+            <DATE ISO="20140612">20140612</DATE>
+            <LG.DOC>DE</LG.DOC>
+            <NO.SEQ>0009</NO.SEQ>
+            <PAGE.FIRST>349</PAGE.FIRST>
+            <PAGE.SEQ>1</PAGE.SEQ>
+            <PAGE.LAST>496</PAGE.LAST>
+            <PAGE.TOTAL>148</PAGE.TOTAL>
+            <NO.DOC FORMAT="YN" TYPE="OJ">
+              <NO.CURRENT>65</NO.CURRENT>
+              <YEAR>2014</YEAR>
+              <COM>EU</COM>
+            </NO.DOC>
+          </BIB.INSTANCE.CONS>
+          <NO.CELEX>32014L0065</NO.CELEX>
+          <DATE ISO="20140515">20140515</DATE>
+          <TITLE>
+            <TI>
+              <P>
+                <HT TYPE="UC">Richtlinie</HT>2014/65/EU<HT TYPE="UC">des Europäischen Parlaments und des Rates</HT>
+              </P>
+              <P>vom<DATE ISO="20140515">15. Mai 2014</DATE>
+              </P>
+              <P>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+              <P>(Neufassung)</P>
+              <P>(Text von Bedeutung für den EWR)</P>
+            </TI>
+          </TITLE>
+        </BIB.DATA>
+        <GR.CORRIG>
+          <CORRIG RELEVANT="YES">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>074</NO.OJ>
+                  <YEAR>2015</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>38</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <DATE ISO="20150318">20150318</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0008</NO.SEQ>
+                <PAGE.FIRST>38</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>38</PAGE.LAST>
+                <PAGE.TOTAL>1</PAGE.TOTAL>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32014L0065R(02)</NO.CELEX>
+              <TITLE>
+                <TI>
+                  <P>Berichtigung der Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom<DATE ISO="20140515">15. Mai 2014</DATE>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+                  <P>
+                    <HT TYPE="ITALIC">(<REF.DOC.OJ COLL="L" DATE.PUB="20140612" NO.OJ="173">Amtsblatt der Europäischen Union L 173 vom 12. Juni 2014</REF.DOC.OJ>)</HT>
+                  </P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </CORRIG>
+          <CORRIG RELEVANT="YES">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>188</NO.OJ>
+                  <YEAR>2016</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>28</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <DATE ISO="20160713">20160713</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0013</NO.SEQ>
+                <PAGE.FIRST>28</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>28</PAGE.LAST>
+                <PAGE.TOTAL>1</PAGE.TOTAL>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32014L0065R(06)</NO.CELEX>
+              <TITLE>
+                <TI>
+                  <P>Berichtigung der Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom<DATE ISO="20140515">15. Mai 2014</DATE>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+                  <P>
+                    <HT TYPE="ITALIC">(<REF.DOC.OJ COLL="L" DATE.PUB="20140612" NO.OJ="173">Amtsblatt der Europäischen Union L 173 vom 12. Juni 2014</REF.DOC.OJ>)</HT>
+                  </P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </CORRIG>
+          <CORRIG RELEVANT="YES">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>273</NO.OJ>
+                  <YEAR>2016</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>35</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <DATE ISO="20161008">20161008</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0007</NO.SEQ>
+                <PAGE.FIRST>35</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>35</PAGE.LAST>
+                <PAGE.TOTAL>1</PAGE.TOTAL>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32014L0065R(07)</NO.CELEX>
+              <TITLE>
+                <TI>
+                  <P>Berichtigung der Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom<DATE ISO="20140515">15. Mai 2014</DATE>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+                  <P>
+                    <HT TYPE="ITALIC">(<REF.DOC.OJ COLL="L" DATE.PUB="20140612" NO.OJ="173">Amtsblatt der Europäischen Union L 173 vom 12. Juni 2014</REF.DOC.OJ>)</HT>
+                  </P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </CORRIG>
+          <CORRIG RELEVANT="YES">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>064</NO.OJ>
+                  <YEAR>2017</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>116</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <DATE ISO="20170310">20170310</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0011</NO.SEQ>
+                <PAGE.FIRST>116</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>116</PAGE.LAST>
+                <PAGE.TOTAL>1</PAGE.TOTAL>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32014L0065R(09)</NO.CELEX>
+              <TITLE>
+                <TI>
+                  <P>Berichtigung der Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom<DATE ISO="20140515">15. Mai 2014</DATE>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+                  <P>
+                    <HT TYPE="ITALIC">(<REF.DOC.OJ COLL="L" DATE.PUB="20140612" NO.OJ="173">Amtsblatt der Europäischen Union L 173 vom 12. Juni 2014</REF.DOC.OJ>)</HT>
+                  </P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </CORRIG>
+          <CORRIG RELEVANT="YES">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>278</NO.OJ>
+                  <YEAR>2017</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>56</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <DATE ISO="20171027">20171027</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0004</NO.SEQ>
+                <PAGE.FIRST>56</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>58</PAGE.LAST>
+                <PAGE.TOTAL>3</PAGE.TOTAL>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32014L0065R(11)</NO.CELEX>
+              <TITLE>
+                <TI>
+                  <P>Berichtigung der Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom<DATE ISO="20140515">15. Mai 2014</DATE>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+                  <P>(<REF.DOC.OJ COLL="L" DATE.PUB="20140612" NO.OJ="173">Amtsblatt der Europäischen Union L 173 vom 12. Juni 2014</REF.DOC.OJ>)</P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </CORRIG>
+        </GR.CORRIG>
+        <GR.MOD.ACT>
+          <MOD.ACT EXISTS="YES" LEG.VAL="REG" TYPE="MOD">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>257</NO.OJ>
+                  <YEAR>2014</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>1</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <EEA/>
+                <DATE ISO="20140828">20140828</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0001</NO.SEQ>
+                <PAGE.FIRST>1</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>72</PAGE.LAST>
+                <PAGE.TOTAL>72</PAGE.TOTAL>
+                <NO.DOC FORMAT="NY" TYPE="OJ">
+                  <NO.CURRENT>909</NO.CURRENT>
+                  <YEAR>2014</YEAR>
+                  <COM>EU</COM>
+                </NO.DOC>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32014R0909</NO.CELEX>
+              <DATE ISO="20140723">20140723</DATE>
+              <TITLE>
+                <TI>
+                  <P>
+                    <HT TYPE="UC">Verordnung</HT>(EU) Nr. 909/2014<HT TYPE="UC">des Europäischen Parlaments und des Rates</HT>
+                  </P>
+                  <P>vom<DATE ISO="20140723">23. Juli 2014</DATE>
+                  </P>
+                  <P>zur Verbesserung der Wertpapierlieferungen und -abrechnungen in der Europäischen Union und über Zentralverwahrer sowie zur Änderung der Richtlinien 98/26/EG und 2014/65/EU und der Verordnung (EU) Nr. 236/2012</P>
+                  <P>(Text von Bedeutung für den EWR)</P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </MOD.ACT>
+          <MOD.ACT EXISTS="YES" LEG.VAL="DIR" TYPE="MOD">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>026</NO.OJ>
+                  <YEAR>2016</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>19</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <EEA/>
+                <DATE ISO="20160202">20160202</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0005</NO.SEQ>
+                <PAGE.FIRST>19</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>59</PAGE.LAST>
+                <PAGE.TOTAL>41</PAGE.TOTAL>
+                <NO.DOC FORMAT="YN" TYPE="OJ">
+                  <NO.CURRENT>97</NO.CURRENT>
+                  <YEAR>2016</YEAR>
+                  <COM>EU</COM>
+                </NO.DOC>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32016L0097</NO.CELEX>
+              <DATE ISO="20160120">20160120</DATE>
+              <TITLE>
+                <TI>
+                  <P>
+                    <HT TYPE="UC">Richtlinie (EU) 2016/97 des Europäischen Parlaments und des Rates</HT>
+                  </P>
+                  <P>vom<DATE ISO="20160120">20. Januar 2016</DATE>
+                  </P>
+                  <P>über Versicherungsvertrieb (Neufassung)</P>
+                  <P>(Text von Bedeutung für den EWR)</P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </MOD.ACT>
+          <MOD.ACT EXISTS="YES" LEG.VAL="DIR" TYPE="MOD">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>175</NO.OJ>
+                  <YEAR>2016</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>8</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <EEA/>
+                <DATE ISO="20160630">20160630</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0002</NO.SEQ>
+                <PAGE.FIRST>8</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>11</PAGE.LAST>
+                <PAGE.TOTAL>4</PAGE.TOTAL>
+                <NO.DOC FORMAT="YN" TYPE="OJ">
+                  <NO.CURRENT>1034</NO.CURRENT>
+                  <YEAR>2016</YEAR>
+                  <COM>EU</COM>
+                </NO.DOC>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32016L1034</NO.CELEX>
+              <DATE ISO="20160623">20160623</DATE>
+              <TITLE>
+                <TI>
+                  <P>
+                    <HT TYPE="UC">Richtlinie</HT>(EU) 2016/1034<HT TYPE="UC">des Europäischen Parlaments und des Rates</HT>
+                  </P>
+                  <P>vom<DATE ISO="20160623">23. Juni 2016</DATE>
+                  </P>
+                  <P>zur Änderung der Richtlinie 2014/65/EU über Märkte für Finanzinstrumente</P>
+                  <P>(Text von Bedeutung für den EWR)</P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </MOD.ACT>
+          <MOD.ACT EXISTS="YES" LEG.VAL="DIR" TYPE="MOD">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>314</NO.OJ>
+                  <YEAR>2019</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>64</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <EEA/>
+                <DATE ISO="20191205">20191205</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0002</NO.SEQ>
+                <PAGE.FIRST>64</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>114</PAGE.LAST>
+                <PAGE.TOTAL>51</PAGE.TOTAL>
+                <NO.DOC FORMAT="YN" TYPE="OJ">
+                  <NO.CURRENT>2034</NO.CURRENT>
+                  <YEAR>2019</YEAR>
+                  <COM>EU</COM>
+                </NO.DOC>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32019L2034</NO.CELEX>
+              <DATE ISO="20191127">20191127</DATE>
+              <TITLE>
+                <TI>
+                  <P>
+                    <HT TYPE="UC">Richtlinie</HT>(EU) 2019/2034<HT TYPE="UC">des Europäischen Parlaments und des Rates</HT>
+                  </P>
+                  <P>vom<DATE ISO="20191127">27. November 2019</DATE>
+                  </P>
+                  <P>über die Beaufsichtigung von Wertpapierfirmen und zur Änderung der Richtlinien 2002/87/EG, 2009/65/EG, 2011/61/EU, 2013/36/EU, 2014/59/EU und 2014/65/EU</P>
+                  <P>(Text von Bedeutung für den EWR)</P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </MOD.ACT>
+          <MOD.ACT EXISTS="YES" LEG.VAL="REG" TYPE="MOD">
+            <BIB.DATA>
+              <BIB.INSTANCE.CONS>
+                <DOCUMENT.REF.CONS>
+                  <COLL>L</COLL>
+                  <NO.OJ>320</NO.OJ>
+                  <YEAR>2019</YEAR>
+                  <LG.OJ>DE</LG.OJ>
+                  <PAGE.FIRST>1</PAGE.FIRST>
+                  <PAGE.SEQ>1</PAGE.SEQ>
+                  <VOLUME.REF>01</VOLUME.REF>
+                </DOCUMENT.REF.CONS>
+                <EEA/>
+                <DATE ISO="20191211">20191211</DATE>
+                <LG.DOC>DE</LG.DOC>
+                <NO.SEQ>0001</NO.SEQ>
+                <PAGE.FIRST>1</PAGE.FIRST>
+                <PAGE.SEQ>1</PAGE.SEQ>
+                <PAGE.LAST>10</PAGE.LAST>
+                <PAGE.TOTAL>10</PAGE.TOTAL>
+                <NO.DOC FORMAT="YN" TYPE="OJ">
+                  <NO.CURRENT>2115</NO.CURRENT>
+                  <YEAR>2019</YEAR>
+                  <COM>EU</COM>
+                </NO.DOC>
+              </BIB.INSTANCE.CONS>
+              <NO.CELEX>32019R2115</NO.CELEX>
+              <DATE ISO="20191127">20191127</DATE>
+              <TITLE>
+                <TI>
+                  <P>
+                    <HT TYPE="UC">Verordnung</HT>(EU) 2019/2115<HT TYPE="UC">des Europäischen Parlaments und des Rates</HT>
+                  </P>
+                  <P>vom<DATE ISO="20191127">27. November 2019</DATE>
+                  </P>
+                  <P>zur Änderung der Richtlinie 2014/65/EU und der Verordnungen (EU) Nr. 596/2014 und (EU) 2017/1129 zur Förderung der Nutzung von KMU-Wachstumsmärkten</P>
+                  <P>(Text von Bedeutung für den EWR)</P>
+                </TI>
+              </TITLE>
+            </BIB.DATA>
+          </MOD.ACT>
+        </GR.MOD.ACT>
+      </FAM.COMP>
+      <?PAGE NO='2'?>
+      <TITLE>
+        <TI>
+          <P>
+            <HT TYPE="UC">Richtlinie</HT>2014/65/EU<HT TYPE="UC">des Europäischen Parlaments und des Rates</HT>
+          </P>
+          <P>vom<DATE ISO="20140515">15. Mai 2014</DATE>
+          </P>
+          <P>über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU</P>
+          <P>(Neufassung)</P>
+          <P>(Text von Bedeutung für den EWR)</P>
+        </TI>
+      </TITLE>
+      <PREAMBLE>
+        <PREAMBLE.INIT/>
+        <PREAMBLE.FINAL/>
+      </PREAMBLE>
+      <ENACTING.TERMS>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>TITEL I</P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">ANWENDUNGSBEREICH UND BEGRIFFSBESTIMMUNGEN</HT>
+              </P>
+            </STI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="001">
+            <TI.ART>Artikel 1</TI.ART>
+            <STI.ART>Anwendungsbereich</STI.ART>
+            <PARAG IDENTIFIER="001.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>Diese Richtlinie gilt für Wertpapierfirmen, Marktbetreiber, Datenbereitstellungsdienste und Drittlandfirmen, die in der Union durch die Einrichtung einer Zweigniederlassung Wertpapierdienstleistungen erbringen oder Anlagetätigkeiten ausüben.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="001.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>
+                <P>Diese Richtlinie legt Anforderungen in den folgenden Bereichen fest:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>Bedingungen für die Zulassung und Tätigkeit von Wertpapierfirmen,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>Erbringung von Wertpapierdienstleistungen oder Ausübung von Anlagetätigkeiten durch Drittlandfirmen durch die Errichtung einer Zweigniederlassung,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>Zulassung und Betrieb geregelter Märkte,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>Zulassung und Betrieb von Datenbereitstellungsdiensten und</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>e)</NO.P>
+                      <TXT>Überwachung, Zusammenarbeit und Durchsetzung durch die zuständigen Behörden.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="001.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>
+                <P>Folgende Bestimmungen gelten auch für Kreditinstitute, die gemäß der Richtlinie 2006/48/EG zugelassen sind, wenn sie eine oder mehrere Wertpapierdienstleistungen erbringen und/oder Anlagetätigkeiten ausüben:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>Artikel 2 Absatz 2, Artikel 9 Absatz 3, Artikel 14, Artikel 16 bis Artikel 20</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>Titel II Kapitel II, ausgenommen Artikel 29 Absatz 2 Unterabsatz 2</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>Titel II Kapitel III, ausgenommen Artikel 34 Absätze 2 und 3 sowie Artikel 35 Absätze 2 bis 6 und 9</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>die Artikel 67 bis 75 und die Artikel 80, 85 und 86.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="001.004">
+              <NO.PARAG>(4)</NO.PARAG>
+              <ALINEA>
+                <P>Folgende Bestimmungen gelten auch für Wertpapierfirmen und Kreditinstitute, die gemäß der Richtlinie 2006/48/EG zugelassen sind, wenn sie strukturierte Einlagen an Kunden verkaufen oder sie über diese beraten:</P>
+                <?PAGE NO='3'?>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>Artikel 9 Absatz 3, Artikel 14 und Artikel 16 Absätze 2, 3 und 6;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>Artikel 23 bis Artikel 26, Artikel 28 und Artikel 29, ausgenommen Artikel 29 Absatz 2 Unterabsatz 2 und Artikel 30 und</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>Artikel 67 bis 75.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="001.005">
+              <NO.PARAG>(5)</NO.PARAG>
+              <ALINEA>Artikels 17 Absätze 1 bis 6 gelten auch für Mitglieder oder Teilnehmer von geregelten Märkten und MTF, die gemäß Artikel 2 Absatz 1 Buchstaben a, e, i und j keine Zulassung gemäß dieser Richtlinie benötigen.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="001.006">
+              <NO.PARAG>(6)</NO.PARAG>
+              <ALINEA>Artikel 57 und 58 gelten auch für Personen, die gemäß Artikel 2 dieser Richtlinie vom Anwendungsbereich ausgenommen sind.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="001.007">
+              <NO.PARAG>(7)</NO.PARAG>
+              <ALINEA>Alle multilateralen Systeme für Finanzinstrumente sind entweder im Einklang mit den Bestimmungen des Titels II für MTF bzw. OTF oder gemäß den Bestimmungen des Titels III für geregelte Märkte zu betreiben.</ALINEA>
+              <ALINEA>Jede Wertpapierfirma, die in organisierter und systematischer Weise häufig Handel für eigene Rechnung treibt, wenn sie Kundenaufträge außerhalb eines geregelten Marktes, eines MTF oder eines OTF ausführt, ist gemäß Titel III der Verordnung (EU) Nr. 600/2014 zu betreiben.</ALINEA>
+              <ALINEA>Unbeschadet der Artikel 23 und 28 der Verordnung (EU) Nr. 600/2014 haben alle in den Unterabsätzen 1 und 2 genannten Geschäfte mit Finanzinstrumenten, die nicht über multilaterale Systeme oder systematische Internalisierer abgeschlossen werden, den einschlägigen Bestimmungen des Titels III der Verordnung (EU) Nr. 600/2014 zu genügen.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="002">
+            <TI.ART>Artikel 2</TI.ART>
+            <STI.ART>Ausnahmen</STI.ART>
+            <PARAG IDENTIFIER="002.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Diese Richtlinie gilt nicht für</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>Versicherungsunternehmen sowie Unternehmen, die die in der Richtlinie 2009/138/EG genannten Rückversicherungs- und Retrozessionstätigkeiten ausüben, wenn sie die in jener Richtlinie genannten Tätigkeiten ausüben;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>Personen, die Wertpapierdienstleistungen ausschließlich für ihr Mutterunternehmen, ihre Tochterunternehmen oder andere Tochterunternehmen ihres Mutterunternehmens erbringen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>Personen, die nur gelegentlich Wertpapierdienstleistungen im Rahmen ihrer beruflichen Tätigkeit erbringen, wenn diese Tätigkeit durch Rechts- oder Verwaltungsvorschriften oder Standesregeln geregelt ist, die die Erbringung dieser Dienstleistung nicht ausschließen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>Personen, die für eigene Rechnung Handel mit Finanzinstrumenten treiben, bei denen es sich nicht um Warenderivate oder Emissionszertifikate oder Derivate davon handelt, und die keine anderen Wertpapierdienstleistungen erbringen oder anderen Anlagetätigkeiten in Finanzinstrumenten vornehmen, bei denen es sich nicht um Warenderivate oder Emissionszertifikate oder Derivate davon handelt, außer diese Personen</TXT>
+                      <?PAGE NO='4'?>
+                      <P>
+                        <LIST TYPE="roman">
+                          <ITEM>
+                            <NP>
+                              <NO.P>i)</NO.P>
+                              <TXT>sind Market-Maker oder</TXT>
+                            </NP>
+                          </ITEM>
+                          <?CLG.MDFO ID="O002001M001000" IDREF="C002001M001000" ACTION="REPLACED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:1" MOD.LEVEL="1"?>
+                          <ITEM>
+                            <NP>
+                              <NO.P>ii)</NO.P>
+                              <TXT>sind zum einen Mitglied oder Teilnehmer eines geregelten Marktes oder MTF oder haben zum anderen einen direkten elektronischen Zugang zu einem Handelsplatz, mit Ausnahme nichtfinanzieller Stellen, die an einem Handelsplatz Geschäfte tätigen, die in objektiv messbarer Weise die direkt mit der Geschäftstätigkeit oder dem Liquiditäts- und Finanzmanagement verbundenen Risiken dieser nichtfinanziellen Stellen oder ihrer Gruppen verringern</TXT>
+                            </NP>
+                          </ITEM>
+                          <?CLG.MDFC ID="C002001M001000" IDREF="O002001M001000"?>
+                          <ITEM>
+                            <NP>
+                              <NO.P>iii)</NO.P>
+                              <TXT>wenden eine hochfrequente algorithmische Handelstechnik an oder</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>iv)</NO.P>
+                              <TXT>treiben für eigene Rechnung bei der Ausführung von Kundenaufträgen Handel;</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                      <P>Personen, die gemäß den Buchstaben a, i oder j von der Anwendung ausgenommen sind, müssen die in diesem Buchstaben genannten Bedingungen nicht erfüllen, um von der Anwendung ausgenommen zu werden.</P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>e)</NO.P>
+                      <TXT>Anlagenbetreiber mit Verpflichtung zur Einhaltung der Anforderungen der Richtlinie 2003/87/EG, die beim Handel mit Emissionszertifikaten keine Kundenaufträge ausführen und die keine anderen Wertpapierdienstleistungen erbringen oder Anlagetätigkeiten ausüben als den Handel für eigene Rechnung unter der Voraussetzung, dass diese Personen keine hochfrequente algorithmische Handelstechnik anwenden;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>f)</NO.P>
+                      <TXT>Personen, deren Wertpapierdienstleistungen ausschließlich in der Verwaltung von Systemen der Arbeitnehmerbeteiligung bestehen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>g)</NO.P>
+                      <TXT>Personen, die als einzige Wertpapierdienstleistungen sowohl die Verwaltung von Systemen der Arbeitnehmerbeteiligung als auch Wertpapierdienstleistungen ausschließlich für ihre Mutterunternehmen, ihre Tochterunternehmen oder andere Tochterunternehmen ihrer Mutterunternehmen erbringen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>h)</NO.P>
+                      <TXT>die Mitglieder des Europäischen Systems der Zentralbanken (ESZB) und andere nationale Stellen mit ähnlichen Aufgaben in der Union, andere staatliche Stellen, die für die staatliche Schuldenverwaltung in der Union zuständig oder daran beteiligt sind, und internationale Finanzinstitute, die von zwei oder mehr Staaten gegründet wurden und dem Zweck dienen, Finanzmittel zu mobilisieren und Finanzhilfen zugunsten ihrer Mitglieder zu geben, die von schwerwiegenden Finanzierungsproblemen betroffen oder bedroht sind;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>i)</NO.P>
+                      <TXT>Organismen für gemeinsame Anlagen und Pensionsfonds, unabhängig davon, ob sie auf der Ebene der Union koordiniert werden, sowie die Verwahrer und Verwalter solcher Organismen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>j)</NO.P>
+                      <TXT>Personen,</TXT>
+                      <P>
+                        <LIST TYPE="roman">
+                          <ITEM>
+                            <NP>
+                              <NO.P>i)</NO.P>
+                              <TXT>die für eigene Rechnung mit Warenderivaten oder Emissionszertifikaten oder Derivaten davon handeln, einschließlich Market-Maker, aber mit Ausnahme der Personen, die Handel für eigene Rechnung treiben, wenn sie Kundenaufträge ausführen, oder</TXT>
+                            </NP>
+                          </ITEM>
+                          <?PAGE NO='5'?>
+                          <ITEM>
+                            <NP>
+                              <NO.P>ii)</NO.P>
+                              <TXT>die in Bezug auf Warenderivate oder Emissionszertifikate oder Derivate davon andere Wertpapierdienstleistungen als den Handel für eigene Rechnung für die Kunden oder Zulieferer ihrer Haupttätigkeit erbringen,</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                      <P>sofern:</P>
+                      <P>
+                        <LIST TYPE="DASH">
+                          <ITEM>
+                            <P>dies in jedem dieser Fälle auf individueller und aggregierter Basis auf der Ebene der Unternehmensgruppe eine Nebentätigkeit zu ihrer Haupttätigkeit darstellt und diese Haupttätigkeit weder in der Erbringung von Wertpapierdienstleistungen im Sinne der vorliegenden Richtlinie noch in der Erbringung von Bankgeschäften im Sinne der Richtlinie 2013/36/EU oder in der Tätigkeit als Market-Maker in Bezug auf Warenderivate besteht</P>
+                          </ITEM>
+                          <ITEM>
+                            <P>diese Personen keine hochfrequente algorithmische Handelstechnik anwenden, und</P>
+                          </ITEM>
+                          <ITEM>
+                            <P>diese Personen in allen Fällen der maßgeblichen zuständigen Behörde jährlich melden, dass sie von dieser Ausnahme Gebrauch machen, und auf Anforderung der zuständigen Behörde die Grundlage mitteilen, auf der sie zu der Auffassung gelangen, dass ihre Tätigkeit nach Ziffern i und ii eine Nebentätigkeit zu ihrer Haupttätigkeit darstellt;</P>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>k)</NO.P>
+                      <TXT>Personen, die im Rahmen einer anderen, nicht unter diese Richtlinie fallenden beruflichen Tätigkeit Anlageberatung betreiben, sofern eine solche Beratung nicht besonders vergütet wird;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>l)</NO.P>
+                      <TXT>Vereinigungen, die von dänischen und finnischen Pensionsfonds mit dem ausschließlichen Ziel gegründet wurden, die Vermögenswerte von Pensionsfonds zu verwalten, die Mitglieder dieser Vereinigungen sind;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>m)</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0001" REF.END="QE0001"/>agenti di cambio<QUOT.END CODE="201C" ID="QE0001" REF.START="QS0001"/>, deren Tätigkeiten und Aufgaben in Artikel 201 des italienischen Gesetzesdekrets Nr. 58 vom<DATE ISO="19980224">24. Februar 1998</DATE>geregelt sind;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>n)</NO.P>
+                      <TXT>Übertragungsnetzbetreiber im Sinne von Artikel 2 Nummer 4 der Richtlinie 2009/72/EG oder Artikel 2 Nummer 4 der Richtlinie 2009/73/EG, wenn sie ihre Aufgaben gemäß diesen Richtlinien, der Verordnung (EG) Nr. 714/2009, der Verordnung (EG) Nr. 715/2009 bzw. den nach diesen Verordnungen erlassenen Netzcodes oder Leitlinien wahrnehmen, Personen, die in ihrem Namen als Dienstleister handeln, um die Aufgaben eines Übertragungsnetzbetreibers gemäß diesen Gesetzgebungsakten bzw. den nach diesen Verordnungen erlassenen Netzcodes oder Leitlinien wahrzunehmen, sowie Betreiber oder Verwalter eines Energieausgleichssystems, eines Rohrleitungsnetzes oder eines Systems zum Ausgleich von Energieangebot und -verbrauch bei der Wahrnehmung solcher Aufgaben.</TXT>
+                      <P>Diese Ausnahme gilt für Personen, die in diesem Buchstaben genannte Tätigkeiten ausüben nur, wenn sie in Bezug auf Warenderivate Anlagetätigkeiten ausüben oder Wertpapierdienstleistungen erbringen, die mit den obengenannten Tätigkeiten im Zusammenhang stehen. Diese Ausnahme gilt nicht für den Betrieb eines Sekundärmarktes, einschließlich einer Plattform für den Sekundärhandel mit finanziellen Übertragungsrechten;</P>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO='6'?>
+                  <?CLG.MDFO ID="O001001M001000" IDREF="C001001M001000" ACTION="REPLACED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32014R0909" ACTIVE.LOC="AR:71;PT:1" MOD.LEVEL="1"?>
+                  <ITEM>
+                    <NP>
+                      <NO.P>o)</NO.P>
+                      <TXT>Zentralverwahrer mit den in Artikel 73 der Verordnung (EU) Nr. 909/2014 des Europäischen Parlaments und des Rates<NOTE NOTE.ID="E0001" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                          <P>Verordnung (EU) Nr. 909/2014 des Europäischen Parlaments und des Rates vom<DATE ISO="20140723">23. Juli 2014</DATE>zur Verbesserung der Wertpapierlieferungen und -abrechnungen in der Europäischen Union und über Zentralverwahrer sowie zur Änderung der Richtlinien 98/26/EG und 2014/65/EU und der Verordnung (EU) Nr. 236/2012 (<REF.DOC.OJ COLL="L" DATE.PUB="20140828" NO.OJ="257" PAGE.FIRST="1">ABl. L 257 vom 28.8.2014, S. 1</REF.DOC.OJ>).</P>
+                        </NOTE>vorgesehenen Ausnahmen.</TXT>
+                    </NP>
+                  </ITEM>
+                  <?CLG.MDFC ID="C001001M001000" IDREF="O001001M001000"?>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="002.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Die durch diese Richtlinie verliehenen Rechte erfassen nicht die Erbringung von Dienstleistungen als Gegenpartei bei Geschäften, die von staatlichen Stellen der staatlichen Schuldenverwaltung oder von Mitgliedern des ESZB in Wahrnehmung ihrer Aufgaben gemäß dem AEUV und Protokoll Nr. 4 über die Satzung des Europäischen Systems der Zentralbanken und der Europäischen Zentralbank oder in Wahrnehmung vergleichbarer Aufgaben gemäß nationalen Vorschriften abgeschlossen werden.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="002.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>Die Kommission erlässt gemäß Artikel 89delegierte Rechtsakte um für die Zwecke von Absatz 1 Buchstabe c zu klären, wann eine Tätigkeit als nur gelegentlich erbracht gilt.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="002.004">
+              <NO.PARAG>(4)</NO.PARAG>
+              <ALINEA>Die ESMA arbeitet Entwürfe technischer Regulierungsstandards hinsichtlich der Ausnahmen nach Absatz 1 Buchstabe j aus, um die Kriterien festzulegen, nach denen eine Tätigkeit auf der Ebene der Unternehmensgruppe als Nebentätigkeit zur Haupttätigkeit gilt.</ALINEA>
+              <ALINEA>
+                <P>Diese Kriterien berücksichtigen zumindest die folgenden Punkte:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>die Notwendigkeit, dass Nebentätigkeiten den kleineren Teil der Tätigkeiten auf Gruppenebene darstellen müssen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>den Umfang der Handelstätigkeit verglichen mit der gesamten Markthandelstätigkeit innerhalb der betreffenden Anlageklasse.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+              <ALINEA>Bei der Bestimmung der Frage, inwieweit Nebentätigkeiten den kleineren Teil der Tätigkeiten auf Gruppenebene darstellen, kann die ESMA festlegen, dass das für die Ausübung der Nebentätigkeit eingesetzte Kapital im Verhältnis zu dem für die Haupttätigkeit eingesetzten Kapital zu berücksichtigen ist. Allerdings darf dieser Faktor in keinem Fall ausreichen um darzulegen, dass die Tätigkeit gegenüber der Haupttätigkeit der Gruppe eine Nebentätigkeit darstellt.</ALINEA>
+              <ALINEA>Die in diesem Absatz genannten Tätigkeiten werden auf Gruppenebene betrachtet.</ALINEA>
+              <ALINEA>
+                <P>Von den in Unterabsatz 2 genannten Punkten sind auszunehmen:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>gruppeninterne Geschäfte nach Artikel 3 der Verordnung (EU) Nr. 648/2012, die dem gruppenweiten Liquiditäts- oder Risikomanagement dienen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>Derivatgeschäfte, die die mit der Geschäftstätigkeit oder dem Liquiditäts- und Finanzmanagement direkt verbundenen Risiken objektiv messbar verringern;</TXT>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO='7'?>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>Geschäfte mit Warenderivaten und Emissionszertifikaten, die abgeschlossen werden, um der Verpflichtung, einen Handelsplatz mit Liquidität zu versorgen, nachzukommen, wenn solche Verpflichtungen von Regulierungsbehörden im Einklang mit dem Unionsrecht oder dem nationalen Recht, Verordnungen und Verwaltungsvorschriften oder von Handelsplätzen verlangt werden.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+              <ALINEA>Die ESMA legt der Kommission diese Entwürfe technischer Regulierungsstandards bis zum<DATE ISO="20150703">3. Juli 2015</DATE>vor.</ALINEA>
+              <ALINEA>Der Kommission wird die Befugnis übertragen, die in Unterabsatz 1 genannten technischen Regulierungsstandards gemäß den Artikeln 10 bis 14 der Verordnung (EU) Nr. 1095/2010 zu erlassen.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="003">
+            <TI.ART>Artikel 3</TI.ART>
+            <STI.ART>Fakultative Ausnahmen</STI.ART>
+            <PARAG IDENTIFIER="003.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Die Mitgliedstaaten können beschließen, dass diese Richtlinie nicht für Personen gilt, für die sie Herkunftsmitgliedstaat sind, sofern die Tätigkeiten dieser Personen auf nationaler Ebene zugelassen und geregelt sind und diese Personen</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>nicht berechtigt sind, Gelder oder Wertpapiere von Kunden zu halten und die sich aus diesem Grund zu keinem Zeitpunkt gegenüber ihren Kunden in einer Debet-Position befinden dürfen, und</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>nicht zur Erbringung von Wertpapierdienstleistungen berechtigt sind, außer zur Annahme und Übermittlung von Aufträgen in Bezug auf übertragbare Wertpapiere und Anteile von Organismen für gemeinsame Anlagen und/oder zur Anlageberatung in Bezug auf solche Finanzinstrumente und</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>bei der Erbringung dieser Dienstleistung Aufträge nur übermitteln dürfen an</TXT>
+                      <P>
+                        <LIST TYPE="roman">
+                          <ITEM>
+                            <NP>
+                              <NO.P>i)</NO.P>
+                              <TXT>gemäß dieser Richtlinie zugelassene Wertpapierfirmen,</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>ii)</NO.P>
+                              <TXT>gemäß der Richtlinie 2013/36/EU zugelassene Kreditinstitute,</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>iii)</NO.P>
+                              <TXT>in einem Drittland zugelassene Zweigniederlassungen von Wertpapierfirmen oder Kreditinstituten, die Aufsichtsbestimmungen unterliegen und einhalten, die nach Auffassung der zuständigen Behörden mindestens genauso streng sind wie diejenigen der vorliegenden Richtlinie, der Verordnung (EU) Nr. 575/2013 oder der Richtlinie 2013/36/EU,</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>iv)</NO.P>
+                              <TXT>Organismen für gemeinsame Anlagen, die nach dem Recht eines Mitgliedstaats ihre Anteile öffentlich vertreiben dürfen, sowie die Leiter solcher Organismen oder</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>v)</NO.P>
+                              <TXT>Investmentgesellschaften mit festem Kapital im Sinne von Artikel 17 Absatz 7 der Richtlinie 2012/30/EU des Europäischen Parlaments und des Rates<NOTE NOTE.ID="E0002" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                                  <P>Richtlinie 2012/30/EU des Europäischen Parlaments und des Rates vom<DATE ISO="20121025">25. Oktober 2012</DATE>zur Koordinierung der Schutzbestimmungen, die in den Mitgliedstaaten den Gesellschaften im Sinne des Artikels 54 Absatz 2 des Vertrages über die Arbeitsweise der Europäischen Union im Interesse der Gesellschafter sowie Dritter für die Gründung der Aktiengesellschaft sowie für die Erhaltung und Änderung ihres Kapitals vorgeschrieben sind, um diese Bestimmungen gleichwertig zu gestalten (<REF.DOC.OJ COLL="L" DATE.PUB="20121114" NO.OJ="315" PAGE.FIRST="74">ABl. L 315 vom 14.11.2012, S. 74</REF.DOC.OJ>).</P>
+                                </NOTE>, deren Wertpapiere auf einem geregelten Markt in einem Mitgliedstaat notiert bzw. gehandelt werden oder</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO='8'?>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>Wertpapierdienstleistungen ausschließlich in Bezug auf Warenderivate, Emissionszertifikate und/oder Derivate davon mit dem alleinigen Ziel der Absicherung der Geschäftsrisiken ihrer Kunden erbringen, sofern diese Kunden ausschließlich lokale Elektrizitätsunternehmen im Sinne des Artikels 2 Nummer 35 der Richtlinie 2009/72/EG oder Erdgasunternehmen im Sinne des Artikels 2 Nummer 1 der Richtlinie 2009/73/EG sind und sofern sie zusammen 100 % des Kapitals oder der Stimmrechte der betreffenden Personen halten und diese gemeinsam kontrollieren und nach Artikel 2 Absatz 1 Buchstabe j der vorliegenden Richtlinie ausgenommen wären, wenn sie die betreffenden Wertpapierdienstleistungen selbst erbrächten oder</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>e)</NO.P>
+                      <TXT>Wertpapierdienstleistungen ausschließlich im Zusammenhang mit Emissionszertifikaten und/oder Derivaten davon mit dem alleinigen Ziel der Absicherung der Geschäftsrisiken ihrer Kunden erbringen, sofern diese Kunden ausschließlich Betreiber im Sinne des Artikels 3 Buchstabe f der Richtlinie 2003/87/EG sind und sofern sie zusammen 100 % des Kapitals oder der Stimmrechte der betreffenden Personen halten und diese gemeinsam kontrollieren und nach Artikel 2 Absatz 1 Buchstabe j der vorliegenden Richtlinie ausgenommen wären, wenn sie die betreffenden Wertpapierdienstleistungen selbst erbrächten.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="003.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>
+                <P>Die in Absatz 1 genannten Personen müssen gemäß den Bestimmungen der Mitgliedstaaten Anforderungen unterliegen, die zumindest den folgenden Anforderungen der vorliegenden Richtlinie entsprechen:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>den Bedingungen und Verfahren für die Zulassung und die laufende Überwachung gemäß Artikel 5 Absätze 1 und 3 sowie den Artikeln 7, bis 10, 21, 22 und 23 und den entsprechenden von der Kommission gemäß Artikel 89 erlassenen delegierten Rechtsakten;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>den Wohlverhaltensregeln gemäß Artikel 24 Absätze 1, 3, 4, 5, 7 und 10, Artikel 25 Absätze 2, 5 und 6 sowie — wenn die nationale Regelung diesen Personen die Heranziehung von vertraglich gebundenen Vermittlern gestattet — Artikel 29 wie auch den entsprechenden Durchführungsmaßnahmen.</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>den organisatorischen Anforderungen nach Artikel 16 Absatz 3 Unterabsätze 1, 6 und 7 sowie Artikel 16 Absätze 6 und 7 und den von der Kommission gemäß Artikel 89 erlassenen delegierten Rechtakten.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+              <ALINEA>Die Mitgliedstaaten schreiben vor, dass die Personen, die gemäß Absatz 1 dieses Artikels von dieser Richtlinie ausgenommen sind, über ein System für die Entschädigung der Anleger in Einklang mit der Richtlinie 97/9/EG verfügen. Die Mitgliedstaaten können zulassen, dass Wertpapierfirmen nicht über ein solches System verfügen, sofern sie eine Berufshaftpflichtversicherung abgeschlossen haben, wenn im Hinblick auf den Umfang und das Risikoprofil sowie die Rechtsform der von dieser Richtlinie gemäß Absatz 1 dieses Artikels ausgenommenen Personen ihren Kunden ein gleichwertiger Schutz geboten wird.</ALINEA>
+              <ALINEA>Abweichend von Unterabsatz 2 dieses Absatzes können die Mitgliedstaaten, die bereits dem<DATE ISO="20140702">2. Juli 2014</DATE>über solche Gesetze, Verordnungen und Verwaltungsvorschriften verfügen, bis zum<DATE ISO="20190703">3. Juli 2019</DATE>vorschreiben, dass die von dieser Richtlinie gemäß Absatz 1 dieses Artikels ausgenommenen Personen — sofern sie Wertpapierdienstleistungen zur Annahme und Übermittlung von Aufträgen erbringen und/oder Anlageberatung in Organismen für gemeinsame Anlagen leisten und als Vermittler in Verwaltungsgesellschaften im Sinne der Richtlinie 2009/65 tätig sind — gegenüber dem Kunden für sämtliche Schäden, die diesem in Bezug auf diese Dienste entstanden sind, mit der Verwaltungsgesellschaft gesamtschuldnerisch haften.</ALINEA>
+            </PARAG>
+            <?PAGE NO='9'?>
+            <PARAG IDENTIFIER="003.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>Personen, die gemäß Absatz 1 von dieser Richtlinie ausgenommen sind, dürfen die Freiheit der Erbringung von Wertpapierdienstleistung oder der Ausübung von Anlagetätigkeit oder die Freiheit der Errichtung von Zweigniederlassungen gemäß Artikel 34 bzw. 35 nicht in Anspruch nehmen.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="003.004">
+              <NO.PARAG>(4)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten unterrichten die Kommission und die ESMA davon, dass sie von der Option dieses Artikels Gebrauch machen, und stellen sicher, dass in jeder in Einklang mit Absatz 1 erteilten Zulassung angegeben ist, dass sie in Einklang mit diesem Artikel erteilt wurde.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="003.005">
+              <NO.PARAG>(5)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten teilen der ESMA die Bestimmungen der nationalen Rechtsvorschriften mit, die den Anforderungen von Absatz 2 der vorliegenden Richtlinie entsprechen.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="004">
+            <TI.ART>Artikel 4</TI.ART>
+            <STI.ART>Begriffsbestimmungen</STI.ART>
+            <PARAG IDENTIFIER="004.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Für die Zwecke dieser Richtlinie bezeichnet der Ausdruck:</P>
+                <LIST TYPE="ARAB">
+                  <ITEM>
+                    <NP>
+                      <NO.P>1.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0002" REF.END="QE0002"/>Wertpapierfirma<QUOT.END CODE="201C" ID="QE0002" REF.START="QS0002"/>jede juristische Person, die im Rahmen ihrer üblichen beruflichen oder gewerblichen Tätigkeit gewerbsmäßig eine oder mehrere Wertpapierdienstleistungen für Dritte erbringt und/oder eine oder mehrere Anlagetätigkeiten ausübt.</TXT>
+                      <P>Die Mitgliedstaaten können als Wertpapierfirma auch Unternehmen, die keine juristischen Personen sind, definieren, sofern</P>
+                      <P>
+                        <LIST TYPE="alpha">
+                          <ITEM>
+                            <NP>
+                              <NO.P>a)</NO.P>
+                              <TXT>ihre Rechtsform Dritten ein Schutzniveau bietet, das dem von juristischen Personen gebotenen Schutz gleichwertig ist, und</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>b)</NO.P>
+                              <TXT>sie einer gleichwertigen und ihrer Rechtsform angemessenen Aufsicht unterliegen.</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                      <P>Erbringt eine natürliche Person jedoch Dienstleistungen, die das Halten von Geldern oder übertragbaren Wertpapieren Dritter umfassen, so kann diese Person nur dann als Wertpapierfirma im Sinne dieser Richtlinie und der Verordnung (EU) Nr. 600/2014 gelten, wenn sie unbeschadet der sonstigen Anforderungen dieser Richtlinie, der Verordnung (EU) Nr. 600/2014 und der Richtlinie 2013/36/EU folgende Bedingungen erfüllt:</P>
+                      <P>
+                        <LIST TYPE="alpha">
+                          <ITEM>
+                            <NP>
+                              <NO.P>a)</NO.P>
+                              <TXT>Die Eigentumsrechte Dritter an Wertpapieren und Geldern müssen insbesondere im Falle der Insolvenz der Firma oder ihrer Eigentümer, einer Pfändung, einer Aufrechnung oder anderer von den Gläubigern der Firma oder ihrer Eigentümer geltend gemachter Ansprüche gewahrt werden;</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>b)</NO.P>
+                              <TXT>die Firma muss Vorschriften zur Überwachung ihrer Solvenz einschließlich der ihrer Eigentümer unterworfen sein;</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>c)</NO.P>
+                              <TXT>der Jahresabschluss der Firma muss von einer oder mehreren nach nationalem Recht zur Rechnungsprüfung befugten Personen geprüft werden;</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>d)</NO.P>
+                              <TXT>hat eine Firma nur einen Eigentümer, so muss diese Person entsprechende Vorkehrungen zum Schutz der Anleger für den Fall treffen, dass die Firma ihre Geschäftstätigkeit aufgrund seines Ablebens, seiner Geschäftsunfähigkeit oder einer vergleichbaren Gegebenheit einstellt;</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>2.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0003" REF.END="QE0003"/>Wertpapierdienstleistungen und Anlagetätigkeiten<QUOT.END CODE="201C" ID="QE0003" REF.START="QS0003"/>jede in Anhang I Abschnitt A genannte Dienstleistung und Tätigkeit, die sich auf eines der Instrumente in Anhang I Abschnitt C bezieht.</TXT>
+                      <?PAGE NO='10'?>
+                      <P>Die Kommission erlässt delegierte Rechtsakte gemäß Artikel 89 zur Festlegung der</P>
+                      <P>
+                        <LIST TYPE="alpha">
+                          <ITEM>
+                            <NP>
+                              <NO.P>a)</NO.P>
+                              <TXT>in Anhang I Abschnitt C Nummer 6 genannten Derivatkontrakte, die Merkmale von Energiegroßhandelsprodukten, die effektiv geliefert werden müssen, aufweisen, und der C.6-Energiederivatkontrakte;</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>b)</NO.P>
+                              <TXT>in Anhang I Abschnitt C Nummer 7 genannten Derivatkontrakte, die Merkmale anderer derivativer Finanzinstrumente aufweisen;</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>c)</NO.P>
+                              <TXT>in Anhang I Abschnitt C Nummer 10 genannten Derivatkontrakte, die Merkmale anderer derivativer Finanzinstrumente aufweisen, wobei unter anderem berücksichtigt wird, ob sie an einem geregelten Markt, einem MTF oder einem OTF gehandelt werden;</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>3.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0004" REF.END="QE0004"/>Nebendienstleistung<QUOT.END CODE="201C" ID="QE0004" REF.START="QS0004"/>jede in Anhang I Abschnitt B genannte Dienstleistung;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>4.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0005" REF.END="QE0005"/>Anlageberatung<QUOT.END CODE="201C" ID="QE0005" REF.START="QS0005"/>die Abgabe persönlicher Empfehlungen an einen Kunden entweder auf dessen Aufforderung oder auf Initiative der Wertpapierfirma, die sich auf ein oder mehrere Geschäfte mit Finanzinstrumenten beziehen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>5.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0006" REF.END="QE0006"/>Ausführung von Aufträgen im Namen von Kunden<QUOT.END CODE="201C" ID="QE0006" REF.START="QS0006"/>die Tätigkeit zum Abschluss von Vereinbarungen, ein oder mehrere Finanzinstrumente im Namen von Kunden zu kaufen oder zu verkaufen, und umfasst den Abschluss von Vereinbarungen über den Verkauf von Finanzinstrumenten, die von einer Wertpapierfirma oder einem Kreditinstitut zum Zeitpunkt ihrer Emission ausgegeben werden;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>6.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0007" REF.END="QE0007"/>Handel für eigene Rechnung<QUOT.END CODE="201C" ID="QE0007" REF.START="QS0007"/>den Handel unter Einsatz des eigenen Kapitals, der zum Abschluss von Geschäften mit einem oder mehreren Finanzinstrumenten führt;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>7.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0008" REF.END="QE0008"/>Market-Maker<QUOT.END CODE="201C" ID="QE0008" REF.START="QS0008"/>eine Person, die an den Finanzmärkten auf kontinuierlicher Basis ihre Bereitschaft anzeigt, durch den An- und Verkauf von Finanzinstrumenten unter Einsatz des eigenen Kapitals Handel für eigene Rechnung zu von ihr gestellten Kursen zu betreiben;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>8.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0009" REF.END="QE0009"/>Portfolioverwaltung<QUOT.END CODE="201C" ID="QE0009" REF.START="QS0009"/>die Verwaltung von Portfolios auf Einzelkundenbasis mit einem Ermessensspielraum im Rahmen eines Mandats des Kunden, sofern diese Portfolios ein oder mehrere Finanzinstrumente enthalten;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>9.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0010" REF.END="QE0010"/>Kunde<QUOT.END CODE="201C" ID="QE0010" REF.START="QS0010"/>jede natürliche oder juristische Person, für die eine Wertpapierfirma Wertpapierdienstleistungen oder Nebendienstleistungen erbringt;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>10.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0011" REF.END="QE0011"/>professioneller Kunde<QUOT.END CODE="201C" ID="QE0011" REF.START="QS0011"/>einen Kunden, der die in Anhang II genannten Kriterien erfüllt;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>11.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0012" REF.END="QE0012"/>Kleinanleger<QUOT.END CODE="201C" ID="QE0012" REF.START="QS0012"/>einen Kunden, der kein professioneller Kunde ist;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>62.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0068" REF.END="QE0068"/>dauerhafter Datenträger<QUOT.END CODE="201C" ID="QE0068" REF.START="QS0068"/>jedes Medium, das</TXT>
+                      <P>
+                        <LIST TYPE="alpha">
+                          <ITEM>
+                            <NP>
+                              <NO.P>a)</NO.P>
+                              <TXT>es dem Kunden gestattet, an ihn persönlich gerichtete Informationen derart zu speichern, dass er sie in der Folge für eine für die Zwecke der Informationen angemessene Dauer einsehen kann, und</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>b)</NO.P>
+                              <TXT>die unveränderte Wiedergabe der gespeicherten Informationen ermöglicht;</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>63.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0069" REF.END="QE0069"/>Datenbereitstellungsdienste<QUOT.END CODE="201C" ID="QE0069" REF.START="QS0069"/>ein APA, ein CTP oder ein ARM<?CLG.MDFO ID="O001001M004000" IDREF="C001001M004000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="IMPLICIT" ACTIVE.DOC="32014R0909" ACTIVE.LOC="AR:71;PT:2" MOD.LEVEL="1"?>;<?CLG.MDFC ID="C001001M004000" IDREF="O001001M004000"?>
+                      </TXT>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO='18'?>
+                  <?CLG.MDFO ID="O001001M002000" IDREF="C001001M002000" ACTION="INSERTED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32014R0909" ACTIVE.LOC="AR:71;PT:2" MOD.LEVEL="1"?>
+                  <ITEM>
+                    <NP>
+                      <NO.P>64.</NO.P>
+                      <TXT>
+                        <QUOT.START CODE="201E" ID="QS0070" REF.END="QE0070"/>Zentralverwahrer<QUOT.END CODE="201C" ID="QE0070" REF.START="QS0070"/>Zentralverwahrer im Sinne von Artikel 2 Absatz 1 Nummer 1 der Verordnung (EU) Nr. 909/2014.</TXT>
+                    </NP>
+                  </ITEM>
+                  <?CLG.MDFC ID="C001001M002000" IDREF="O001001M002000"?>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="004.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Der Kommission wird die Befugnis übertragen, delegierte Rechtsakte gemäß Artikel 89 zu erlassen, um einige technische Elemente der Begriffsbestimmungen in Absatz 1 zu bestimmen, mit dem Ziel, sie an die Marktentwicklungen, die technologischen Entwicklungen und die Erfahrungen mit nach der Verordnung (EU) Nr. 596/2014 verbotenen Tätigkeiten anzupassen und die einheitliche Anwendung dieser Richtlinie sicherzustellen.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+        </DIVISION>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>TITEL III</P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">GEREGELTE MÄRKTE</HT>
+              </P>
+            </STI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="046">
+            <TI.ART>Artikel 46</TI.ART>
+            <STI.ART>Anforderungen an Personen mit wesentlichem Einfluss auf die Verwaltung des geregelten Marktes</STI.ART>
+            <PARAG IDENTIFIER="046.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten schreiben vor, dass die Personen, die direkt oder indirekt tatsächlich wesentlichen Einfluss auf die Verwaltung des geregelten Marktes nehmen können, die zu diesem Zweck erforderliche Eignung besitzen müssen.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="046.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>
+                <P>Die Mitgliedstaaten schreiben vor, dass der Marktbetreiber des geregelten Marktes</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>der zuständigen Behörde Angaben zu den Eigentumsverhältnissen des geregelten Marktes und/oder des Marktbetreibers, insbesondere die Namen aller Parteien, die wesentlichen Einfluss auf seine Geschäftsführung nehmen können, und die Höhe ihrer Beteiligung vorlegt und diese Informationen veröffentlicht;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>die zuständige Behörde über jede Eigentumsübertragung, die den Kreis derjenigen verändert, die wesentlichen Einfluss auf die Führung des geregelten Marktes nehmen, unterrichtet und diese Übertragung veröffentlicht.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="046.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>Die zuständige Behörde verweigert die Genehmigung vorgeschlagener Änderungen der Mehrheitsbeteiligung des geregelten Marktes und/oder des Marktbetreibers, wenn objektive und nachweisbare Gründe für die Vermutung vorliegen, dass sie die solide und umsichtige Verwaltung des geregelten Marktes gefährden würden.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="047">
+            <TI.ART>Artikel 47</TI.ART>
+            <STI.ART>Organisatorische Anforderungen</STI.ART>
+            <PARAG IDENTIFIER="047.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Die Mitgliedstaaten schreiben vor, dass der geregelte Markt</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>Vorkehrungen trifft, mit denen sich etwaige nachteilige Auswirkungen von Interessenkonflikten zwischen dem geregelten Markt, seinen Eigentümern oder seinem Marktbetreiber und dem einwandfreien Funktionieren des geregelten Marktes auf den Betrieb des geregelten Marktes oder seine Mitglieder oder Teilnehmer klar erkennen und regeln lassen, und zwar insbesondere dann, wenn solche Interessenkonflikte die Erfüllung von Aufgaben, die dem geregelten Markt von der zuständigen Behörde übertragen wurden, behindern könnten;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>um angemessen für die Steuerung ihrer Risiken ausgestattet zu sein, angemessene Vorkehrungen und Systeme zur Ermittlung aller für ihren Betrieb wesentlichen Risiken zu schaffen und wirksame Maßnahmen zur Begrenzung dieser Risiken zu treffen,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>Vorkehrungen für eine solide Verwaltung der technischen Abläufe des Systems, einschließlich wirksamer Notmaßnahmen für den Fall eines Systemzusammenbruchs, trifft;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>transparente und nichtdiskretionäre Regeln und Verfahren für einen fairen und ordnungsgemäßen Handel sowie objektive Kriterien für eine effiziente Auftragsausführung festlegt;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>e)</NO.P>
+                      <TXT>um über wirksame Vorkehrungen zu verfügen, die einen reibungslosen und rechtzeitigen Abschluss der innerhalb seiner Systeme ausgeführten Geschäfte erleichtern,</TXT>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO='72'?>
+                  <ITEM>
+                    <NP>
+                      <NO.P>f)</NO.P>
+                      <TXT>um bei der Zulassung und fortlaufend über ausreichende Finanzmittel zu verfügen, um ihr ordnungsgemäßes Funktionieren zu erleichtern, wobei der Art und dem Umfang der an dem geregelten Markt abgeschlossenen Geschäfte sowie dem Spektrum und der Höhe der Risiken, denen sie ausgesetzt sind, Rechnung zu tragen ist.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="047.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten gestatten Marktbetreibern nicht, an einem von ihnen betriebenen geregelten Markt Kundenaufträge unter Einsatz des Eigenkapitals auszuführen oder auf die Zusammenführung sich deckender Kundenaufträge zurückzugreifen.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <?PAGE NO='82'?>
+          <ARTICLE IDENTIFIER="056">
+            <TI.ART>Artikel 56</TI.ART>
+            <STI.ART>Verzeichnis geregelter Märkte</STI.ART>
+            <ALINEA>Jeder Mitgliedstaat erstellt ein Verzeichnis der geregelten Märkte, für die er der Herkunftsmitgliedstaat ist, und übermittelt dieses Verzeichnis den übrigen Mitgliedstaaten und der ESMA. Die gleiche Mitteilung erfolgt bei jeder Änderung dieses Verzeichnisses. Die ESMA veröffentlicht ein Verzeichnis aller geregelten Märkte auf ihrer Website und aktualisiert es regelmäßig. Dieses Verzeichnis enthält den von der ESMA im Einklang mit Artikel 65 Absatz 6 festgelegten einheitlichen Code zur Kennzeichnung der geregelten Märkte, der gemäß Artikel 65 Absatz 1 Buchstabe g und Artikel 65 Absatz 2 Buchstabe g dieser Richtlinie sowie gemäß den Artikeln 6, 10 und 26 der Verordnung (EU) Nr. 600/2014 in den Meldungen zu verwenden ist.</ALINEA>
+          </ARTICLE>
+        </DIVISION>
+        <?PAGE NO='121'?>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>
+                <HT TYPE="BOLD">SCHLUSSBESTIMMUNGEN</HT>
+              </P>
+            </TI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="090">
+            <TI.ART>Artikel 90</TI.ART>
+            <STI.ART>Berichte und Überprüfung</STI.ART>
+            <PARAG IDENTIFIER="090.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Vor dem<?CLG.MDFO ID="O002001M006000" IDREF="C002001M006000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:6;PT:a" MOD.LEVEL="1"?>
+                  <DATE ISO="20200303">3. März 2020</DATE>
+                  <?CLG.MDFC ID="C002001M006000" IDREF="O002001M006000"?>unterbreitet die Kommission dem Europäischen Parlament und dem Rat nach Anhörung der ESMA einen Bericht über</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>die Funktionsweise der OTF, einschließlich ihres spezifischen Rückgriffs auf die Zusammenführung sich deckender Kundenaufträge, wobei die Aufsichtserfahrung der zuständigen Behörden und die Zahl der in der Union zugelassenen OTF sowie deren Marktanteil berücksichtigt werden und insbesondere zu prüfen ist, ob die Definition des Begriffs OTF einer Anpassung bedarf und ob das Spektrum der Finanzinstrumente, die zur Kategorie OTF gehören, weiterhin angemessen ist;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>die Funktionsweise der Regelung für KMU-Wachstumsmärkte, wobei die Zahl der als KMU-Wachstumsmärkte registrierten MTF, die Zahl der auf diesen Märkten vertretenen Emittenten und die jeweiligen Handelsvolumina berücksichtigt werden;</TXT>
+                      <P>in dem Bericht wird insbesondere beurteilt, ob der in Artikel 33 Absatz 3 Buchstabe a genannte Schwellenwert weiterhin ein geeigneter Mindestwert für die Verfolgung der in dieser Richtlinie genannten Ziele für KMU-Wachstumsmärkte ist;</P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>die Auswirkungen der für den algorithmischen Handel und auch für den algorithmischen Hochfrequenzhandel geltenden Anforderungen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>die Erfahrungen mit dem Mechanismus für das Verbot bestimmter Produkte bzw. Praktiken, wobei die Häufigkeit der Auslösung dieser Mechanismen und ihre Wirkung berücksichtigt werden;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>e)</NO.P>
+                      <TXT>die Anwendung der verwaltungsrechtlichen und strafrechtlichen Sanktionen unter besonderer Berücksichtigung der erforderlichen weitergehenden Vereinheitlichung der für Verstöße gegen die Anforderungen dieser Richtlinie und der Verordnung (EU) Nr. 600/2014 vorgesehenen verwaltungsrechtlichen Sanktionen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>f)</NO.P>
+                      <TXT>die Auswirkungen der Anwendung von Positionslimits und Positionsmanagement auf Liquidität, Marktmissbrauch und geordnete Preis- und Abwicklungsbedingungen an den Warenderivatmärkten;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>g)</NO.P>
+                      <TXT>die Entwicklungen der Kurse für Vor- und Nachhandelstransparenzdaten von geregelten Märkten, MTF, OTF und APA;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>h)</NO.P>
+                      <TXT>die Auswirkungen der Anforderung gemäß Artikel 24 Absatz 9a, alle Gebühren, Provisionen und nicht-monetären Vorteile im Zusammenhang mit der Erbringung einer Wertpapier- oder Nebendienstleistung für Kunden offenzulegen, einschließlich der Auswirkungen auf das ordnungsgemäße Funktionieren des Binnenmarkts bei grenzüberschreitender Anlageberatung.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="090.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Die Kommission legt dem Europäischen Parlament und dem Rat nach Anhörung der ESMA Berichte über die Funktionsweise der im Einklang mit Titel V eingerichteten konsolidierten Datenticker vor. Der Bericht zu Artikel 65 Absatz 1 wird bis spätestens<?CLG.MDFO ID="O002001M007000" IDREF="C002001M007000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:6;PT:b" MOD.LEVEL="1"?>
+                <DATE ISO="20190903">3. September 2019</DATE>
+                <?CLG.MDFC ID="C002001M007000" IDREF="O002001M007000"?>vorgelegt. Der Bericht zu Artikel 65 Absatz 2 wird bis spätestens<?CLG.MDFO ID="O002001M008000" IDREF="C002001M008000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:6;PT:b" MOD.LEVEL="1"?>
+                <DATE ISO="20210903">3. September 2021</DATE>
+                <?CLG.MDFC ID="C002001M008000" IDREF="O002001M008000"?>vorgelegt.</ALINEA>
+              <?PAGE NO='122'?>
+              <ALINEA>
+                <P>In den in Unterabsatz 1 genannten Berichten wird die Funktionsweise der konsolidierten Datenticker anhand folgender Kriterien beurteilt:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>Verfügbarkeit und Aktualität nachbörslicher Informationen in einem konsolidierten Format, das sämtliche Geschäfte erfasst, unabhängig davon, ob sie an einem Handelsplatz abgeschlossen werden oder nicht;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>Verfügbarkeit und Aktualität vollständiger und partieller nachbörslicher Informationen von hoher Qualität in Formaten, die für die Marktteilnehmer leicht zugänglich und nutzbar sind und zu angemessenen kaufmännischen Bedingungen angeboten werden.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+              <ALINEA>Kommt die Kommission zu dem Schluss, dass die CTP Informationen auf eine Weise bereitgestellt haben, die den in Unterabsatz 2 genannten Kriterien nicht genügt, so fügt sie ihrem Bericht ein Ersuchen an die ESMA bei, ein Verhandlungsverfahren einzuleiten, in dessen Rahmen eine gewerbliche Stelle im Wege eines von der ESMA durchzuführenden öffentlichen Vergabeverfahrens als Betreiberin eines konsolidierten Datentickers benannt wird. Nach Eingang des Ersuchens der Kommission leitet die ESMA das Verfahren unter den im Ersuchen festgelegten Bedingungen und im Einklang mit der Verordnung (EU, Euratom) Nr. 966/2012 des Europäischen Parlaments und des Rates<NOTE NOTE.ID="E0012" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                  <P>Verordnung (EU, Euratom) Nr. 966/2012 des Europäischen Parlaments und des Rates vom<DATE ISO="20121025">25. Oktober 2012</DATE>über die Haushaltsordnung für den Gesamthaushaltsplan der Union und zur Aufhebung der Verordnung (EG, Euratom) Nr. 1605/2002 des Rates (<REF.DOC.OJ COLL="L" DATE.PUB="20121026" NO.OJ="298" PAGE.FIRST="1">ABl. L 298 vom 26.10.2012, S. 1</REF.DOC.OJ>).</P>
+                </NOTE>ein.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="090.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>
+                <P>Wird ein Verfahren wie in Absatz 2 beschrieben eingeleitet, ist die Kommission befugt, zur Änderung der Artikel 59 bis 65 und von Abschnitt D des Anhangs I dieser Richtlinie sowie des Artikels 2 Absatz 1 Nummer 19 der Verordnung (EU) Nr. 600/2014 gemäß Artikel 89 delegierte Rechtsakte zu erlassen, in denen sie Maßnahmen festlegt, mit denen</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>die Laufzeit des Vertrags mit der gewerblichen Stelle, die einen konsolidierten Datenticker betreibt, sowie das Verfahren und die Bedingungen für die Verlängerung des Vertrags und die Einleitung eines neuen öffentlichen Vergabeverfahrens festgelegt werden,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>vorgeschrieben wird, dass die gewerbliche Stelle, die einen konsolidierten Datenticker betreibt, diese Tätigkeit ausschließlich ausübt und dass keine andere Stelle nach Artikel 59 als CTP zugelassen wird,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>c)</NO.P>
+                      <TXT>die ESMA ermächtigt wird, sicherzustellen, dass die im Wege eines öffentlichen Vergabeverfahrens benannte gewerbliche Stelle, die einen konsolidierten Datenticker betreibt, die Ausschreibungsbedingungen einhält,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>d)</NO.P>
+                      <TXT>sichergestellt wird, dass die nachbörslichen Informationen der gewerblichen Stelle, die einen konsolidierten Datenticker betreibt, von hoher Qualität sind und in Formaten, die für die Marktteilnehmer leicht zugänglich und nutzbar sind, sowie in einem konsolidierten Format, das den gesamten Markt erfasst, bereitgestellt werden,</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>e)</NO.P>
+                      <TXT>sichergestellt wird, dass die nachbörslichen Informationen zu angemessenen kaufmännischen Bedingungen auf konsolidierter und nichtkonsolidierter Grundlage bereitgestellt werden und den Bedürfnissen der Nutzer in der gesamten Union gerecht werden,</TXT>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO='123'?>
+                  <ITEM>
+                    <NP>
+                      <NO.P>f)</NO.P>
+                      <TXT>sichergestellt wird, dass Handelsplätze und APA der im Wege eines öffentlichen, von der ESMA durchgeführten Vergabeverfahrens benannten gewerblichen Stelle, die einen konsolidierten Datenticker betreibt, ihre Handelsdaten zu vertretbaren Kosten zur Verfügung stellen;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>g)</NO.P>
+                      <TXT>Vorkehrungen für den Fall getroffen werden, dass die im Wege eines öffentlichen Vergabeverfahrens benannte gewerbliche Stelle, die einen konsolidierten Datenticker betreibt, die Ausschreibungsbedingungen nicht einhält;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>h)</NO.P>
+                      <TXT>Vorkehrungen getroffen werden, wonach die nach Artikel 59 zugelassenen CTP für den Fall, dass die Befugnisse gemäß Buchstabe b dieses Absatzes nicht wahrgenommen werden oder keine Stelle im Wege eines öffentlichen Vergabeverfahrens benannt wird, weiterhin einen konsolidierten Datenticker betreiben dürfen, bis ein neues öffentliches Vergabeverfahren abgeschlossen und eine gewerbliche Stelle als Betreiberin eines konsolidierten Datentickers benannt wird.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="090.004">
+              <NO.PARAG>(4)</NO.PARAG>
+              <ALINEA>Bis<?CLG.MDFO ID="O002001M009000" IDREF="C002001M009000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:6;PT:c" MOD.LEVEL="1"?>
+                <DATE ISO="20190101">1. Januar 2019</DATE>
+                <?CLG.MDFC ID="C002001M009000" IDREF="O002001M009000"?>erstellt die Kommission nach Anhörung der ESMA und der ACER einen Bericht, in dem die potenziellen Auswirkungen auf die Energiepreise und das Funktionieren des Energiemarkts ebenso bewertet werden wie die Durchführbarkeit und der Nutzen im Hinblick auf die Verringerung der Gegenpartei- und Systemrisiken sowie der direkten Kosten von C.6-Energiederivatkontrakten, die der Clearingpflicht gemäß Artikel 4 der Verordnung (EU) Nr. 648/2012 und den Risikominderungstechniken gemäß Artikel 11 Absatz 3 jener Verordnung unterliegen und bei der Berechnung des Clearingschwellenwerts nach Artikel 10 jener Verordnung berücksichtigt werden müssen.</ALINEA>
+              <ALINEA>Ist die Kommission der Auffassung, dass die Berücksichtigung dieser Kontrakte weder durchführbar noch nutzbringend ist, unterbreitet sie dem Europäischen Parlament und dem Rat gegebenenfalls einen Legislativvorschlag. Der Kommission wird die Befugnis übertragen, delegierte Rechtsakte gemäß Artikel 89 dieser Richtlinie zu erlassen, um den in Artikel 95 Absatz 1 dieser Richtlinie genannten Zeitraum von 42 Monaten einmal um zwei Jahre und ein weiteres Mal um ein Jahr zu verlängern.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <?CLG.MDFO ID="O003001M001000" IDREF="C003001M001000" ACTION="DELETED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32016L0097" ACTIVE.LOC="AR:44 .AND. AX:II;PR:B" MOD.LEVEL="1"?>
+          <ARTICLE IDENTIFIER="091">
+            <TI.ART>Artikel 91</TI.ART>
+            <STI.ART>Änderung der Richtlinie 2002/92/EG</STI.ART>
+            <ALINEA>
+              <P>Die Richtlinie 2002/92/EG wird wie folgt geändert:</P>
+              <LIST TYPE="ARAB">
+                <ITEM>
+                  <NP>
+                    <NO.P>1.</NO.P>
+                    <TXT>Artikel 2 wird wie folgt geändert:</TXT>
+                    <P>
+                      <LIST TYPE="alpha">
+                        <ITEM>
+                          <NP>
+                            <NO.P>a)</NO.P>
+                            <TXT>Nummer 3 Absatz 2 erhält folgende Fassung:</TXT>
+                            <P>
+                              <QUOT.S LEVEL="1">
+                                <P>
+                                  <QUOT.START CODE="201E" ID="QS0087" REF.END="QE0087"/>Mit Ausnahme von Kapitel III (A) dieser Richtlinie gelten diese Tätigkeiten nicht als Versicherungsvermittlung, wenn sie von einem Versicherungsunternehmen oder einem Angestellten eines Versicherungsunternehmens, der unter der Verantwortung des Versicherungsunternehmens tätig wird, ausgeübt werden.<QUOT.END CODE="201C" ID="QE0087" REF.START="QS0087"/>
+                                </P>
+                              </QUOT.S>
+                            </P>
+                          </NP>
+                        </ITEM>
+                        <ITEM>
+                          <NP>
+                            <NO.P>b)</NO.P>
+                            <TXT>Folgende Nummer wird angefügt:</TXT>
+                            <P>
+                              <QUOT.S LEVEL="1">
+                                <LIST TYPE="ARAB">
+                                  <ITEM>
+                                    <NP>
+                                      <NO.P>
+                                        <QUOT.START CODE="201E" ID="QS0088" REF.END="QE0088"/>(13)</NO.P>
+                                      <TXT>Für die Zwecke des Kapitels III A bezeichnet,Versicherungsanlageprodukt ein Versicherungsprodukt, das einen Fälligkeitswert oder einen Rückkaufwert bietet, der vollständig oder teilweise, direkt oder indirekt Marktschwankungen ausgesetzt ist; nicht darunter fallen</TXT>
+                                      <P>
+                                        <LIST TYPE="alpha">
+                                          <ITEM>
+                                            <NP>
+                                              <NO.P>a)</NO.P>
+                                              <TXT>Nichtlebensversicherungsprodukte gemäß der Richtlinie 2009/138/EG Anhang I (Versicherungszweige der Nichtlebensversicherung),</TXT>
+                                            </NP>
+                                          </ITEM>
+                                          <ITEM>
+                                            <NP>
+                                              <NO.P>b)</NO.P>
+                                              <TXT>Lebensversicherungsverträge, deren Leistungen nur im Todesfall oder bei Arbeitsunfähigkeit infolge von Körperverletzung, Krankheit oder Gebrechen zahlbar sind,</TXT>
+                                            </NP>
+                                          </ITEM>
+                                          <ITEM>
+                                            <NP>
+                                              <NO.P>c)</NO.P>
+                                              <TXT>Altersvorsorgeprodukte, die nach innerstaatlichem Recht als Produkte anerkannt sind, deren Zweck in erster Linie darin besteht, dem Anleger im Ruhestand ein Einkommen zu gewähren, und die dem Anleger einen Anspruch auf bestimmte Leistungen einräumen,</TXT>
+                                            </NP>
+                                          </ITEM>
+                                          <ITEM>
+                                            <NP>
+                                              <NO.P>d)</NO.P>
+                                              <TXT>amtlich anerkannte betriebliche Altersversorgungssysteme, die in den Anwendungsbereich der Richtlinie 2003/41/EG oder der Richtlinie 2009/138/EG fallen,</TXT>
+                                            </NP>
+                                          </ITEM>
+                                          <ITEM>
+                                            <NP>
+                                              <NO.P>e)</NO.P>
+                                              <TXT>individuelle Altersvorsorgeprodukte, für die nach innerstaatlichem Recht ein finanzieller Beitrag des Arbeitgebers erforderlich ist und die bzw. deren Anbieter weder der Arbeitgeber noch der Beschäftigte selbst wählen kann.<QUOT.END CODE="201C" ID="QE0088" REF.START="QS0088"/>;</TXT>
+                                            </NP>
+                                          </ITEM>
+                                        </LIST>
+                                      </P>
+                                    </NP>
+                                  </ITEM>
+                                </LIST>
+                              </QUOT.S>
+                            </P>
+                          </NP>
+                        </ITEM>
+                      </LIST>
+                    </P>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>2.</NO.P>
+                    <TXT>Folgendes Kapitel eingefügt:</TXT>
+                    <P>
+                      <QUOT.S LEVEL="1">
+                        <DIVISION>
+                          <TITLE>
+                            <TI>
+                              <P>
+                                <QUOT.START CODE="201E" ID="QS0089" REF.END="QE0089"/>
+                                <HT TYPE="ITALIC">KAPITEL III A</HT>
+                              </P>
+                            </TI>
+                            <STI>
+                              <P>
+                                <HT TYPE="BOLD">
+                                  <HT TYPE="ITALIC">Zusätzliche anforderungen an den Kundenschutz bei Versicherungsanlageprodukten</HT>
+                                </HT>
+                              </P>
+                            </STI>
+                          </TITLE>
+                          <ARTICLE IDENTIFIER="013A">
+                            <TI.ART>Artikel 13a</TI.ART>
+                            <STI.ART>Anwendungsbereich</STI.ART>
+                            <ALINEA>Vorbehaltlich der Ausnahmen gemäß Artikel 2 Absatz 3 Unterabsatz 2 werden in diesem Kapitel zusätzliche Anforderungen an Versicherungsvermittlungstätigkeiten und von Versicherungsunternehmen durchgeführte Direktverkäufe im Zusammenhang mit Versicherungsanlageprodukten festgelegt. Diese Tätigkeiten werden als Versicherungsvertriebstätigkeiten bezeichnet.</ALINEA>
+                          </ARTICLE>
+                          <ARTICLE IDENTIFIER="013B">
+                            <TI.ART>Artikel 13b</TI.ART>
+                            <STI.ART>Verhütung von Interessenkonflikten</STI.ART>
+                            <ALINEA>Ein Versicherungsvermittler bzw. -unternehmen muss auf Dauer wirksame organisatorische und administrative Vorkehrungen für angemessene Maßnahmen treffen, um zu verhindern, dass Interessenkonflikte im Sinne des Artikels 13c den Kundeninteressen schaden.</ALINEA>
+                          </ARTICLE>
+                          <ARTICLE IDENTIFIER="013C">
+                            <TI.ART>Artikel 13c</TI.ART>
+                            <STI.ART>Interessenkonflikte</STI.ART>
+                            <PARAG IDENTIFIER="013C.001">
+                              <NO.PARAG>(1)</NO.PARAG>
+                              <ALINEA>Die Mitgliedstaaten schreiben vor, dass Versicherungsvermittler und -unternehmen alle angemessenen Vorkehrungen treffen, um Interessenkonflikte zwischen ihnen selbst, einschließlich ihrer Geschäftsleitung, ihren Angestellten und vertraglich gebundenen Vermittlern oder anderen Personen, die mit ihnen direkt oder indirekt durch Kontrolle verbunden sind, und ihren Kunden oder zwischen ihren Kunden untereinander zu erkennen, die bei Versicherungsvertriebstätigkeiten entstehen.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013C.002">
+                              <NO.PARAG>(2)</NO.PARAG>
+                              <ALINEA>Reichen die von dem Versicherungsvermittler oder -unternehmen gemäß Artikel 13b getroffenen organisatorischen oder administrativen Vorkehrungen zur Regelung von Interessenkonflikten nicht aus, um nach vernünftigem Ermessen zu gewährleisten, dass keine Beeinträchtigung der Kundeninteressen riskiert wird, so legt der Versicherungsvermittler oder das Versicherungsunternehmen dem Kunden die allgemeine Art bzw. die Quellen von Interessenkonflikten eindeutig offen, bevor er oder es Geschäfte für ihn tätigt.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013C.003">
+                              <NO.PARAG>(3)</NO.PARAG>
+                              <ALINEA>
+                                <P>Der Kommission wird die Befugnis übertragen, gemäß Artikel 13e delegierte Rechtsakte zu erlassen, um</P>
+                                <LIST TYPE="alpha">
+                                  <ITEM>
+                                    <NP>
+                                      <NO.P>a)</NO.P>
+                                      <TXT>die Maßnahmen festzulegen, die von Versicherungsvermittlern oder -unternehmen nach vernünftigem Ermessen erwartet werden können, um bei der Ausübung von Versicherungsvertriebstätigkeiten Interessenkonflikte zu erkennen, zu verhindern, zu regeln und offenzulegen,</TXT>
+                                    </NP>
+                                  </ITEM>
+                                  <ITEM>
+                                    <NP>
+                                      <NO.P>b)</NO.P>
+                                      <TXT>geeignete Kriterien zur Bestimmung der Arten von Interessenkonflikten festzulegen, die den Interessen der Kunden oder potenziellen Kunden des Versicherungsvermittlers bzw. -unternehmens schaden könnten.</TXT>
+                                    </NP>
+                                  </ITEM>
+                                </LIST>
+                              </ALINEA>
+                            </PARAG>
+                          </ARTICLE>
+                          <ARTICLE IDENTIFIER="013D">
+                            <TI.ART>Artikel 13d</TI.ART>
+                            <STI.ART>Allgemeine Grundsätze und Kundeninformation</STI.ART>
+                            <PARAG IDENTIFIER="013D.001">
+                              <NO.PARAG>(1)</NO.PARAG>
+                              <ALINEA>Die Mitgliedstaaten schreiben vor, dass Versicherungsvermittler und -unternehmen bei Versicherungsvertriebstätigkeiten gegenüber ihren Kunden ehrlich, redlich und professionell in deren bestem Interesse handeln.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013D.002">
+                              <NO.PARAG>(2)</NO.PARAG>
+                              <ALINEA>Alle Informationen, einschließlich Marketingmitteilungen, die der Versicherungsvermittler bzw. das Versicherungsunternehmen an Kunden oder potenzielle Kunden richtet, müssen redlich, eindeutig und nicht irreführend sein. Marketingmitteilungen müssen eindeutig als solche erkennbar sein.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013D.003">
+                              <NO.PARAG>(3)</NO.PARAG>
+                              <ALINEA>Die Mitgliedstaaten können Versicherungsvermittlern oder -unternehmen die Annahme oder den Erhalt von Gebühren, Provisionen oder anderen monetären Vorteilen, die ihnen ein Dritter oder eine Person, die im Namen eines Dritten handelt, zahlt oder leistet, im Zusammenhang mit dem Vertrieb von Versicherungsanlageprodukten an Kunden untersagen.</ALINEA>
+                            </PARAG>
+                          </ARTICLE>
+                          <ARTICLE IDENTIFIER="013E">
+                            <TI.ART>Artikel 13e</TI.ART>
+                            <STI.ART>Ausübung der Befugnisübertragung</STI.ART>
+                            <PARAG IDENTIFIER="013E.001">
+                              <NO.PARAG>(1)</NO.PARAG>
+                              <ALINEA>Die Befugnis zum Erlass delegierter Rechtsakte wird der Kommission unter den in diesem Artikel festgelegten Bedingungen übertragen.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013E.002">
+                              <NO.PARAG>(2)</NO.PARAG>
+                              <ALINEA>Die Befugnis zum Erlass delegierter Rechtsakte gemäß Artikel 13c wird der Kommission ab<DATE ISO="20140702">2. Juli 2014</DATE>auf unbestimmte Zeit übertragen.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013E.003">
+                              <NO.PARAG>(3)</NO.PARAG>
+                              <ALINEA>Die Befugnisübertragung gemäß Artikel 13c kann vom Europäischen Parlament oder vom Rat jederzeit widerrufen werden. Der Beschluss über den Widerruf beendet die Übertragung der in diesem Beschluss angegebenen Befugnis. Er wird am Tag nach seiner Veröffentlichung im<HT TYPE="ITALIC">Amtsblatt der Europäischen Union</HT>oder zu einem im Beschluss über den Widerruf angegebenen späteren Zeitpunkt wirksam. Die Gültigkeit delegierter Rechtsakte, die bereits in Kraft sind, wird von dem Beschluss über den Widerruf nicht berührt.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013E.004">
+                              <NO.PARAG>(4)</NO.PARAG>
+                              <ALINEA>Sobald die Kommission einen delegierten Rechtsakt erlässt, übermittelt sie ihn gleichzeitig dem Europäischen Parlament und dem Rat.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="013E.005">
+                              <NO.PARAG>(5)</NO.PARAG>
+                              <ALINEA>Ein delegierter Rechtsakt, der gemäß Artikel 13c erlassen wurde, tritt nur in Kraft, wenn weder das Europäische Parlament noch der Rat innerhalb einer Frist von drei Monaten nach Übermittlung dieses Rechtsakts an das Europäische Parlament und den Rat Einwände erhoben haben oder wenn vor Ablauf dieser Frist das Europäische Parlament und der Rat beide der Kommission mitgeteilt haben, dass sie keine Einwände erheben werden. Auf Initiative des Europäischen Parlaments oder des Rates wird diese Frist um drei Monate verlängert.<QUOT.END CODE="201C" ID="QE0089" REF.START="QS0089"/>
+                              </ALINEA>
+                            </PARAG>
+                          </ARTICLE>
+                        </DIVISION>
+                      </QUOT.S>
+                    </P>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </ALINEA>
+          </ARTICLE>
+          <?CLG.MDFC ID="C003001M001000" IDREF="O003001M001000"?>
+          <ARTICLE IDENTIFIER="092">
+            <TI.ART>Artikel 92</TI.ART>
+            <STI.ART>Änderung der Richtlinie 2011/61/EU</STI.ART>
+            <ALINEA>
+              <P>Die Richtlinie 2011/61/EU wird wie folgt geändert:</P>
+              <LIST TYPE="ARAB">
+                <ITEM>
+                  <NP>
+                    <NO.P>1.</NO.P>
+                    <TXT>In Artikel 4 Absatz 1 Buchstabe r wird folgende Ziffer angefügt:</TXT>
+                    <P>
+                      <QUOT.S LEVEL="1">
+                        <LIST TYPE="roman">
+                          <ITEM>
+                            <NP>
+                              <NO.P>
+                                <QUOT.START CODE="201E" ID="QS0090" REF.END="QE0090"/>vii)</NO.P>
+                              <TXT>ein Mitgliedstaat, der nicht der Herkunftsmitgliedstaat ist und in dem ein EU-AIFM die Dienste gemäß Artikel 6 Absatz 4 erbringt;<QUOT.END CODE="201C" ID="QE0090" REF.START="QS0090"/>
+                              </TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </QUOT.S>
+                    </P>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>2.</NO.P>
+                    <TXT>Artikel 33 wird wie folgt geändert:</TXT>
+                    <P>
+                      <LIST TYPE="alpha">
+                        <ITEM>
+                          <NP>
+                            <NO.P>a)</NO.P>
+                            <TXT>Der Titel erhält folgende Fassung:</TXT>
+                            <P>
+                              <QUOT.S LEVEL="1">
+                                <STI.ART>
+                                  <QUOT.START CODE="201E" ID="QS0091" REF.END="QE0091"/>
+                                  <HT TYPE="NORMAL">Bedingungen für die Verwaltung von EU-AIF mit Sitz in anderen Mitgliedstaaten und für die Erbringung von Dienstleistungen in anderen Mitgliedstaaten</HT>
+                                  <QUOT.END CODE="201C" ID="QE0091" REF.START="QS0091"/>,</STI.ART>
+                              </QUOT.S>
+                            </P>
+                          </NP>
+                        </ITEM>
+                        <ITEM>
+                          <NP>
+                            <NO.P>b)</NO.P>
+                            <TXT>Absätze 1 und 2 erhalten folgende Fassung:</TXT>
+                            <?PAGE NO='124'?>
+                            <P>
+                              <QUOT.S LEVEL="1">
+                                <PARAG IDENTIFIER="033.001">
+                                  <NO.PARAG>
+                                    <QUOT.START CODE="201E" ID="QS0092" REF.END="QE0092"/>(1)</NO.PARAG>
+                                  <ALINEA>
+                                    <P>Die Mitgliedstaaten stellen sicher, dass ein zugelassener EU-AIFM entweder direkt oder indirekt über eine Zweigniederlassung</P>
+                                    <LIST TYPE="alpha">
+                                      <ITEM>
+                                        <NP>
+                                          <NO.P>a)</NO.P>
+                                          <TXT>EU-AIF mit Sitz in einem anderen Mitgliedstaat verwalten kann, sofern der AIFM für die Verwaltung dieser Art von AIF zugelassen ist,</TXT>
+                                        </NP>
+                                      </ITEM>
+                                      <ITEM>
+                                        <NP>
+                                          <NO.P>b)</NO.P>
+                                          <TXT>in einem anderen Mitgliedstaat die Dienste gemäß Artikel 6 Absatz 4 erbringen kann, für die ihm eine Zulassung erteilt wurde.</TXT>
+                                        </NP>
+                                      </ITEM>
+                                    </LIST>
+                                  </ALINEA>
+                                </PARAG>
+                                <PARAG IDENTIFIER="033.002">
+                                  <NO.PARAG>(2)</NO.PARAG>
+                                  <ALINEA>
+                                    <P>Ein AIFM, der die erstmalige Erbringung der in Absatz 1 genannten Tätigkeiten und Dienstleistungen beabsichtigt, übermittelt den zuständigen Behörden seines Herkunftsmitgliedstaats folgende Angaben:</P>
+                                    <LIST TYPE="alpha">
+                                      <ITEM>
+                                        <NP>
+                                          <NO.P>a)</NO.P>
+                                          <TXT>den Mitgliedstaat, in dem er AIF direkt oder über eine Zweigniederlassung zu verwalten bzw. die Dienste gemäß Artikel 6 Absatz 4 zu erbringen beabsichtigt,</TXT>
+                                        </NP>
+                                      </ITEM>
+                                      <ITEM>
+                                        <NP>
+                                          <NO.P>b)</NO.P>
+                                          <TXT>einen Geschäftsplan, aus dem insbesondere hervorgeht, welche Dienstleistungen er zu erbringen bzw. welche AIF er zu verwalten beabsichtigt.<QUOT.END CODE="201C" ID="QE0092" REF.START="QS0092"/>
+                                          </TXT>
+                                        </NP>
+                                      </ITEM>
+                                    </LIST>
+                                  </ALINEA>
+                                </PARAG>
+                              </QUOT.S>
+                            </P>
+                          </NP>
+                        </ITEM>
+                      </LIST>
+                    </P>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </ALINEA>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="093">
+            <TI.ART>Artikel 93</TI.ART>
+            <STI.ART>Umsetzung</STI.ART>
+            <PARAG IDENTIFIER="093.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten erlassen und veröffentlichen bis zum<?CLG.MDFO ID="O002001M010000" IDREF="C002001M010000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:7" MOD.LEVEL="1"?>
+                <DATE ISO="20170703">3. Juli 2017</DATE>
+                <?CLG.MDFC ID="C002001M010000" IDREF="O002001M010000"?>die Rechts- und Verwaltungsvorschriften, die erforderlich sind, um dieser Richtlinie nachzukommen. Sie teilen der Kommission unverzüglich den Wortlaut dieser Maßnahmen mit.</ALINEA>
+              <ALINEA>Die Mitgliedstaaten wenden diese Maßnahmen ab dem<?CLG.MDFO ID="O002001M011000" IDREF="C002001M011000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:7" MOD.LEVEL="1"?>
+                <DATE ISO="20180103">3. Januar 2018</DATE>
+                <?CLG.MDFC ID="C002001M011000" IDREF="O002001M011000"?>an, mit Ausnahme der Bestimmungen zur Umsetzung des Artikels 65 Absatz 2, die ab dem<?CLG.MDFO ID="O002001M012000" IDREF="C002001M012000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:7" MOD.LEVEL="1"?>
+                <DATE ISO="20190903">3. September 2019</DATE>
+                <?CLG.MDFC ID="C002001M012000" IDREF="O002001M012000"?>angewandt werden.</ALINEA>
+              <ALINEA>Wenn die Mitgliedstaaten diese Vorschriften erlassen, nehmen sie in den Vorschriften selbst oder durch einen Hinweis bei der amtlichen Veröffentlichung auf diese Richtlinie Bezug. Die Mitgliedstaaten regeln die Einzelheiten dieser Bezugnahme. In diese Vorschriften fügen sie die Erklärung ein, dass Bezugnahmen in den geltenden Rechts- und Verwaltungsvorschriften auf die durch die vorliegende Richtlinie geänderten Richtlinien als Bezugnahmen auf die vorliegende Richtlinie gelten. Die Mitgliedstaaten regeln die Einzelheiten dieser Bezugnahme und die Formulierung dieser Erklärung.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="093.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten wenden die Maßnahmen nach Artikel 92 ab dem<DATE ISO="20150703">3. Juli 2015</DATE>an.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="093.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>Die Mitgliedstaaten teilen der Kommission und der ESMA den Wortlaut der wichtigsten innerstaatlichen Rechtsvorschriften mit, die sie auf dem unter diese Richtlinie fallenden Gebiet erlassen.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="094">
+            <TI.ART>Artikel 94</TI.ART>
+            <STI.ART>Aufhebung</STI.ART>
+            <ALINEA>Die Richtlinie 2004/39/EG in der Fassung der in Anhang III Teil A der vorliegenden Richtlinie aufgeführten Rechtsakte wird unbeschadet der Verpflichtungen der Mitgliedstaaten zur Einhaltung der in dessen Anhang III Teil B der vorliegenden Richtlinie aufgeführten Fristen für die Umsetzung der Richtlinien in nationales Recht mit Wirkung vom<?CLG.MDFO ID="O002001M013000" IDREF="C002001M013000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:8" MOD.LEVEL="1"?>
+              <DATE ISO="20180103">3. Januar 2018</DATE>
+              <?CLG.MDFC ID="C002001M013000" IDREF="O002001M013000"?>aufgehoben.</ALINEA>
+            <?PAGE NO='125'?>
+            <ALINEA>Bezugnahmen auf die Richtlinie 2004/39/EG oder die Richtlinie 93/22/EWG gelten als Bezugnahmen auf die vorliegende Richtlinie oder die Verordnung (EU) Nr. 600/2014 und sind nach Maßgabe der Entsprechungstabellen in Anhang IV der vorliegenden Richtlinie zu lesen.</ALINEA>
+            <ALINEA>Bezugnahmen auf Begriffsbestimmungen oder Artikel der Richtlinie 2004/39/EG oder der Richtlinie 93/22/EWG gelten als Bezugnahmen auf die entsprechenden Begriffsbestimmungen oder Artikel der vorliegenden Richtlinie.</ALINEA>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="095">
+            <TI.ART>Artikel 95</TI.ART>
+            <STI.ART>Übergangsbestimmungen</STI.ART>
+            <PARAG IDENTIFIER="095.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Bis zum<?CLG.MDFO ID="O002001M014000" IDREF="C002001M014000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:9" MOD.LEVEL="1"?>
+                  <DATE ISO="20210103">3. Januar 2021</DATE>
+                  <?CLG.MDFC ID="C002001M014000" IDREF="O002001M014000"?>
+                </P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>a)</NO.P>
+                      <TXT>gelten für C.6-Energiederivatkontrakte, die von nichtfinanziellen Gegenparteien im Sinne von Artikel 10 Absatz 1 der Verordnung (EU) Nr. 648/2012 oder von nichtfinanziellen Gegenparteien, die nach dem<?CLG.MDFO ID="O002001M015000" IDREF="C002001M015000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32016L1034" ACTIVE.LOC="AR:1;PT:9" MOD.LEVEL="1"?>
+                        <DATE ISO="20180103">3. Januar 2018</DATE>
+                        <?CLG.MDFC ID="C002001M015000" IDREF="O002001M015000"?>erstmals als Wertpapierfirmen zugelassen werden, eingegangen werden, weder die Clearingpflicht gemäß Artikel 4 der Verordnung (EU) Nr. 648/2012 (Verordnung über europäische Marktinfrastrukturen, EMIR) noch die Risikominderungstechniken gemäß Artikel 11 Absatz 3 und</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>b)</NO.P>
+                      <TXT>gelten derlei C.6-Energiederivatkontrakte nicht als OTC-Derivatkontrakte für die Zwecke des Clearingschwellenwerts gemäß Artikel 10 Absatz 1 der Verordnung (EU) Nr. 648/2012.</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+              <ALINEA>Entsprechende C.6-Energiederivatkontrakte, für die die Übergangsregelung gemäß Unterabsatz 1 gilt, unterliegen allen anderen Anforderungen der Verordnung (EU) Nr. 648/2012.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="095.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Die Ausnahmeregelung gemäß Absatz 1 wird von der jeweils zuständigen Behörde gewährt. Die zuständige Behörde teilt der ESMA mit, für welche C.6-Energiederivatkontrakte die Ausnahmeregelung gemäß Absatz 1 gewährt worden ist, und die ESMA veröffentlicht auf ihrer Website ein Verzeichnis dieser C.6-Energiederivatkontrakte.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="096">
+            <TI.ART>Artikel 96</TI.ART>
+            <STI.ART>Inkrafttreten</STI.ART>
+            <ALINEA>Diese Richtlinie tritt am 20. Tag nach ihrer Veröffentlichung im<HT TYPE="ITALIC">Amtsblatt der Europäischen Union</HT>in Kraft.</ALINEA>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="097">
+            <TI.ART>Artikel 97</TI.ART>
+            <STI.ART>Adressaten</STI.ART>
+            <ALINEA>Diese Richtlinie ist an die Mitgliedstaaten gerichtet.</ALINEA>
+          </ARTICLE>
+        </DIVISION>
+      </ENACTING.TERMS>
+      <?PAGE NO='126'?>
+      <CONS.ANNEX>
+        <TITLE>
+          <TI>
+            <P>ANHANG I</P>
+          </TI>
+        </TITLE>
+        <CONTENTS>
+          <GR.SEQ LEVEL="1">
+            <TITLE>
+              <TI>
+                <P>
+                  <HT TYPE="BOLD">LISTE DER DIENSTLEISTUNGEN UND TÄTIGKEITEN UND FINANZINSTRUMENTE</HT>
+                </P>
+              </TI>
+            </TITLE>
+            <GR.SEQ LEVEL="2">
+              <TITLE>
+                <TI>
+                  <P>ABSCHNITT A</P>
+                </TI>
+                <STI>
+                  <P>
+                    <HT TYPE="BOLD">Wertpapierdienstleistungen und Anlagetätigkeiten</HT>
+                  </P>
+                </STI>
+              </TITLE>
+              <LIST TYPE="ARAB">
+                <ITEM>
+                  <NP>
+                    <NO.P>(1)</NO.P>
+                    <TXT>Annahme und Übermittlung von Aufträgen, die ein oder mehrere Finanzinstrument(e) zum Gegenstand haben;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(2)</NO.P>
+                    <TXT>Ausführung von Aufträgen im Namen von Kunden;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(3)</NO.P>
+                    <TXT>Handel für eigene Rechnung;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(4)</NO.P>
+                    <TXT>Portfolio-Verwaltung;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(5)</NO.P>
+                    <TXT>Anlageberatung;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(6)</NO.P>
+                    <TXT>Übernahme der Emission von Finanzinstrumenten und/oder Platzierung von Finanzinstrumenten mit fester Übernahmeverpflichtung;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(7)</NO.P>
+                    <TXT>Platzierung von Finanzinstrumenten ohne feste Übernahmeverpflichtung;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(8)</NO.P>
+                    <TXT>Betrieb eines MTF;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(9)</NO.P>
+                    <TXT>Betrieb eines OTF.</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </GR.SEQ>
+            <GR.SEQ LEVEL="2">
+              <TITLE>
+                <TI>
+                  <P>ABSCHNITT B</P>
+                </TI>
+                <STI>
+                  <P>
+                    <HT TYPE="BOLD">Nebendienstleistungen</HT>
+                  </P>
+                </STI>
+              </TITLE>
+              <LIST TYPE="ARAB">
+                <?CLG.MDFO ID="O001001M003000" IDREF="C001001M003000" ACTION="REPLACED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32014R0909" ACTIVE.LOC="AR:71;PT:3" MOD.LEVEL="1"?>
+                <ITEM>
+                  <NP>
+                    <NO.P>(1)</NO.P>
+                    <TXT>Verwahrung und Verwaltung von Finanzinstrumenten für Rechnung von Kunden, einschließlich Depotverwahrung und verbundener Dienstleistungen wie Cash-Management oder Sicherheitenverwaltung und mit Ausnahme der Bereitstellung und Führung von Wertpapierkonten auf oberster Ebene (<QUOT.START CODE="201E" ID="QS0093" REF.END="QE0093"/>zentrale Kontenführung<QUOT.END CODE="201C" ID="QE0093" REF.START="QS0093"/>) gemäß Abschnitt A Nummer 2 des Anhangs zur Verordnung (EU) Nr. 909/2014;</TXT>
+                  </NP>
+                </ITEM>
+                <?CLG.MDFC ID="C001001M003000" IDREF="O001001M003000"?>
+                <ITEM>
+                  <NP>
+                    <NO.P>(2)</NO.P>
+                    <TXT>Gewährung von Krediten oder Darlehen an Anleger für die Durchführung von Geschäften mit einem oder mehreren Finanzinstrumenten, sofern die kredit- oder darlehensgewährende Unternehmen an diesen Geschäften beteiligt ist;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(3)</NO.P>
+                    <TXT>Beratung von Unternehmen hinsichtlich der Kapitalstrukturierung, der branchenspezifischen Strategie und damit zusammenhängender Fragen sowie Beratung und Dienstleistungen bei Unternehmensfusionen und -aufkäufen;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(4)</NO.P>
+                    <TXT>Devisengeschäfte, wenn diese im Zusammenhang mit der Erbringung von Wertpapierdienstleistungen stehen;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(5)</NO.P>
+                    <TXT>Wertpapier- und Finanzanalyse oder sonstige Formen allgemeiner Empfehlungen, die Geschäfte mit Finanzinstrumenten betreffen;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(6)</NO.P>
+                    <TXT>Dienstleistungen im Zusammenhang mit der Übernahme von Emissionen;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(7)</NO.P>
+                    <TXT>Wertpapierdienstleistungen und Anlagetätigkeiten sowie Nebendienstleistungen des in Anhang I Abschnitt A oder B enthaltenen Typs 1 betreffend den Basiswert der in Abschnitt C Nummern 5, 6, 7 und 10 enthaltenen Derivate, wenn diese mit der Erbringung der Wertpapier- oder der Nebendienstleistung in Zusammenhang stehen.</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </GR.SEQ>
+            <GR.SEQ LEVEL="2">
+              <TITLE>
+                <TI>
+                  <P>ABSCHNITT C</P>
+                </TI>
+                <STI>
+                  <P>
+                    <HT TYPE="BOLD">Finanzinstrumente</HT>
+                  </P>
+                </STI>
+              </TITLE>
+              <LIST TYPE="ARAB">
+                <ITEM>
+                  <NP>
+                    <NO.P>(1)</NO.P>
+                    <TXT>Übertragbare Wertpapiere;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(2)</NO.P>
+                    <TXT>Geldmarktinstrumente;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(3)</NO.P>
+                    <TXT>Anteile an Organismen für gemeinsame Anlagen;</TXT>
+                  </NP>
+                </ITEM>
+                <?CLG.MDFO ID="O002008M007000" IDREF="C002008M007000" ACTION="REPLACED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32014L0065R(11)" ACTIVE.LOC="LI:0;EL:7" MOD.LEVEL="1"?>
+                <ITEM>
+                  <NP>
+                    <NO.P>(4)</NO.P>
+                    <TXT>Optionen, Terminkontrakte (Futures), Swaps, außerbörsliche Zinstermingeschäfte (Forward Rate Agreements) und alle anderen Derivatkontrakte in Bezug auf Wertpapiere, Währungen, Zinssätze oder -erträge, Emissionszertifikate oder andere Derivat-Instrumente, finanzielle Indizes oder finanzielle Messgrößen, die effektiv geliefert oder bar abgerechnet werden können;</TXT>
+                  </NP>
+                </ITEM>
+                <?CLG.MDFC ID="C002008M007000" IDREF="O002008M007000"?>
+                <?PAGE NO='127'?>
+                <ITEM>
+                  <NP>
+                    <NO.P>(5)</NO.P>
+                    <TXT>Optionen, Terminkontrakte (Futures), Swaps, Termingeschäfte (Forwards) und alle anderen Derivatkontrakte in Bezug auf Waren, die bar abgerechnet werden müssen oder auf Wunsch einer der Parteien bar abgerechnet werden können, ohne dass ein Ausfall oder ein anderes Beendigungsereignis vorliegt;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(6)</NO.P>
+                    <TXT>Optionen, Terminkontrakte (Futures), Swaps und alle anderen Derivatkontrakte in Bezug auf Waren, die effektiv geliefert werden können, vorausgesetzt, sie werden an einem geregelten Markt, über ein MTF oder über ein OTF gehandelt; ausgenommen davon sind über ein OTF gehandelte Energiegroßhandelsprodukte, die effektiv geliefert werden müssen;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(7)</NO.P>
+                    <TXT>Optionen, Terminkontrakte (Futures), Swaps, Termingeschäfte (Forwards) und alle anderen Derivatkontrakte in Bezug auf Waren, die effektiv geliefert werden können, die sonst nicht in Nummer 6 dieses Abschnitts genannt sind und nicht kommerziellen Zwecken dienen, die die Merkmale anderer derivativer Finanzinstrumente aufweisen;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(8)</NO.P>
+                    <TXT>Derivative Instrumente für den Transfer von Kreditrisiken;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(9)</NO.P>
+                    <TXT>Finanzielle Differenzgeschäfte;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(10)</NO.P>
+                    <TXT>Optionen, Terminkontrakte (Futures), Swaps, außerbörsliche Zinstermingeschäfte (Forward Rate Agreements) und alle anderen Derivatkontrakte in Bezug auf Klimavariablen, Frachtsätze, Inflationsraten oder andere offizielle Wirtschaftsstatistiken, die bar abgerechnet werden müssen oder auf Wunsch einer der Parteien bar abgerechnet werden können, ohne dass ein Ausfall oder ein anderes Beendigungsereignis vorliegt, sowie alle anderen Derivatkontrakte<?CLG.MDFO ID="O002008M008000" IDREF="C002008M008000" ACTION="REPLACED" LEVEL="TEXT" COMMAND="EXPLICIT" ACTIVE.DOC="32014L0065R(11)" ACTIVE.LOC="LI:0;EL:8" MOD.LEVEL="1"?>in Bezug auf Vermögenswerte, Rechte, Obligationen, Indizes und Messgrößen, die sonst nicht im vorliegenden Abschnitt C genannt sind<?CLG.MDFC ID="C002008M008000" IDREF="O002008M008000"?>und die die Merkmale anderer derivativer Finanzinstrumente aufweisen, wobei unter anderem berücksichtigt wird, ob sie auf einem geregelten Markt, einem OTF oder einem MTF gehandelt werden;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(11)</NO.P>
+                    <TXT>Emissionszertifikate, die aus Anteilen bestehen, deren Übereinstimmung mit den Anforderungen der Richtlinie 2003/87/EG (Emissionshandelssystem) anerkannt ist.</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </GR.SEQ>
+            <GR.SEQ LEVEL="2">
+              <TITLE>
+                <TI>
+                  <P>ABSCHNITT D</P>
+                </TI>
+                <STI>
+                  <P>
+                    <HT TYPE="BOLD">Datenbereitstellungsdienstleistungen</HT>
+                  </P>
+                </STI>
+              </TITLE>
+              <LIST TYPE="ARAB">
+                <ITEM>
+                  <NP>
+                    <NO.P>(1)</NO.P>
+                    <TXT>Betrieb eines APA;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(2)</NO.P>
+                    <TXT>Betrieb CTP;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(3)</NO.P>
+                    <TXT>Betrieb eines ARM.</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </GR.SEQ>
+          </GR.SEQ>
+        </CONTENTS>
+      </CONS.ANNEX>
+      <?PAGE NO='128'?>
+      <?PAGE NO='131'?>
+      <CONS.ANNEX>
+        <TITLE>
+          <TI>
+            <P>ANHANG III</P>
+          </TI>
+        </TITLE>
+        <CONTENTS>
+          <GR.SEQ LEVEL="1">
+            <TITLE>
+              <TI>
+                <P>TEIL A</P>
+              </TI>
+              <STI>
+                <P>
+                  <HT TYPE="BOLD">Aufgehobene Richtlinie mit der Liste ihrer nachfolgenden Änderungen</HT>
+                </P>
+                <P>(gemäß Artikel 94)</P>
+              </STI>
+            </TITLE>
+            <P>Richtlinie 2004/39/EG des Europäischen Parlaments und des Rates (<REF.DOC.OJ COLL="L" DATE.PUB="20040430" NO.OJ="145" PAGE.FIRST="1">ABl. L 145 vom 30.4.2004, S. 1</REF.DOC.OJ>)</P>
+            <P>Richtlinie 2006/31/EG des Europäischen Parlaments und des Rates (<REF.DOC.OJ COLL="L" DATE.PUB="20060427" NO.OJ="114" PAGE.FIRST="60">ABl. L 114 vom 27.4.2006, S. 60</REF.DOC.OJ>)</P>
+            <P>Richtlinie 2007/44/EG des Europäischen Parlaments und des Rates (<REF.DOC.OJ COLL="L" DATE.PUB="20070921" NO.OJ="247" PAGE.FIRST="1">ABl. L 247 vom 21.9.2007, S. 1</REF.DOC.OJ>)</P>
+            <P>Richtlinie 2008/10/EG des Europäischen Parlaments und des Rates (<REF.DOC.OJ COLL="L" DATE.PUB="20080319" NO.OJ="076" PAGE.FIRST="33">ABl. L 76 vom 19.3.2008, S. 33</REF.DOC.OJ>)</P>
+            <P>Richtlinie 2010/78/EU des Europäischen Parlaments und des Rates (<REF.DOC.OJ COLL="L" DATE.PUB="20101215" NO.OJ="331" PAGE.FIRST="120">ABl. L 331 vom 15.12.2010, S. 120</REF.DOC.OJ>)</P>
+          </GR.SEQ>
+          <GR.SEQ LEVEL="1">
+            <TITLE>
+              <TI>
+                <P>TEIL B</P>
+              </TI>
+              <STI>
+                <P>
+                  <HT TYPE="BOLD">Fristen für die Umsetzung in innerstaatliches Recht</HT>
+                </P>
+                <P>(gemäß Artikel 94)</P>
+              </STI>
+            </TITLE>
+            <P>Richtlinie 2004/39/EG</P>
+            <TBL COLS="2" NO.SEQ="0001">
+              <CORPUS>
+                <ROW>
+                  <CELL COL="1">Umsetzungsfrist</CELL>
+                  <CELL COL="2">
+                    <DATE ISO="20070131">31. Januar 2007</DATE>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Anwendungsfrist</CELL>
+                  <CELL COL="2">
+                    <DATE ISO="20071101">1. November 2007</DATE>
+                  </CELL>
+                </ROW>
+              </CORPUS>
+            </TBL>
+            <P>Richtlinie 2006/31/EG</P>
+            <TBL COLS="2" NO.SEQ="0002">
+              <CORPUS>
+                <ROW>
+                  <CELL COL="1">Umsetzungsfrist</CELL>
+                  <CELL COL="2">
+                    <DATE ISO="20070131">31. Januar 2007</DATE>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Anwendungsfrist</CELL>
+                  <CELL COL="2">
+                    <DATE ISO="20071101">1. November 2007</DATE>
+                  </CELL>
+                </ROW>
+              </CORPUS>
+            </TBL>
+            <P>Richtlinie 2007/44/EG</P>
+            <TBL COLS="2" NO.SEQ="0003">
+              <CORPUS>
+                <ROW>
+                  <CELL COL="1">Umsetzungsfrist</CELL>
+                  <CELL COL="2">
+                    <DATE ISO="20090321">21. März 2009</DATE>
+                  </CELL>
+                </ROW>
+              </CORPUS>
+            </TBL>
+            <P>Richtlinie 2010/78/EU</P>
+            <TBL COLS="2" NO.SEQ="0004">
+              <CORPUS>
+                <ROW>
+                  <CELL COL="1">Umsetzungsfrist</CELL>
+                  <CELL COL="2">
+                    <DATE ISO="20111231">31. Dezember 2011</DATE>
+                  </CELL>
+                </ROW>
+              </CORPUS>
+            </TBL>
+          </GR.SEQ>
+        </CONTENTS>
+      </CONS.ANNEX>
+      <?PAGE NO='132'?>
+      <CONS.ANNEX>
+        <TITLE>
+          <TI>
+            <P>ANHANG IV</P>
+          </TI>
+        </TITLE>
+        <CONTENTS>
+          <GR.SEQ LEVEL="1">
+            <TITLE>
+              <TI>
+                <P>
+                  <HT TYPE="BOLD">Entsprechungstabelle, genannt in Artikel 94</HT>
+                </P>
+              </TI>
+            </TITLE>
+            <TBL COLS="3" NO.SEQ="0005">
+              <CORPUS>
+                <ROW TYPE="HEADER">
+                  <CELL COL="1" TYPE="HEADER">Richtlinie 2004/39/EG</CELL>
+                  <CELL COL="2" TYPE="HEADER">Richtlinie 2014/65/EU</CELL>
+                  <CELL COL="3" TYPE="HEADER">Verordnung (EU) Nr. 600/2014</CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 1 Absatz 1</CELL>
+                  <CELL COL="2">Artikel 1 Absatz 1</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 4 Absatz 1 Unterabsatz 7</CELL>
+                  <CELL COL="2">Artikel 4 Absatz 1 Unterabsatz 20</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 4 Absatz 1 Unterabsatz 8</CELL>
+                  <CELL COL="2">Artikel 4 Absatz 1 Unterabsatz 7</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 4 Absatz 1 Unterabsatz 9</CELL>
+                  <CELL COL="2">Artikel 4 Absatz 1 Unterabsatz 8</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 51 Absatz 5</CELL>
+                  <CELL COL="2">Artikel 71 Absatz 5</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 51 Absatz 6</CELL>
+                  <CELL COL="2">Artikel 71 Absatz 6</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 52 Absatz 1</CELL>
+                  <CELL COL="2">Artikel 74 Absatz 1</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 52 Absatz 2</CELL>
+                  <CELL COL="2">Artikel 74 Absatz 2</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 53 Absatz 1</CELL>
+                  <CELL COL="2">Artikel 75 Absatz 1</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 53 Absatz 2</CELL>
+                  <CELL COL="2">Artikel 75 Absatz 2</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 53 Absatz 3</CELL>
+                  <CELL COL="2">Artikel 75 Absatz 3</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 54 Absatz 1</CELL>
+                  <CELL COL="2">Artikel 76 Absatz 1</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 62 Absatz 3</CELL>
+                  <CELL COL="2">Artikel 86 Absatz 3</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 62 Absatz 4</CELL>
+                  <CELL COL="2">Artikel 86 Absatz 4</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 62a Absatz 1</CELL>
+                  <CELL COL="2">Artikel 87 Absatz 1</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 62a Absatz 2</CELL>
+                  <CELL COL="2">Artikel 87 Absatz 2</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 63 Absatz 1</CELL>
+                  <CELL COL="2">Artikel 88 Absatz 1</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+                <ROW>
+                  <CELL COL="1">Artikel 63 Absatz 2</CELL>
+                  <CELL COL="2">Artikel 88 Absatz 2</CELL>
+                  <CELL COL="3">
+                    <IE/>
+                  </CELL>
+                </ROW>
+              </CORPUS>
+            </TBL>
+          </GR.SEQ>
+        </CONTENTS>
+      </CONS.ANNEX>
+    </CONS.DOC>
+  </CONS.ACT>
+</LEXP.COMBINED>

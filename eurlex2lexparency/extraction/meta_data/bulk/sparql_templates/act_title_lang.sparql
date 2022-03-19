@@ -1,0 +1,7 @@
+SELECT ?title
+WHERE {{
+	?s eli:is_realized_by ?exp .
+    ?s eli:id_local '{celex}' .
+    ?exp eli:language lang:{lang3} .
+    ?exp eli:title ?title .
+}}

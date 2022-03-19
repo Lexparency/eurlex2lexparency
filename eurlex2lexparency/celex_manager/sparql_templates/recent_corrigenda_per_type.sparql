@@ -1,0 +1,12 @@
+SELECT DISTINCT ?celex ?number ?lang
+WHERE {{
+   ?basis cdm:resource_legal_id_celex ?celex .
+   ?s cdm:resource_legal_corrects_resource_legal ?basis .
+   ?s cdm:work_date_document ?date .
+   ?s cdm:work_has_resource-type rt:CORRIGENDUM .
+   ?s cdm:resource_legal_type '{type}'^^xsd:string .
+   ?s cdm:resource_legal_number_corrigendum ?number .
+   ?expression cdm:expression_belongs_to_work ?s .
+   ?expression cdm:expression_uses_language ?lang .
+   FILTER ( str(?date) > '{date}' ) .
+}}

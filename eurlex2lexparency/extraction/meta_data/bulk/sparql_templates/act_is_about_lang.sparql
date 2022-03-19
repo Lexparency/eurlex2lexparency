@@ -1,0 +1,7 @@
+SELECT ?label
+WHERE {{
+    ?s eli:id_local '{celex}' .
+	?s eli:is_about ?a .
+    ?a skos:prefLabel ?label .
+    FILTER( lang(?label) = '{language}' ) .
+}}

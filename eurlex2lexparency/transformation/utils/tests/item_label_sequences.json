@@ -1,0 +1,120 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "items": [
+        {"axis": "alpha", "value": "a"},
+        {"axis": "alpha", "value": "b"},
+        {"axis": "alpha", "value": "c"},
+        {"axis": "alpha", "value": "d"},
+        {"axis": "alpha", "value": "e"},
+        {"axis": "alpha", "value": "f"},
+        {"axis": "alpha", "value": "g"},
+        {"axis": "alpha", "value": "h"},
+        {"axis": "alpha", "value": "i"},
+        {"axis": "roman", "value": "i"},
+        {"axis": "roman", "value": "ii"},
+        {"axis": "roman", "value": "iii"},
+        {"axis": "alpha", "value": "j"}
+      ]
+    },
+    {
+      "id": 2,
+      "items": [
+        {"axis": "alpha", "value": "a"},
+        {"axis": "alpha", "value": "b"},
+        {"axis": "alpha", "value": "c"},
+        {"axis": "alpha", "value": "d"},
+        {"axis": "alpha", "value": "e"},
+        {"axis": "alpha", "value": "f"},
+        {"axis": "alpha", "value": "g"},
+        {"axis": "alpha", "value": "h"},
+        {"axis": "alpha", "value": "i"},
+        {"axis": "alpha", "value": "j"},
+        {"axis": "alpha", "value": "k"},
+        {"axis": "alpha", "value": "l"},
+        {"axis": "alpha", "value": "m"},
+        {"axis": "alpha", "value": "n"},
+        {"axis": "alpha", "value": "o"},
+        {"axis": "alpha", "value": "p"},
+        {"axis": "alpha", "value": "q"},
+        {"axis": "alpha", "value": "r"},
+        {"axis": "alpha", "value": "s"},
+        {"axis": "alpha", "value": "t"},
+        {"axis": "alpha", "value": "u"},
+        {"axis": "roman", "value": "i"},
+        {"axis": "roman", "value": "ii"},
+        {"axis": "roman", "value": "iii"},
+        {"axis": "roman", "value": "iv"},
+        {"axis": "alpha", "value": "v"},
+        {"axis": "alpha", "value": "w"}
+      ]
+    },
+    {
+      "id": 3,
+      "items": [
+        {"axis": "alpha", "value": "a"},
+        {"axis": "alpha", "value": "b"},
+        {"axis": "alpha", "value": "c"},
+        {"axis": "alpha", "value": "d"},
+        {"axis": "alpha", "value": "e"},
+        {"axis": "alpha", "value": "f"},
+        {"axis": "alpha", "value": "g"},
+        {"axis": "alpha", "value": "h"},
+        {"axis": "alpha", "value": "i"},
+        {"axis": "alpha", "value": "j"},
+        {"axis": "alpha", "value": "k"},
+        {"axis": "alpha", "value": "l"},
+        {"axis": "alpha", "value": "m"},
+        {"axis": "alpha", "value": "n"},
+        {"axis": "alpha", "value": "o"},
+        {"axis": "alpha", "value": "p"},
+        {"axis": "alpha", "value": "q"},
+        {"axis": "alpha", "value": "r"},
+        {"axis": "alpha", "value": "s"},
+        {"axis": "alpha", "value": "t"},
+        {"axis": "alpha", "value": "u"},
+        {"axis": "roman", "value": "i"},
+        {"axis": "roman", "value": "ii"},
+        {"axis": "roman", "value": "iii"},
+        {"axis": "roman", "value": "iv"},
+        {"axis": "roman", "value": "v"}
+      ]
+    },
+    {
+      "id": 4,
+      "items": [
+        {"axis": "alpha", "value": "a"},
+        {"axis": "alpha", "value": "b"},
+        {"axis": "alpha", "value": "c"},
+        {"axis": "alpha", "value": "d"},
+        {"axis": "alpha", "value": "e"},
+        {"axis": "alpha", "value": "f"},
+        {"axis": "alpha", "value": "g"},
+        {"axis": "alpha", "value": "h"},
+        {"axis": "roman", "value": "i"},
+        {"axis": "roman", "value": "ii"},
+        {"axis": "roman", "value": "iii"},
+        {"axis": "alpha", "value": "i"}
+      ]
+    },
+    {
+      "id": 5,
+      "items": [
+        {"axis": "alpha", "value": "a"},
+        {"axis": "alpha", "value": "b"},
+        {"axis": "alpha", "value": "c"},
+        {"axis": "alpha", "value": "d"},
+        {"axis": "alpha", "value": "e"},
+        {"axis": "alpha", "value": "f"},
+        {"axis": "alpha", "value": "g"},
+        {"axis": "alpha", "value": "h"},
+        {"axis": "roman", "value": "i"},
+        {"axis": "roman", "value": "ii"},
+        {"axis": "roman", "value": "iii"},
+        {"axis": "alpha", "value": "i"},
+        {"axis": "alpha", "value": "j"}
+      ]
+    }
+  ]
+}

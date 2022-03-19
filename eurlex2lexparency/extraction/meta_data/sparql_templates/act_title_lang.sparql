@@ -1,0 +1,7 @@
+SELECT DISTINCT ?value
+WHERE {{
+   ?exp cdm:expression_title ?value .
+   ?exp cdm:expression_uses_language lang:{lang3} .
+   ?exp cdm:expression_belongs_to_work ?s .
+   ?s cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+}}

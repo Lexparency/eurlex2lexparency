@@ -1,0 +1,1044 @@
+<LEXP.COMBINED>
+  <ACT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd">
+    <BIB.INSTANCE>
+      <DOCUMENT.REF FILE="L_2013176DE.01000101.doc.xml">
+        <COLL>L</COLL>
+        <NO.OJ>176</NO.OJ>
+        <YEAR>2013</YEAR>
+        <LG.OJ>DE</LG.OJ>
+        <PAGE.FIRST>1</PAGE.FIRST>
+        <PAGE.SEQ>1</PAGE.SEQ>
+        <VOLUME.REF>01</VOLUME.REF>
+      </DOCUMENT.REF>
+      <EEA/>
+      <DATE ISO="20130626">20130626</DATE>
+      <LG.DOC>DE</LG.DOC>
+      <NO.SEQ>0001</NO.SEQ>
+      <PAGE.FIRST>1</PAGE.FIRST>
+      <PAGE.SEQ>1</PAGE.SEQ>
+      <PAGE.LAST>294</PAGE.LAST>
+      <PAGE.TOTAL>294</PAGE.TOTAL>
+      <NO.DOC FORMAT="NY" TYPE="OJ">
+        <NO.CURRENT>575</NO.CURRENT>
+        <YEAR>2013</YEAR>
+        <COM>EU</COM>
+      </NO.DOC>
+    </BIB.INSTANCE>
+    <TITLE>
+      <TI>
+        <P><HT TYPE="UC">Verordnung</HT> (EU) Nr. 575/2013 <HT TYPE="UC">des Europäischen Parlaments und des Rates</HT></P>
+        <P>vom <DATE ISO="20130626">26. Juni 2013</DATE></P>
+        <P>über Aufsichtsanforderungen an Kreditinstitute und Wertpapierfirmen und zur Änderung der Verordnung (EU) Nr.&#160;646/2012</P>
+        <P>(Text von Bedeutung für den EWR)</P>
+      </TI>
+    </TITLE>
+    <PREAMBLE>
+      <PREAMBLE.INIT>DAS EUROPÄISCHE PARLAMENT UND DER RAT DER EUROPÄISCHEN UNION &#8212;</PREAMBLE.INIT>
+      <GR.VISA>
+        <VISA>gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union, insbesondere auf Artikel 114,</VISA>
+        <VISA>auf Vorschlag der Europäischen Kommission,</VISA>
+        <VISA>nach Zuleitung des Entwurfs des Gesetzgebungsakts an die nationalen Parlamente,</VISA>
+        <VISA>nach Stellungnahme der Europäischen Zentralbank<NOTE NOTE.ID="E0001" NUMBERING="ARAB" TYPE="FOOTNOTE"><P><REF.DOC.OJ COLL="C" DATE.PUB="20120411" NO.OJ="105" PAGE.FIRST="1">ABl. C 105 vom 11.4.2012, S. 1</REF.DOC.OJ>.</P></NOTE>,</VISA>
+        <VISA>nach Stellungnahme des Europäischen Wirtschafts- und Sozialausschusses<NOTE NOTE.ID="E0002" NUMBERING="ARAB" TYPE="FOOTNOTE"><P><REF.DOC.OJ COLL="C" DATE.PUB="20120306" NO.OJ="068" PAGE.FIRST="9">ABl. C 68 vom 6.3.2012, S. 9</REF.DOC.OJ>.</P></NOTE>,</VISA>
+        <VISA>gemäß dem ordentlichen Gesetzgebungsverfahren,</VISA>
+      </GR.VISA>
+      <GR.CONSID>
+        <GR.CONSID.INIT>in Erwägung nachstehender Gründe:</GR.CONSID.INIT>
+        <CONSID>
+          <NP>
+            <NO.P>(1)</NO.P>
+            <TXT>In der G20-Erklärung zur Stärkung des Finanzsystems vom <DATE ISO="20090402">2. April 2009</DATE> wurden international abgestimmte Anstrengungen gefordert, um Transparenz, Rechenschaftspflicht und Regulierung durch eine quantitative und qualitative Verbesserung der Kapitalbasis im Bankensystem zu stärken, sobald die wirtschaftliche Erholung sichergestellt ist.</TXT>
+          </NP>
+        </CONSID>
+        <CONSID>
+          <NP>
+            <NO.P>(2)</NO.P>
+            <TXT>Die Hochrangige Expertengruppe für Finanzaufsicht unter dem Vorsitz von Jacques de Larosiére (de Larosiére-Gruppe) forderte die Union auf, die Regulierung der Finanzmärkte stärker zu harmonisieren. Auch auf der Tagung des Europäischen Rates vom <DATE ISO="20090618">18.</DATE> und <DATE ISO="20090619">19. Juni 2009</DATE> wurde vor dem Hintergrund der künftigen europäischen Aufsichtsarchitektur auf die Notwendigkeit hingewiesen, ein gemeinsames europäisches Regelwerk für alle Kreditinstitute und Wertpapierfirmen auf dem Binnenmarkt einzuführen.</TXT>
+          </NP>
+        </CONSID>
+        <CONSID>
+          <NP>
+            <NO.P>(3)</NO.P>
+            <TXT>Wie im Bericht der de Larosiére-Gruppe (De-Larosiére-Bericht) dargelegt, sollten <QUOT.START CODE="0022" ID="QS0001" REF.END="QE0001"/>die Mitgliedstaaten (<DATE ISO="20090225">25. Februar 2009</DATE>) die Möglichkeit haben, strengere Regulierungsmaßnahmen zu beschließen, wenn sie diese zum Schutz der Finanzmarktstabilität des eigenen Landes für erforderlich halten und dabei die Grundsätze des Binnenmarkts und die vereinbarten Mindeststandards einhalten<QUOT.END CODE="0022" ID="QE0001" REF.START="QS0001"/>.</TXT>
+          </NP>
+        </CONSID>
+        <CONSID>
+          <NP>
+            <NO.P>(4)</NO.P>
+            <TXT>Die Richtlinie 2006/48/EG des Europäischen Parlaments und des Rates vom
+              <DATE ISO="20060614">14. Juni 2006</DATE>
+              über die Aufnahme und Ausübung der Tätigkeit der Kreditinstitute
+              <NOTE NOTE.ID="E0003" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                <P>
+                  <REF.DOC.OJ COLL="L" DATE.PUB="20060630" NO.OJ="177" PAGE.FIRST="1">
+                    ABl. L 177 vom 30.6.2006, S. 1
+                  </REF.DOC.OJ>.
+                </P>
+              </NOTE> und die Richtlinie 2006/49/EG des Europäischen Parlaments und des Rates vom
+              <DATE ISO="20060614">14. Juni 2006</DATE> über die angemessene<?PAGE NO='2'?>
+              Eigenkapitalausstattung von Wertpapierfirmen und Kreditinstituten
+              <NOTE NOTE.ID="E0004" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                <P>
+                  <REF.DOC.OJ COLL="L" DATE.PUB="20060630" NO.OJ="177" PAGE.FIRST="201">
+                    ABl. L 177 vom 30.6.2006, S. 201
+                  </REF.DOC.OJ>.
+                </P>
+              </NOTE>
+              wurden mehrfach in erheblichem Umfang geändert. Viele Bestimmungen gelten für Kreditinstitute und Wertpapierfirmen gleichermaßen.
+              Aus Gründen der Klarheit und einer kohärenten Anwendung dieser Bestimmungen sollten sie in neuen Gesetzgebungsakten
+              <NOTE NOTE.ID="E0005" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                <P>Siehe Seite 338 dieses Amtsblatts.</P>
+              </NOTE> und. Zwecks leichterer Zugänglichkeit sollten die Bestimmungen den verfügenden Teil dieser Verordnung integriert werden
+              <NOTE NOTE.ID="E0001">
+                <P>
+                  <REF.DOC.OJ COLL="C" NO.OJ="318" DATE.PUB="20061223" PAGE.FIRST="56">
+                    ABl. C&#160;318 vom 23.12.2006, S.&#160;56</REF.DOC.OJ>.
+                </P>
+              </NOTE>.
+            </TXT>
+          </NP>
+        </CONSID>
+      </GR.CONSID>
+      <?PAGE NO='18'?>
+      <PREAMBLE.FINAL>HABEN FOLGENDE VERORDNUNG ERLASSEN:</PREAMBLE.FINAL>
+    </PREAMBLE>
+    <ENACTING.TERMS>
+      <DIVISION>
+        <TITLE>
+          <TI>
+            <P>TEIL 1</P>
+          </TI>
+          <STI>
+            <P>
+              <HT TYPE="BOLD">ALLGEMEINE BESTIMMUNGEN</HT>
+            </P>
+          </STI>
+        </TITLE>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>TITEL I</P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">GEGENSTAND, ANWENDUNGSBEREICH UND BEGRIFFSBESTIMMUNGEN</HT>
+              </P>
+            </STI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="001">
+            <TI.ART>Artikel 1</TI.ART>
+            <STI.ART>Anwendungsbereich</STI.ART>
+            <ALINEA>
+              <P>Diese Verordnung legt einheitliche Regeln für allgemeine Aufsichtsanforderungen fest, die im Rahmen der Richtlinie 2013/36/EU beaufsichtigte Institute im Hinblick auf folgende Punkte erfüllen müssen:</P>
+              <LIST TYPE="alpha">
+                <ITEM>
+                  <NP>
+                    <NO.P>a)</NO.P>
+                    <TXT>Eigenmittelanforderungen im Hinblick auf vollständig quantifizierbare, einheitliche und standardisierte Komponenten von Kreditausfall-, Markt-, operationellem und Abwicklungsrisiko,</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>b)</NO.P>
+                    <TXT>Vorschriften zur Begrenzung von Großkrediten,</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>c)</NO.P>
+                    <TXT>nach Inkrafttreten des in Artikel 460 genannten delegierten Rechtsakts Liquiditätsanforderungen im Hinblick auf vollständig quantifizierbare, einheitliche und standardisierte Komponenten des Liquiditätsrisikos,</TXT>
+                  </NP>
+                </ITEM>
+                <?CLG.MDFO ID="O000002M221000" IDREF="C000002M221000" ACTION="DELETED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32013R0575R(02)" ACTIVE.LOC="LI:0;PT:219" MOD.LEVEL="1"?>
+				<ITEM>
+				  <NP>
+				    <NO.P>f)</NO.P>
+				    <TXT>Die Summe usw. (
+                      <FORMULA TYPE="INLINE">
+				        <EXPR TYPE="BRACKET">DF<IND>CM</IND>
+				          <EXPONENT>c</EXPONENT>
+				        </EXPR>
+				      </FORMULA>.</TXT>
+				    <?CLG.MDFC ID="C000002M221000" IDREF="O000002M221000"?>
+				    <P>Hat eine ZGP mehr als einen Ausfallfonds, macht sie die Angaben nach Unterabsatz 1 für jeden Fonds getrennt.</P>
+				  </NP>
+				</ITEM>
+              </LIST>
+            </ALINEA>
+            <ALINEA>Diese Verordnung gilt nicht für die Bekanntmachungspflichten der zuständigen Behörden im Bereich der Aufsichtsvorschriften und der Beaufsichtigung von Instituten gemäß der Richtlinie 2013/36/EU.</ALINEA>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="002">
+            <TI.ART>Artikel 2</TI.ART>
+            <STI.ART>Aufsichtsbefugnisse</STI.ART>
+            <ALINEA>Um die Einhaltung der Bestimmungen dieser Verordnung zu gewährleisten, werden die zuständigen Behörden mit den in der Richtlinie 2013/36/EU genannten Befugnissen ausgestattet und wenden die in dieser Richtlinie beschriebenen Verfahren an.</ALINEA>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="003">
+            <TI.ART>Artikel 3</TI.ART>
+            <STI.ART>Anwendung strengerer Anforderungen durch Institute</STI.ART>
+            <ALINEA>Diese Verordnung hindert Institute nicht daran, mehr Eigenmittel und Eigenmittelkomponenten zu halten als in dieser Verordnung gefordert oder strengere als die in dieser Verordnung festgelegten Maßnahmen anzuwenden.</ALINEA>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="004">
+            <TI.ART>Artikel 4</TI.ART>
+            <STI.ART>Begriffsbestimmungen</STI.ART>
+            <PARAG IDENTIFIER="004.001">
+              <NO.PARAG>(1)</NO.PARAG>
+              <ALINEA>
+                <P>Für die Zwecke dieser Verordnung bezeichnet der Ausdruck</P>
+                <LIST TYPE="ARAB">
+                  <ITEM>
+                    <NP>
+                      <NO.P>(1)</NO.P>
+                      <TXT><QUOT.START CODE="0022" ID="QS0012" REF.END="QE0012"/>Kreditinstitut<QUOT.END CODE="0022" ID="QE0012" REF.START="QS0012"/> ein Unternehmen, dessen Tätigkeit darin besteht, Einlagen oder andere rückzahlbare Gelder des Publikums entgegenzunehmen und Kredite für eigene Rechnung zu gewähren;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>(2)</NO.P>
+                      <TXT><QUOT.START CODE="0022" ID="QS0013" REF.END="QE0013"/>Wertpapierfirma<QUOT.END CODE="0022" ID="QE0013" REF.START="QS0013"/> eine Person im Sinne des Artikels 4 Absatz 1 Nummer 1 der Richtlinie 2004/39/EG, die den Vorschriften jener Richtlinie unterliegt, mit Ausnahme von</TXT>
+                      <P>
+                        <LIST TYPE="alpha">
+                          <ITEM>
+                            <NP>
+                              <NO.P>a)</NO.P>
+                              <TXT>Kreditinstituten,</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>b)</NO.P>
+                              <TXT>lokalen Firmen;</TXT>
+                            </NP>
+                          </ITEM>
+                          <ITEM>
+                            <NP>
+                              <NO.P>c)</NO.P>
+                              <TXT>Firmen, denen nicht erlaubt ist, die in Abschnitt B Nummer 1 der Richtlinie 2004/39/EG genannte Nebendienstleistung zu erbringen, die lediglich eine oder mehrere der in Anhang I Abschnitt A Nummern 1, 2, 4 und 5 jener Richtlinie genannten Wertpapierdienstleistungen zu erbringen;</TXT>
+                            </NP>
+                          </ITEM>
+                        </LIST>
+                      </P>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>(3)</NO.P>
+                      <TXT><QUOT.START CODE="0022" ID="QS0014" REF.END="QE0014"/>Institut<QUOT.END CODE="0022" ID="QE0014" REF.START="QS0014"/> ein Kreditinstitut oder eine Wertpapierfirma;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>(4)</NO.P>
+                      <TXT><QUOT.START CODE="0022" ID="QS0015" REF.END="QE0015"/>lokale Firma<QUOT.END CODE="0022" ID="QE0015" REF.START="QS0015"/> eine Firma, die auf Finanztermin- oder Options- oder anderen Derivatemärkten und auf Kassamärkten für eigene Rechnung mit dem alleinigen Ziel der Absicherung von Positionen auf Derivatemärkten tätig ist;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>(5)</NO.P>
+                      <TXT><QUOT.START CODE="0022" ID="QS0016" REF.END="QE0016"/>Versicherungsunternehmen<QUOT.END CODE="0022" ID="QE0016" REF.START="QS0016"/> ein Versicherungsunternehmen im Sinne des Artikels 13 Nummer 1 der Richtlinie 2009/138/EG des Europäischen Parlaments und des Rates vom <DATE ISO="20091125">25. November 2009</DATE> betreffend die Aufnahme und Ausübung der Versicherungs- und der Rückversicherungstätigkeit (Solvabilität II)<NOTE NOTE.ID="E0020" NUMBERING="ARAB" TYPE="FOOTNOTE"><P><REF.DOC.OJ COLL="L" DATE.PUB="20091217" NO.OJ="335" PAGE.FIRST="1">ABl. L 335 vom 17.12.2009, S. 1</REF.DOC.OJ>.</P></NOTE>;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>(6)</NO.P>
+                      <TXT><QUOT.START CODE="0022" ID="QS0017" REF.END="QE0017"/>Rückversicherungsunternehmen<QUOT.END CODE="0022" ID="QE0017" REF.START="QS0017"/> ein Rückversicherungsunternehmen im Sinne des Artikels 13 Nummer 4 der Richtlinie 2009/138/EG;</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="004.002">
+              <NO.PARAG>(2)</NO.PARAG>
+              <ALINEA>Bezugnahmen auf Immobilien, Wohn- oder Gewerbeimmobilien oder Hypotheken auf solche Immobilien in dieser Verordnung schließen auch Anteile an finnischen Wohnungsbaugesellschaften im Sinne des finnischen Gesetzes von 1991 über Wohnungsbaugesellschaften.</ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="004.003">
+              <NO.PARAG>(3)</NO.PARAG>
+              <ALINEA>Handelsfinanzierungen im Sinne des Absatzes 1 Nummer 80 sind im Allgemeinen nicht zweckgebunden und erfordern zufriedenstellende Belege über alle Transaktionen betreffend Kreditanträge, sodass eine Ablehnung der Finanzierung möglich wird.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+        </DIVISION>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>TITEL II</P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">ANWENDUNGSEBENEN</HT>
+              </P>
+            </STI>
+          </TITLE>
+          <DIVISION>
+            <TITLE>
+              <TI>
+                <P>
+                  <HT TYPE="ITALIC">KAPITEL 1</HT>
+                </P>
+              </TI>
+              <STI>
+                <P>
+                  <HT TYPE="BOLD">
+                    <HT TYPE="ITALIC">Erfüllung der Anforderungen auf Einzelbasis</HT>
+                  </HT>
+                </P>
+              </STI>
+            </TITLE>
+            <ARTICLE IDENTIFIER="006">
+              <TI.ART>Artikel 6</TI.ART>
+              <STI.ART>Allgemeine Grundsätze</STI.ART>
+              <PARAG IDENTIFIER="006.001">
+                <NO.PARAG>(1)</NO.PARAG>
+                <ALINEA>Institute halten die in den Teilen 2 bis 5 und 8 festgelegten Anforderungen auf Einzelbasis ein.</ALINEA>
+              </PARAG>
+              <PARAG IDENTIFIER="006.002">
+                <NO.PARAG>(2)</NO.PARAG>
+                <ALINEA>Ein Institut, das im Mitgliedstaat seiner Zulassung und Beaufsichtigung entweder Tochterunternehmen oder Mutterunternehmen ist, und ein Institut, das in die Konsolidierung nach Artikel 18 einbezogen ist, ist nicht gehalten, die Anforderungen der Artikel 89, 90 und 91 auf Einzelbasis einzuhalten.</ALINEA>
+              </PARAG>
+            </ARTICLE>
+          </DIVISION>
+          <?PAGE NO='30'?>
+        </DIVISION>
+      </DIVISION>
+      <DIVISION>
+        <TITLE>
+          <TI>
+            <P>TEIL 3</P>
+          </TI>
+          <STI>
+            <P>
+              <HT TYPE="BOLD">EIGENMITTELANFORDERUNGEN</HT>
+            </P>
+          </STI>
+        </TITLE>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>TITEL I</P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">ALLGEMEINE ANFORDERUNGEN, BEWERTUNG UND MELDUNG</HT>
+              </P>
+            </STI>
+          </TITLE>
+          <DIVISION>
+            <TITLE>
+              <TI>
+                <P>
+                  <HT TYPE="ITALIC">KAPITEL 1</HT>
+                </P>
+              </TI>
+              <STI>
+                <P>
+                  <HT TYPE="BOLD">
+                    <HT TYPE="ITALIC">Mindesthöhe der Eigenmittel</HT>
+                  </HT>
+                </P>
+              </STI>
+            </TITLE>
+            <DIVISION>
+              <TITLE>
+                <TI>
+                  <P>
+                    <HT TYPE="EXPANDED">Abschnitt 1</HT>
+                  </P>
+                </TI>
+                <STI>
+                  <P>
+                    <HT TYPE="BOLD">
+                      <HT TYPE="EXPANDED">Eigenmittelanforderungen an institute</HT>
+                    </HT>
+                  </P>
+                </STI>
+              </TITLE>
+                <ARTICLE IDENTIFIER="153">
+                  <TI.ART>Artikel 153</TI.ART>
+                  <STI.ART>Risikogewichtete Positionsbeträge für Risikopositionen gegenüber Unternehmen, Instituten, Zentralstaaten und Zentralbanken</STI.ART>
+                  <PARAG IDENTIFIER="153.001">
+                    <NO.PARAG>(1)</NO.PARAG>
+                    <ALINEA>
+                      <P>Vorbehaltlich der Anwendung der spezifischen Behandlungen gemäß den Absätzen 2, 3 bzw. 4 werden die risikogewichteten Positionsbeträge für Risikopositionen gegenüber Unternehmen, Instituten, Zentralstaaten und Zentralbanken gemäß den nachstehenden Formeln berechnet:</P>
+                      <FORMULA.S><EXPR><HT TYPE="ITALIC">risikogewichteter Positionsbetrag</HT></EXPR> = <EXPR><HT TYPE="ITALIC">RW</HT> &#903; <HT TYPE="ITALIC">Risikopositionsbetrag</HT></EXPR></FORMULA.S>
+                      <P>wobei das Risikogewicht (RW) wie folgt festgelegt ist:</P>
+                      <LIST TYPE="roman">
+                        <ITEM>
+                          <NP>
+                            <NO.P>i)</NO.P>
+                            <TXT>wenn PD = 0, ist RW = 0;</TXT>
+                          </NP>
+                        </ITEM>
+                        <ITEM>
+                          <NP>
+                            <NO.P>ii)</NO.P>
+                            <TXT>wenn PD = 1, d.h. bei ausgefallenen Risikopositionen:</TXT>
+                            <P>
+                              <LIST TYPE="DASH">
+                                <ITEM>
+                                  <P>wenn ein Institut die LGD-Werte nach Artikel 161 Absatz 1 verwendet, ist RW = 0;</P>
+                                </ITEM>
+                                <ITEM>
+                                  <P>wenn ein Institut eigene LGD-Schätzungen verwendet, ist <FORMULA><HT TYPE="ITALIC">RW</HT> = <EXPR>max <EXPR TYPE="BRACE">0,12.5 &#903; <EXPR TYPE="BRACKET"><HT TYPE="ITALIC">LGD</HT> &#8211; <HT TYPE="ITALIC">EL</HT><IND LOC="SUB"><HT TYPE="ITALIC">BE</HT></IND></EXPR></EXPR></EXPR></FORMULA>;</P>
+                                </ITEM>
+                              </LIST>
+                            </P>
+                            <P>wobei die genaueste Schätzung des zu erwarteten Verlusts (im Folgenden <QUOT.START CODE="0022" ID="QS0186" REF.END="QE0186"/>EL<HT TYPE="SUB">BE</HT><QUOT.END CODE="0022" ID="QE0186" REF.START="QS0186"/>, expected loss best estimate) die bestmögliche Schätzung des Instituts für den aufgrund des Ausfalls der Risikoposition zu erwarteten Verlust gemäß Artikel 181 Absatz 1 Buchstabe h ist;</P>
+                          </NP>
+                        </ITEM>
+                        <ITEM>
+                          <NP>
+                            <NO.P>iii)</NO.P>
+                            <TXT>wenn 0 &lt; PD &lt;&#160;1, ist</TXT>
+                            <P>
+                              <FORMULA.S><HT TYPE="ITALIC">RW</HT> = <EXPR><EXPR TYPE="BRACKET"><HT TYPE="ITALIC">LGD</HT> &#903; <HT TYPE="ITALIC">N</HT><EXPR TYPE="BRACKET"><EXPR><EXPR>1</EXPR><OVER/><EXPR><ROOT/><EXPR>1 &#8211; <HT TYPE="ITALIC">R</HT></EXPR></EXPR></EXPR> &#903; <HT TYPE="ITALIC">G</HT><EXPR TYPE="BRACKET"><HT TYPE="ITALIC">PD</HT></EXPR> + <ROOT/><EXPR><EXPR><HT TYPE="ITALIC">R</HT></EXPR><OVER/><EXPR>1 &#8211; <HT TYPE="ITALIC">R</HT></EXPR></EXPR> &#903; <HT TYPE="ITALIC">G</HT><EXPR TYPE="BRACKET">0.999</EXPR></EXPR> &#8211; <EXPR><HT TYPE="ITALIC">LGD</HT> &#903; <HT TYPE="ITALIC">PD</HT></EXPR></EXPR> &#903; <EXPR><EXPR>1 + <EXPR><EXPR TYPE="BRACKET"><HT TYPE="ITALIC">M</HT> &#8211; 2,5</EXPR> &#903; <HT TYPE="ITALIC">b</HT></EXPR></EXPR><OVER/><EXPR>1 &#8211; <EXPR>1,5 &#903; <HT TYPE="ITALIC">b</HT></EXPR></EXPR></EXPR> &#903; 12,5 &#903; 1,06</EXPR></FORMULA.S>
+                            </P>
+                            <P>dabei entspricht</P>
+                            <P>
+                              <DLIST SEPARATOR="=" TYPE="TBL">
+                                <DLIST.ITEM>
+                                  <TERM>N(x)</TERM>
+                                  <DEFINITION>der kumulativen Verteilungsfunktion einer standardnormalverteilten Zufallsvariablen (d.h. der Wahrscheinlichkeit, dass eine normalverteilte Zufallsvariable mit einem Erwartungswert von null und einer Standardabweichung von eins kleiner oder gleich x ist),</DEFINITION>
+                                </DLIST.ITEM>
+                                <DLIST.ITEM>
+                                  <TERM>G(Z)</TERM>
+                                  <DEFINITION>der inversen kumulativen Verteilungsfunktion einer standardnormalverteilten Zufallsvariablen (d.h. dem Wert von x, so dass N(x) = z),</DEFINITION>
+                                </DLIST.ITEM>
+                                <DLIST.ITEM>
+                                  <TERM>R</TERM>
+                                  <DEFINITION>
+                                    <P>dem Korrelationskoeffizienten, festgelegt als</P>
+                                    <FORMULA.S><HT TYPE="ITALIC">R</HT> = <EXPR><EXPR>0.12 &#903; <EXPR><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50 &#903; <HT TYPE="ITALIC">PD</HT></IND></EXPR><OVER/><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50</IND></EXPR></EXPR></EXPR> + <EXPR> 0.24 &#903; <EXPR TYPE="BRACKET">1 &#8211; <EXPR><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50 &#903; <HT TYPE="ITALIC">PD</HT></IND></EXPR><OVER/><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50</IND></EXPR></EXPR></EXPR></EXPR></EXPR></FORMULA.S>
+                                  </DEFINITION>
+                                </DLIST.ITEM>
+                                <DLIST.ITEM>
+                                  <TERM>b</TERM>
+                                  <DEFINITION>
+                                    <P>dem Laufzeitanpassungsfaktor, festgelegt als.</P>
+                                    <P><FORMULA><HT TYPE="ITALIC">b</HT> = <EXPR><EXPR TYPE="BRACKET">0.11852 &#8211; 0.05478 &#903; ln<EXPR TYPE="BRACKET"><HT TYPE="ITALIC">PD</HT></EXPR></EXPR><IND LOC="SUP">2</IND></EXPR></FORMULA>.</P>
+                                  </DEFINITION>
+                                </DLIST.ITEM>
+                              </DLIST>
+                            </P>
+                          </NP>
+                        </ITEM>
+                      </LIST>
+                    </ALINEA>
+                  </PARAG>
+                  <PARAG IDENTIFIER="153.002">
+                    <NO.PARAG>2.</NO.PARAG>
+                    <ALINEA>Bei allen Risikopositionen gegenüber großen Unternehmen der Finanzbranche wird der Korrelationskoeffizient nach Absatz 1 Ziffer iii mit 1,25 multipliziert. Bei allen Risikopositionen gegenüber nicht beaufsichtigten Finanzunternehmen werden die Korrelationskoeffizienten nach Absatz 1 Ziffer iii bzw. Absatz 4 mit 1,25 multipliziert.</ALINEA>
+                  </PARAG>
+                  <PARAG IDENTIFIER="153.003">
+                    <NO.PARAG>(3)</NO.PARAG>
+                    <ALINEA>
+                      <P>Der risikogewichtete Forderungsbetrag darf für jede Risikoposition, die die Anforderungen der Artikel 202 und 217, nach folgender Formel angepasst werden:</P>
+                      <?PAGE NO='98'?>
+                      <FORMULA.S><EXPR><HT TYPE="ITALIC">risikogewichteter Positionsbetrag</HT></EXPR> = <EXPR><HT TYPE="ITALIC">RW</HT> &#903; <HT TYPE="ITALIC">Risikopositionswert</HT> &#903; <EXPR TYPE="BRACKET">0.15 + <EXPR>160 &#903; <HT TYPE="ITALIC">PD</HT><IND LOC="SUB"><HT TYPE="ITALIC">pp</HT></IND></EXPR></EXPR></EXPR></FORMULA.S>
+                      <P>dabei entspricht</P>
+                      <DLIST SEPARATOR="=" TYPE="TBL">
+                        <DLIST.ITEM>
+                          <TERM>PD<HT TYPE="SUB"><HT TYPE="ITALIC">pp</HT></HT></TERM>
+                          <DEFINITION>der PD des Sicherungsgebers.</DEFINITION>
+                        </DLIST.ITEM>
+                      </DLIST>
+                    </ALINEA>
+                    <ALINEA>Das RW wird anhand der entsprechenden Formel gemäß Absatz 1 für die Risikoposition, die Ausfallwahrscheinlichkeit des Schuldners und die LGD einer vergleichbaren direkten Risikoposition gegenüber dem Sicherungsgeber berechnet. Der Laufzeitfaktor b) wird anhand der PD des Sicherungsgebers oder der PD des Schuldners berechnet, je nachdem, welche niedriger ist.</ALINEA>
+                  </PARAG>
+                  <PARAG IDENTIFIER="153.004">
+                    <NO.PARAG>4.</NO.PARAG>
+                    <ALINEA>
+                      <P>Für Risikopositionen gegenüber Unternehmen, die einer Gruppe angehören, deren konsolidierter Gesamtjahresumsatz weniger als 50&#160;Mio. EUR beträgt, darf ein Institut zur Berechnung der Risikogewichte für Risikopositionen gegenüber Unternehmen nach Absatz 1 Ziffer iii folgende Korrelationsformel verwenden. In dieser Formel wird S als Gesamtjahresumsatz in Millionen Euro angegeben, wobei gilt: 5&#160;Mio. EUR &#8804; S &#8804;&#160;50&#160;Mio. EUR. Gemeldete Umsätze von unter 5&#160;Mio. EUR werden wie Umsätze von 5&#160;Mio. EUR behandelt.</P>
+                      <FORMULA.S><HT TYPE="ITALIC">R</HT> = <EXPR><EXPR>0.12 &#903; <EXPR><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50 &#903; <HT TYPE="ITALIC">PD</HT></IND></EXPR><OVER/><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50</IND></EXPR></EXPR></EXPR> + <EXPR> 0.24 &#903; <EXPR TYPE="BRACKET">1 &#8211; <EXPR><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50 &#903; <HT TYPE="ITALIC">PD</HT></IND></EXPR><OVER/><EXPR>1 &#8211; <HT TYPE="ITALIC">e</HT><IND LOC="SUP">&#8211; 50</IND></EXPR></EXPR></EXPR></EXPR> &#8211; <EXPR>0.04 &#903; <EXPR TYPE="BRACKET">1 &#8211; <EXPR><EXPR>min<EXPR TYPE="BRACE">max<EXPR TYPE="BRACE">5,<HT TYPE="ITALIC">S</HT></EXPR>,50</EXPR> &#8211; 5</EXPR><OVER/><EXPR>45</EXPR></EXPR></EXPR></EXPR></EXPR></FORMULA.S>
+                    </ALINEA>
+                    <ALINEA>Die Institute ersetzen den Gesamtjahresumsatz durch die Bilanzsumme der konsolidierten Gruppe, wenn der Gesamtjahresumsatz kein sinnvoller Indikator für die Unternehmensgröße ist und die Bilanzsumme als Indikator sinnvoller ist.</ALINEA>
+                  </PARAG>
+                  <PARAG IDENTIFIER="153.005">
+                    <NO.PARAG>(5)</NO.PARAG>
+                    <ALINEA>
+                      <P>Bei Spezialfinanzierungen, deren Ausfallwahrscheinlichkeit ein Institut nicht schätzen kann oder bei denen die PD-Schätzungen des Instituts die Anforderungen des Abschnitts 6 nicht erfüllen, weist das Institut diesen Risikopositionen Risikogewichte gemäß Tabelle 1 zu:</P>
+                      <TBL COLS="6" NO.SEQ="0011">
+                        <TITLE>
+                          <TI>
+                            <P>
+                              <HT TYPE="ITALIC">Tabelle 1</HT>
+                            </P>
+                          </TI>
+                        </TITLE>
+                        <CORPUS>
+                          <ROW TYPE="HEADER">
+                            <CELL COL="1" TYPE="HEADER">Restlaufzeit</CELL>
+                            <CELL COL="2" TYPE="HEADER">Kategorie 1</CELL>
+                            <CELL COL="3" TYPE="HEADER">Kategorie 2</CELL>
+                            <CELL COL="4" TYPE="HEADER">Kategorie 3</CELL>
+                            <CELL COL="5" TYPE="HEADER">Kategorie 4</CELL>
+                            <CELL COL="6" TYPE="HEADER">Kategorie 5</CELL>
+                          </ROW>
+                          <ROW>
+                            <CELL COL="1">Unter 2,5 Jahren</CELL>
+                            <CELL COL="2"><FT TYPE="NUMBER">50</FT>&#160;%</CELL>
+                            <CELL COL="3"><FT TYPE="NUMBER">70</FT>&#160;%</CELL>
+                            <CELL COL="4"><FT TYPE="NUMBER">115</FT>&#160;%</CELL>
+                            <CELL COL="5"><FT TYPE="NUMBER">250</FT>&#160;%</CELL>
+                            <CELL COL="6"><FT TYPE="NUMBER">0</FT>&#160;%</CELL>
+                          </ROW>
+                          <ROW>
+                            <CELL COL="1">2,5 Jahre oder länger</CELL>
+                            <CELL COL="2"><FT TYPE="NUMBER">70</FT>&#160;%</CELL>
+                            <CELL COL="3"><FT TYPE="NUMBER">90</FT>&#160;%</CELL>
+                            <CELL COL="4"><FT TYPE="NUMBER">115</FT>&#160;%</CELL>
+                            <CELL COL="5"><FT TYPE="NUMBER">250</FT>&#160;%</CELL>
+                            <CELL COL="6"><FT TYPE="NUMBER">0</FT>&#160;%</CELL>
+                          </ROW>
+                        </CORPUS>
+                      </TBL>
+                    </ALINEA>
+                    <ALINEA>Bei der Zuteilung von Risikogewichten für Spezialfinanzierungen berücksichtigen die Institute folgende Faktoren: Finanzkraft, politische und rechtliche Rahmenbedingungen, Transaktions- und/oder Vermögenswertmerkmale.</ALINEA>
+                  </PARAG>
+                </ARTICLE>
+            </DIVISION>
+          </DIVISION>
+          <?PAGE NO='68'?>
+        </DIVISION>
+      </DIVISION>
+      <DIVISION>
+        <TITLE>
+          <TI>
+            <P>TEIL 10</P>
+          </TI>
+          <STI>
+            <P>
+              <HT TYPE="BOLD">ÜBERGANGSBESTIMMUNGEN, BERICHTE, PRÜFUNGEN UND ÄNDERUNGEN</HT>
+            </P>
+          </STI>
+        </TITLE>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>TITEL III</P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">ÄNDERUNGEN</HT>
+              </P>
+            </STI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="520">
+            <TI.ART>Artikel 520</TI.ART>
+            <STI.ART>Änderung der Verordnung (EU) Nr.&#160;648/2012</STI.ART>
+            <ALINEA>
+              <P>Die Verordnung (EU) Nr.&#160;648/2012 wird wie folgt geändert:</P>
+              <LIST TYPE="ARAB">
+                <ITEM>
+                  <NP>
+                    <NO.P>(1)</NO.P>
+                    <TXT>In Titel IV wird folgendes Kapitel eingefügt:</TXT>
+                    <P>
+                      <QUOT.S LEVEL="1">
+                        <DIVISION>
+                          <TITLE>
+                            <TI>
+                              <P>
+                                <QUOT.START CODE="0022" ID="QS0356" REF.END="QE0356"/>
+                                <HT TYPE="ITALIC">KAPITEL 4</HT>
+                              </P>
+                            </TI>
+                            <STI>
+                              <P>
+                                <HT TYPE="BOLD">
+                                  <HT TYPE="ITALIC">Berechnungen und Meldungen für die Zwecke der Verordnung (EU) Nr. 575/2013</HT>
+                                </HT>
+                              </P>
+                            </STI>
+                          </TITLE>
+                          <ARTICLE IDENTIFIER="050A">
+                            <TI.ART>Artikel 50a</TI.ART>
+                            <STI.ART>Berechnung von K<HT TYPE="SUB">CCP</HT></STI.ART>
+                            <PARAG IDENTIFIER="050A.001">
+                              <NO.PARAG>(1)</NO.PARAG>
+                              <ALINEA>Für die Zwecke des Artikels 308 der Verordnung (EU) Nr. 575/2013 des Europäischen Parlaments und des Rates über Aufsichtsanforderungen an Kreditinstitute und Wertpapierfirmen <DATE ISO="20130626">26. Juni 2013</DATE> berechnet eine ZGP<NOTE NOTE.ID="E0038" NUMBERING="STAR" TYPE="QUOTATION"><P><REF.DOC.OJ COLL="L" DATE.PUB="20130627" NO.OJ="176" PAGE.FIRST="1">ABl. L 176, vom 27.6.2013, S. 1</REF.DOC.OJ>.
+                                <QUOT.END CODE="0022" ID="QE0356" REF.START="QS0356"/></P></NOTE>, die eine Anzeige nach 301 Absatz 2 Buchstabe b jener Verordnung erhalten hat, für alle Kontrakte und Transaktionen, die sie für alle ihre Clearingmitglieder im Deckungskreis des jeweiligen Ausfallfonds cleart, K<HT TYPE="SUB">CCP</HT> wie in Absatz 2 erläutert.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="050A.003">
+                              <NO.PARAG>(3)</NO.PARAG>
+                              <ALINEA>Eine ZGP führt die nach Absatz 2 vorgeschriebene Berechnung zumindest quartalsweise durch oder häufiger, wenn die für die Institute unter ihren Clearingmitgliedern zuständigen Behörden dies verlangen.</ALINEA>
+                            </PARAG>
+                            <PARAG IDENTIFIER="050A.004">
+                              <NO.PARAG>(4)</NO.PARAG>
+                              <ALINEA>
+                                <P>Die EBA arbeitet Entwürfe technischer Durchführungsstandards aus, um für die Zwecke des Absatzes 3 folgendes zu präzisieren:</P>
+                                <LIST TYPE="alpha">
+                                  <ITEM>
+                                    <NP>
+                                      <NO.P>a)</NO.P>
+                                      <TXT>Häufigkeit und Termine der Berechnungen nach Absatz 2,</TXT>
+                                    </NP>
+                                  </ITEM>
+                                  <ITEM>
+                                    <NP>
+                                      <NO.P>b)</NO.P>
+                                      <TXT>die Fälle, in denen die zuständige Behörde eines als Clearingmitglied auftretenden Instituts häufigere Berechnungen und Meldungen verlangen kann als unter Buchstabe a festgelegt.</TXT>
+                                    </NP>
+                                  </ITEM>
+                                </LIST>
+                              </ALINEA>
+                              <ALINEA>Die EBA legt der Kommission diese Entwürfe technischer Durchführungsstandards bis <DATE ISO="20140101">1. Januar 2014</DATE> vor.</ALINEA>
+                              <ALINEA>Der Kommission wird die Befugnis übertragen, die technischen Durchführungsstandards nach Unterabsatz 1 gemäß Artikel 15 der Verordnung (EU) Nr.&#160;1093/2010 zu erlassen.</ALINEA>
+                            </PARAG>
+                          </ARTICLE>
+                          <ARTICLE IDENTIFIER="050B">
+                            <TI.ART>Artikel 50b</TI.ART>
+                            <STI.ART>Allgemeine Regeln für die Berechnung von K<HT TYPE="SUB">CCP</HT></STI.ART>
+                            <ALINEA>
+                              <P>Für die Zwecke der Berechnung nach Artikel 50a Absatz 2 gilt:</P>
+                              <LIST TYPE="alpha">
+                                <ITEM>
+                                  <NP>
+                                    <NO.P>a)</NO.P>
+                                    <TXT>Eine ZGP berechnet den Wert der Risikopositionen gegenüber ihren Clearingmitgliedern wie folgt:</TXT>
+                                    <P>
+                                      <LIST TYPE="roman">
+                                        <ITEM>
+                                          <NP>
+                                            <NO.P>i)</NO.P>
+                                            <TXT>für Risikopositionen aus Kontrakten und Geschäften nach Artikel 301 Absatz 1 Buchstaben a und d der Verordnung (EU) Nr. 575/2013,</TXT>
+                                          </NP>
+                                        </ITEM>
+                                        <ITEM>
+                                          <NP>
+                                            <NO.P>ii)</NO.P>
+                                            <TXT>für Risikopositionen aus Kontrakten und Geschäften nach Artikel 301 Absatz 1 Buchstaben b, c und e der Verordnung (EU) Nr. 575/2013 berechnet sie den Wert gemäß der umfassenden Methode zur Berücksichtigung finanzieller Sicherheiten nach Artikel 223 jener Verordnung mit den aufsichtlichen Volatilitätsanpassungen gemäß den Artikeln 223 und 224; die Ausnahmeregelung nach Artikel 285 Absatz 2 Satz 2 Ziffer i jener Verordnung findet keine Anwendung,</TXT>
+                                          </NP>
+                                        </ITEM>
+                                      </LIST>
+                                    </P>
+                                  </NP>
+                                </ITEM>
+                              </LIST>
+                            </ALINEA>
+                          </ARTICLE>
+                        </DIVISION>
+                      </QUOT.S>
+                    </P>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(1a)</NO.P>
+                    <TXT>In Titel I erhält die Überschrift des Kapitels III folgende Fassung:</TXT>
+                    <P>
+                      <QUOT.S LEVEL="1">
+                      <TITLE>
+                        <TI>
+                          <P>
+                            <QUOT.START CODE="201E" ID="QS0006" REF.END="QE0006"/>
+                              Online-Verfahren (Gründung, Eintragung und Einreichung), Offenlegung und Register
+                            <QUOT.END CODE="201C" ID="QE0006" REF.START="QS0006"/>.
+                          </P>
+                        </TI>
+                      </TITLE>
+                      </QUOT.S>
+                    </P>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(2)</NO.P>
+                    <TXT>Artikel 6 erhält folgende Fassung:</TXT>
+                    <P>
+                      <QUOT.S LEVEL="1">
+                        <ARTICLE IDENTIFIER="006">
+                          <TI.ART>
+                            <QUOT.START ID="QS0080" REF.END="QE0080" CODE="201E"/>Artikel&#160;6
+                          </TI.ART>
+                          <STI.ART><P>Pflicht zur Anstellung von Nachforschungen</P></STI.ART>
+                          <ALINEA>Die Hersteller, Vertreiber und Einführer von Stoffen stellen
+                            Nachforschungen an, um sich die einschlägigen und zugänglichen
+                            Daten zu den Eigenschaften dieser Stoffe zu verschaffen.
+                            <QUOT.END ID="QE0080" REF.START="QS0080" CODE="201C"/>
+                          </ALINEA>
+                        </ARTICLE>
+                      </QUOT.S>
+                    </P>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(3)</NO.P>
+                    <TXT>In Artikel 11 Absatz 15 wird Buchstabe b gestrichen.</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(4)</NO.P>
+                    <TXT>In Artikel 89 wird folgender Absatzeingefügt:</TXT>
+                    <P>
+                      <QUOT.S LEVEL="1">
+                        <PARAG IDENTIFIER="089.005A">
+                          <NO.PARAG><QUOT.START CODE="0022" ID="QS0357" REF.END="QE0357"/>5a.</NO.PARAG>
+                          <ALINEA>Bis 15 Monate nach dem Tag des Inkrafttretens des letzten der elf am Ende des Artikels 89 Absatz 3 Unterabsatz 1 genannten technischen Regulierungsstandards.</ALINEA>
+                          <ALINEA>Die Fristen nach den Unterabsätzen 1 und 2 können um weitere sechs Monate verlängert werden, sofern die Kommission den Durchführungsrechtsakt nach Artikel 497 Absatz 3 der Verordnung (EU) Nr. 575/2013 erlassen hat.
+                          <QUOT.END CODE="0022" ID="QE0357" REF.START="QS0357"/></ALINEA>
+                        </PARAG>
+                      </QUOT.S>
+                    </P>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </ALINEA>
+          </ARTICLE>
+        </DIVISION>
+      </DIVISION>
+      <DIVISION>
+        <TITLE>
+          <TI>
+            <P>TEIL 11</P>
+          </TI>
+          <STI>
+            <P>
+              <HT TYPE="BOLD">SCHLUSSBESTIMMUNGEN</HT>
+            </P>
+          </STI>
+        </TITLE>
+        <?CLG.MDFO ID="O002001M001000" IDREF="C002001M001000" ACTION="DELETED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="308R0569" ACTIVE.LOC="AR:1;PT:1" MOD.LEVEL="1"?>
+        <ARTICLE IDENTIFIER="520a">
+          <TI.ART>Artikel 520a</TI.ART>
+          <STI.ART>Wird sowieso gelöscht</STI.ART>
+          <PARAG IDENTIFIER="520a.001">
+            <NO.PARAG>(1)</NO.PARAG>
+            <ALINEA>Wird doch sowieso gelöscht!</ALINEA>
+          </PARAG>
+        </ARTICLE>
+        <?CLG.MDFC ID="C002001M001000" IDREF="O002001M001000"?>
+        <ARTICLE IDENTIFIER="521">
+          <TI.ART>Artikel 521</TI.ART>
+          <STI.ART>Inkrafttreten und Geltungsbeginn</STI.ART>
+          <PARAG IDENTIFIER="521.001">
+            <NO.PARAG>(1)</NO.PARAG>
+            <ALINEA>Diese Verordnung tritt am Tag nach ihrer Veröffentlichung im <HT TYPE="ITALIC">Amtsblatt der Europäischen Union</HT> in Kraft.</ALINEA>
+          </PARAG>
+          <PARAG IDENTIFIER="521.002">
+            <NO.PARAG>(2)</NO.PARAG>
+            <ALINEA>
+              <P>Diese Verordnung gilt ab dem <DATE ISO="20140101">1. Januar 2014</DATE> mit Ausnahme</P>
+              <LIST TYPE="alpha">
+                <ITEM>
+                  <NP>
+                    <NO.P>a)</NO.P>
+                    <TXT>der Artikel 7 Absatz 3, 20 und 451 Absatz 1, die ab dem <DATE ISO="20150101">1. Januar 2015</DATE> gelten,</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>b)</NO.P>
+                    <TXT>des Artikels 413 Absatz 1, der ab dem <DATE ISO="20160101">1. Januar 2016</DATE> gilt,</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>c)</NO.P>
+                    <TXT>der Bestimmungen, denen zufolge die Europäischen Aufsichtsbehörden der Kommission Entwürfe technischer Standards vorlegen müssen, sowie der Bestimmungen, die der Kommission die Befugnis übertragen, delegierte Rechtsakte oder Durchführungsrechtsakte zu erlassen, die ab dem <DATE ISO="20141231">31. Dezember 2014</DATE> gelten.</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </ALINEA>
+          </PARAG>
+        </ARTICLE>
+      </DIVISION>
+    </ENACTING.TERMS>
+    <FINAL>
+      <P>Diese Verordnung ist in allen ihren Teilen verbindlich und gilt unmittelbar in jedem Mitgliedstaat.</P>
+      <SIGNATURE>
+        <PL.DATE>
+          <P>Geschehen zu Brüssel am <DATE ISO="20130626">26. Juni 2013</DATE>.</P>
+        </PL.DATE>
+        <SIGNATORY>
+          <P>
+            <HT TYPE="ITALIC">Im Namen des Europäischen Parlaments</HT>
+          </P>
+          <P>
+            <HT TYPE="ITALIC">Der Präsident</HT>
+          </P>
+          <P>M.<HT TYPE="UC">Schulz</HT></P>
+        </SIGNATORY>
+        <SIGNATORY>
+          <P>
+            <HT TYPE="ITALIC">Im Namen des Rates</HT>
+          </P>
+          <P>
+            <HT TYPE="ITALIC">Der Präsident</HT>
+          </P>
+          <P>A. <HT TYPE="UC">Shatter</HT></P>
+        </SIGNATORY>
+      </SIGNATURE>
+    </FINAL>
+  </ACT>
+  <ANNEXES>
+    <ANNEX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd">
+      <BIB.INSTANCE>
+        <DOCUMENT.REF FILE="L_2013176DE.01000101.doc.xml">
+          <COLL>L</COLL>
+          <NO.OJ>176</NO.OJ>
+          <YEAR>2013</YEAR>
+          <LG.OJ>DE</LG.OJ>
+          <PAGE.FIRST>1</PAGE.FIRST>
+          <PAGE.SEQ>1</PAGE.SEQ>
+          <VOLUME.REF>01</VOLUME.REF>
+        </DOCUMENT.REF>
+        <DATE ISO="20130626">20130626</DATE>
+        <LG.DOC>DE</LG.DOC>
+        <NO.SEQ>0001.0001</NO.SEQ>
+        <PAGE.FIRST>295</PAGE.FIRST>
+        <PAGE.SEQ>1</PAGE.SEQ>
+        <PAGE.LAST>296</PAGE.LAST>
+        <PAGE.TOTAL>2</PAGE.TOTAL>
+      </BIB.INSTANCE>
+      <TITLE>
+        <TI>
+          <P>ANHANG I</P>
+        </TI>
+      </TITLE>
+      <CONTENTS>
+        <GR.SEQ LEVEL="1">
+          <TITLE>
+            <TI>
+              <P>
+                <HT TYPE="BOLD">Einstufung außerbilanzieller Geschäfte</HT>
+              </P>
+            </TI>
+          </TITLE>
+          <NP>
+            <NO.P>(1)</NO.P>
+            <TXT>Hohes Kreditrisiko:</TXT>
+            <P>
+              <LIST TYPE="alpha">
+                <ITEM>
+                  <NP>
+                    <NO.P>a)</NO.P>
+                    <TXT>Garantien, die den Charakter eines Kreditsubstituts haben (z.B. Garantien der rechtzeitigen Auszahlung von Kreditlinien),</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>b)</NO.P>
+                    <TXT>Kreditderivate,</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>c)</NO.P>
+                    <TXT>Akzepte,</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </P>
+          </NP>
+          <NP>
+            <NO.P>(2)</NO.P>
+            <TXT>Mittleres Kreditrisiko:</TXT>
+            <P>
+              <LIST TYPE="alpha">
+                <ITEM>
+                  <NP>
+                    <NO.P>a)</NO.P>
+                    <TXT>außerbilanzielle Posten für die Handelsfinanzierung, d. h. ausgestellte und bestätigte Dokumentenkredite (siehe auch <QUOT.START ID="QS0003" REF.END="QE0003" CODE="0022"/>mittleres/niedriges Kreditrisiko<QUOT.END ID="QE0003" REF.START="QS0003" CODE="0022"/>),</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>b)</NO.P>
+                    <TXT>andere außerbilanzielle Posten:</TXT>
+                    <P>
+                      <LIST TYPE="roman">
+                        <ITEM>
+                          <NP>
+                            <NO.P>i)</NO.P>
+                            <TXT>Versandgarantien, Zoll- und Steuerbürgschaften,</TXT>
+                          </NP>
+                        </ITEM>
+                        <ITEM>
+                          <NP>
+                            <NO.P>ii)</NO.P>
+                            <TXT>nicht in Anspruch genommene Kreditfazilitäten (Verpflichtungen, Darlehen zu geben, Wertpapiere zu kaufen, Garantien oder Akzepte bereitzustellen) mit einer Ursprungslaufzeit von mehr als einem Jahr,</TXT>
+                          </NP>
+                        </ITEM>
+                      </LIST>
+                    </P>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </P>
+          </NP>
+        </GR.SEQ>
+      </CONTENTS>
+    </ANNEX>
+    <ANNEX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://formex.publications.europa.eu/schema/formex-05.21-20110601.xd">
+      <BIB.INSTANCE>
+        <DOCUMENT.REF FILE="L_2013176DE.01000101.doc.xml">
+          <COLL>L</COLL>
+          <NO.OJ>176</NO.OJ>
+          <YEAR>2013</YEAR>
+          <LG.OJ>DE</LG.OJ>
+          <PAGE.FIRST>1</PAGE.FIRST>
+          <PAGE.SEQ>1</PAGE.SEQ>
+          <VOLUME.REF>01</VOLUME.REF>
+        </DOCUMENT.REF>
+        <DATE ISO="20130626">20130626</DATE>
+        <LG.DOC>DE</LG.DOC>
+        <NO.SEQ>0001.0004</NO.SEQ>
+        <PAGE.FIRST>300</PAGE.FIRST>
+        <PAGE.SEQ>1</PAGE.SEQ>
+        <PAGE.LAST>337</PAGE.LAST>
+        <PAGE.TOTAL>38</PAGE.TOTAL>
+      </BIB.INSTANCE>
+      <TITLE>
+        <TI>
+          <P>ANHANG IV</P>
+        </TI>
+      </TITLE>
+      <CONTENTS>
+        <TBL COLS="3" NO.SEQ="0001">
+          <TITLE>
+            <TI>
+              <P>
+                <HT TYPE="BOLD">Entsprechungstabelle</HT>
+              </P>
+            </TI>
+          </TITLE>
+          <CORPUS>
+            <ROW TYPE="HEADER">
+              <CELL COL="1" TYPE="HEADER">Diese Verordnung</CELL>
+              <CELL COL="2" TYPE="HEADER">Richtlinie 2006/48/EC</CELL>
+              <CELL COL="3" TYPE="HEADER">Richtlinie 2006/49/EC</CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 1</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">
+                <IE/>
+              </CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 2</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">
+                <IE/>
+              </CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 3</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">
+                <IE/>
+              </CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 4 Absatz 1 Nummer 1</CELL>
+              <CELL COL="2">Artikel 4 Absatz 1</CELL>
+              <CELL COL="3">
+                <IE/>
+              </CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 4 Absatz 1 Nummer 2</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">Artikel 3 Absatz 1 Buchstabe b</CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 4 Absatz 1 Nummer 3</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">Artikel 3 Absatz 1 Buchstabe c</CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 4 Absatz 1 Nummer 4</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">Artikel 3 Absatz 1 Buchstabe p</CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Artikel 4 Absatz 1 Nummern 5-7</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">
+                <IE/>
+              </CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">Anhang III</CELL>
+              <CELL COL="2">
+                <IE/>
+              </CELL>
+              <CELL COL="3">
+                <IE/>
+              </CELL>
+            </ROW>
+          </CORPUS>
+        </TBL>
+      </CONTENTS>
+    </ANNEX>
+    <ANNEX>
+      <TITLE><TI><P>ANHANG</P></TI></TITLE>
+      <CONTENTS>
+        <TBL COLS="4" NO.SEQ="0001">
+          <TITLE>
+            <?CLG.MDFO ID="O001001M028000" IDREF="C001001M028000" ACTION="REPLACED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32013R1259" ACTIVE.LOC="AR:1;PT:24;PT:a" MOD.LEVEL="1"?>
+            <TI><P>Liste der erfassten Stoffe</P></TI>
+            <?CLG.MDFC ID="C001001M028000" IDREF="O001001M028000"?>
+            <?CLG.MDFO ID="O001001M029000" IDREF="C001001M029000" ACTION="INSERTED" LEVEL="STRUCTURE" COMMAND="EXPLICIT" ACTIVE.DOC="32013R1259" ACTIVE.LOC="AR:1;PT:24;PT:b" MOD.LEVEL="1"?>
+            <STI><P>Kategorie 1</P></STI>
+            <?CLG.MDFC ID="C001001M029000" IDREF="O001001M029000"?>
+          </TITLE>
+          <GR.NOTES>
+            <NOTE NOTE.ID="E0009" NUMBERING="ARAB" TYPE="TABLE">
+              <P>
+                <REF.DOC.OJ COLL="L" DATE.PUB="20021028" NO.OJ="290" PAGE.FIRST="1">ABl. L 290 vom 28.10.2002, S. 1</REF.DOC.OJ>.
+              </P>
+            </NOTE>
+            <NOTE NOTE.ID="E0010" NUMBERING="ARAB" TYPE="TABLE">
+              <P>Die CAS-Nr. ist die Registriernummer des
+                <QUOT.START CODE="201E" ID="QS0016" REF.END="QE0016"/>Chemical Abstracts Service<QUOT.END CODE="201C" ID="QE0016" REF.START="QS0016"/>, bei der es sich um eine eindeutige Codierung für jeden Stoff und seine Struktur handelt. Jedes Isomer und jedes Salz jedes Isomers erhalten eine eigene CAS-Nr. Daher weichen die CAS-Nummern für die Salze der oben genannten Stoffe von den angegebenen Nummern ab.
+              </P>
+            </NOTE>
+            <NOTE NOTE.ID="E0011" NUMBERING="ARAB" TYPE="TABLE">
+              <P>
+                Auch (+)-Norpseudoephedrin genannt, KN-Code <FT TYPE="CN">29394300</FT>, CAS-Nr. 492-39-7.
+              </P>
+            </NOTE>
+          </GR.NOTES>
+          <CORPUS>
+            <ROW TYPE="HEADER">
+              <CELL COL="1" TYPE="HEADER">Stoff</CELL>
+              <CELL COL="2" TYPE="HEADER">
+                <P>KN-Bezeichnung</P>
+                <P>(falls abweichend)</P>
+              </CELL>
+              <CELL COL="3" TYPE="HEADER">
+                KN-Code <NOTE NOTE.REF="E0009"/>
+              </CELL>
+              <CELL COL="4" TYPE="HEADER">CAS-Nr. <NOTE NOTE.REF="E0010"/>
+              </CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1">1-Phenyl-2-Propanon</CELL>
+              <CELL COL="2">Phenylaceton</CELL>
+              <CELL COL="3"><FT TYPE="CN">29143100</FT></CELL>
+              <CELL COL="4">103-79-7</CELL>
+            </ROW>
+            <ROW>
+              <CELL COL="1" COLSPAN="4">Die Stereoisomere der in dieser Kategorie aufgeführten Stoffe mit Ausnahme von Cathin <NOTE NOTE.REF="E0011"/>, sofern das Bestehen solcher Formen möglich ist.</CELL>
+            </ROW>
+          </CORPUS>
+        </TBL>
+      </CONTENTS>
+    </ANNEX>
+  </ANNEXES>
+</LEXP.COMBINED>

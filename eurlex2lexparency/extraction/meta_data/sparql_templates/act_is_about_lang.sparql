@@ -1,0 +1,7 @@
+SELECT ?value
+WHERE {{
+   ?work cdm:work_is_about_concept_eurovoc ?concept .
+   ?concept skos:prefLabel ?value .
+   ?work cdm:resource_legal_id_celex '{celex}'^^xsd:string .
+   FILTER(lang(?value) = '{language}') .
+}}

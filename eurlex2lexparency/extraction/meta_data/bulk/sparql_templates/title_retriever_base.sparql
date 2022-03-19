@@ -1,0 +1,10 @@
+SELECT ?work ?id_local ?title
+WHERE {{
+   ?work eli:id_local ?id_local .
+   OPTIONAL {{
+       ?exp eli:title ?title .
+       ?exp eli:language lang:{lang_3} .
+       ?work eli:is_realized_by ?exp .
+   }}
+   FILTER({filter}) .
+}}

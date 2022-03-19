@@ -1,0 +1,13 @@
+<div id="toc">
+  <div class="lxp-article" id="ART_1"/>
+  <div class="lxp-article" id="ART_2"/>
+  <div class="lxp-article" id="ART_3"/>
+  <div class="lxp-article" id="ART_4"/>
+  <div class="lxp-article" id="ART_5"/>
+  <div class="lxp-container" id="toc-ANX">
+    <div class="lxp-article" id="ANX_I"/>
+    <div class="lxp-article" id="ANX_II"/>
+    <div class="lxp-article" id="ANX_III"/>
+    <div class="lxp-article" id="ANX_IV"/>
+  </div>
+</div>

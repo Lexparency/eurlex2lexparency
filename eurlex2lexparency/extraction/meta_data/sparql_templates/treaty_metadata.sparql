@@ -1,0 +1,15 @@
+SELECT DISTINCT ?s ?p ?o
+WHERE {{
+   {{
+      <{resource_iri}> ?p ?o .
+      FILTER (lang(?o) = '{language}' || lang(?o) = "") .
+   }}
+UNION
+   {{
+      ?s ?p <{resource_iri}> .
+      FILTER (?p != cdm:resource_legal_based_on_concept_treaty) .
+      FILTER (?p != owl:annotatedTarget) .
+      FILTER (?p != cdm:event_legal_based_on_resource_legal) .
+   }}
+}}
+LIMIT 500

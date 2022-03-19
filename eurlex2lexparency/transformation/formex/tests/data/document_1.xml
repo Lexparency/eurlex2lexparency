@@ -1,0 +1,321 @@
+<LEXP.COMBINED>
+  <ACT
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:fmx="http://opoce"
+          xsi:noNamespaceSchemaLocation="http://formex.publications.europa.eu/schema/formex-05.55-20141201.xd">
+    <BIB.INSTANCE>
+      <DOCUMENT.REF FILE="L_2016119EN.01000101.doc.xml">
+        <COLL>L</COLL>
+        <NO.OJ>119</NO.OJ>
+        <YEAR>2016</YEAR>
+        <LG.OJ>EN</LG.OJ>
+        <PAGE.FIRST>1</PAGE.FIRST>
+        <PAGE.SEQ>1</PAGE.SEQ>
+        <VOLUME.REF>01</VOLUME.REF>
+      </DOCUMENT.REF>
+      <EEA/>
+      <DATE ISO="20160427">20160427</DATE>
+      <LG.DOC>EN</LG.DOC>
+      <NO.SEQ>0001</NO.SEQ>
+      <PAGE.FIRST>1</PAGE.FIRST>
+      <PAGE.SEQ>1</PAGE.SEQ>
+      <PAGE.LAST>88</PAGE.LAST>
+      <PAGE.TOTAL>88</PAGE.TOTAL>
+      <NO.DOC FORMAT="YN" TYPE="OJ">
+        <NO.CURRENT>679</NO.CURRENT>
+        <YEAR>2016</YEAR>
+        <COM>EU</COM>
+      </NO.DOC>
+    </BIB.INSTANCE>
+    <TITLE>
+      <TI>
+        <P><HT TYPE="UC">Regulation</HT> (EU) 2016/679 <HT TYPE="UC">of the European Parliament and of the Council</HT></P>
+        <P>of <DATE ISO="20160427">27 April 2016</DATE></P>
+        <P>on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)</P>
+        <P>(Text with EEA relevance)</P>
+      </TI>
+    </TITLE>
+    <PREAMBLE>
+      <PREAMBLE.INIT>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</PREAMBLE.INIT>
+      <GR.VISA>
+        <VISA>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 16 thereof,</VISA>
+        <VISA>Having regard to the proposal from the European Commission,</VISA>
+        <VISA>After transmission of the draft legislative act to the national parliaments,</VISA>
+        <VISA>Having regard to the opinion of the European Economic and Social Committee
+          <NOTE NOTE.ID="E0001" NUMBERING="ARAB" TYPE="FOOTNOTE">
+            <P>
+              <REF.DOC.OJ COLL="C" DATE.PUB="20120731" NO.OJ="229" PAGE.FIRST="90">OJ C 229, 31.7.2012, p. 90</REF.DOC.OJ>.
+            </P>
+          </NOTE>,
+        </VISA>
+      </GR.VISA>
+      <GR.CONSID>
+        <GR.CONSID.INIT>Whereas:</GR.CONSID.INIT>
+        <CONSID>
+          <NP>
+            <NO.P>(1)</NO.P>
+            <TXT>The protection of natural persons in relation to the processing of personal data is a fundamental right.</TXT>
+          </NP>
+        </CONSID>
+        <CONSID>
+          <NP>
+            <NO.P>(2)</NO.P>
+            <TXT>The principles of, and rules on the protection of natural persons with regard to the processing of their personal data should respect their fundamental rights and freedoms.</TXT>
+          </NP>
+        </CONSID>
+        <CONSID>
+          <NP>
+            <NO.P>(3)</NO.P>
+            <TXT>Directive 95/46/EC of the European Parliament and of the
+              Council<NOTE NOTE.ID="E0004" NUMBERING="ARAB" TYPE="FOOTNOTE">
+                <P>Directive 95/46/EC of the European Parliament (<REF.DOC.OJ COLL="L" DATE.PUB="19951123" NO.OJ="281" PAGE.FIRST="31">
+                  OJ L 281, 23.11.1995, p. 31</REF.DOC.OJ>).</P></NOTE>.</TXT>
+          </NP>
+        </CONSID>
+        <?PAGE NO="2"?>
+        <CONSID>
+          <NP>
+            <NO.P>(4)</NO.P>
+            <TXT>The processing of personal data should be designed to serve mankind.</TXT>
+          </NP>
+        </CONSID>
+      </GR.CONSID>
+      <?PAGE NO="32"?>
+      <PREAMBLE.FINAL>HAVE ADOPTED THIS REGULATION:</PREAMBLE.FINAL>
+    </PREAMBLE>
+    <ENACTING.TERMS>
+      <DIVISION>
+        <TITLE>
+          <TI>
+            <P>
+              <HT TYPE="ITALIC">CHAPTER I</HT>
+            </P>
+          </TI>
+          <STI>
+            <P>
+              <HT TYPE="BOLD">
+                <HT TYPE="ITALIC">General provisions</HT>
+              </HT>
+            </P>
+          </STI>
+        </TITLE>
+        <ARTICLE IDENTIFIER="001">
+          <TI.ART>Article 1</TI.ART>
+          <STI.ART>Subject-matter and objectives</STI.ART>
+          <PARAG IDENTIFIER="001.001">
+            <NO.PARAG>1.</NO.PARAG>
+            <ALINEA>This Regulation lays down rules relating to the protection of natural persons.</ALINEA>
+          </PARAG>
+          <PARAG IDENTIFIER="001.002">
+            <NO.PARAG>2.</NO.PARAG>
+            <ALINEA>This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data.</ALINEA>
+          </PARAG>
+        </ARTICLE>
+        <ARTICLE IDENTIFIER="002">
+          <TI.ART>Article 2</TI.ART>
+          <STI.ART>Material scope</STI.ART>
+          <PARAG IDENTIFIER="002.001">
+            <NO.PARAG>1.</NO.PARAG>
+            <ALINEA>This Regulation applies to the processing of personal data.</ALINEA>
+          </PARAG>
+          <PARAG IDENTIFIER="002.002">
+            <NO.PARAG>2.</NO.PARAG>
+            <ALINEA>
+              <P>This Regulation does not apply to the processing of personal data:</P>
+              <LIST TYPE="alpha">
+                <ITEM>
+                  <NP>
+                    <NO.P>(a)</NO.P>
+                    <TXT>in the course of an activity which falls outside the scope of Union law;</TXT>
+                  </NP>
+                </ITEM>
+                <ITEM>
+                  <NP>
+                    <NO.P>(b)</NO.P>
+                    <TXT>by the Member States when carrying out activities which fall within the scope of Chapter 2 of Title V of the TEU;</TXT>
+                  </NP>
+                </ITEM>
+              </LIST>
+            </ALINEA>
+          </PARAG>
+        </ARTICLE>
+        <ARTICLE IDENTIFIER="004">
+          <TI.ART>Article 4</TI.ART>
+          <STI.ART>Definitions</STI.ART>
+          <ALINEA>
+            <P>For the purposes of this Regulation:</P>
+            <LIST TYPE="ARAB">
+              <ITEM>
+                <NP>
+                  <NO.P>(1)</NO.P>
+                  <TXT>
+                    <QUOT.START CODE="2018" ID="QS0014" REF.END="QE0014"/>personal data<QUOT.END CODE="2019" ID="QE0014" REF.START="QS0014"/>
+                    means any information relating to an identified or identifiable natural person
+                    (<QUOT.START CODE="2018" ID="QS0015" REF.END="QE0015"/>data subject<QUOT.END CODE="2019" ID="QE0015" REF.START="QS0015"/>);
+                    an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier
+                    such as a name, an identification number, location data, an online identifier or to one or more factors specific to the
+                    physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
+                  </TXT>
+                </NP>
+              </ITEM>
+              <ITEM>
+                <NP>
+                  <NO.P>(2)</NO.P>
+                  <TXT>
+                    <QUOT.START CODE="2018" ID="QS0016" REF.END="QE0016"/>processing<QUOT.END CODE="2019" ID="QE0016" REF.START="QS0016"/>
+                    means any operation or set of operations which is performed on personal data or on sets of personal data, whether or
+                    not by automated means.
+                  </TXT>
+                </NP>
+              </ITEM>
+            </LIST>
+          </ALINEA>
+        </ARTICLE>
+      </DIVISION>
+      <DIVISION>
+        <TITLE>
+          <TI>
+            <P>
+              <HT TYPE="ITALIC">CHAPTER II</HT>
+            </P>
+          </TI>
+          <STI>
+            <P>
+              <HT TYPE="BOLD">
+                <HT TYPE="ITALIC">Rights of the data subject</HT>
+              </HT>
+            </P>
+          </STI>
+        </TITLE>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>
+                <HT TYPE="EXPANDED">Section 1</HT>
+              </P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">
+                  <HT TYPE="EXPANDED">Transparency and modalities</HT>
+                </HT>
+              </P>
+            </STI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="012">
+            <TI.ART>Article 12</TI.ART>
+            <STI.ART>Transparent information, communication and modalities for the exercise of the rights of the data subject</STI.ART>
+            <PARAG IDENTIFIER="012.001">
+              <NO.PARAG>1.</NO.PARAG>
+              <ALINEA>The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14.</ALINEA>
+            </PARAG>
+            <?PAGE NO="40"?>
+            <PARAG IDENTIFIER="012.002">
+              <NO.PARAG>2.</NO.PARAG>
+              <ALINEA>The controller shall facilitate the exercise of data subject rights under Articles 2 to 4.</ALINEA>
+            </PARAG>
+          </ARTICLE>
+        </DIVISION>
+        <DIVISION>
+          <TITLE>
+            <TI>
+              <P>
+                <HT TYPE="EXPANDED">Section 2</HT>
+              </P>
+            </TI>
+            <STI>
+              <P>
+                <HT TYPE="BOLD">
+                  <HT TYPE="EXPANDED">Information and access to personal data</HT>
+                </HT>
+              </P>
+            </STI>
+          </TITLE>
+          <ARTICLE IDENTIFIER="013">
+            <TI.ART>Article 13</TI.ART>
+            <STI.ART>Information to be provided where personal data are collected from the data subject</STI.ART>
+            <PARAG IDENTIFIER="013.001">
+              <NO.PARAG>1.</NO.PARAG>
+              <ALINEA>
+                <P>Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>(a)</NO.P>
+                      <TXT>the identity and the contact details of the controller and, where applicable, of the controller's representative;</TXT>
+                    </NP>
+                  </ITEM>
+                  <?PAGE NO="41"?>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="013.002">
+              <NO.PARAG>2.</NO.PARAG>
+              <ALINEA>
+                <P>In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:</P>
+                <LIST TYPE="alpha">
+                  <ITEM>
+                    <NP>
+                      <NO.P>(a)</NO.P>
+                      <TXT>the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;</TXT>
+                    </NP>
+                  </ITEM>
+                  <ITEM>
+                    <NP>
+                      <NO.P>(b)</NO.P>
+                      <TXT>the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability;</TXT>
+                    </NP>
+                  </ITEM>
+                </LIST>
+              </ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <ARTICLE IDENTIFIER="014">
+            <TI.ART>Article 14</TI.ART>
+            <STI.ART>Information to be provided where personal data have not been obtained from the data subject</STI.ART>
+            <PARAG IDENTIFIER="014.001">
+              <NO.PARAG>1.</NO.PARAG>
+              <ALINEA>
+                <P>Where personal data have not been obtained from the data subject, the controller shall provide the data.</P>
+              </ALINEA>
+            </PARAG>
+            <PARAG IDENTIFIER="014.002">
+              <NO.PARAG>2.</NO.PARAG>
+              <ALINEA>
+                <P>In addition to the information referred to in paragraph 1, the controller shall provide the data.</P>
+              </ALINEA>
+            </PARAG>
+          </ARTICLE>
+          <?PAGE NO="43"?>
+        </DIVISION>
+      </DIVISION>
+    </ENACTING.TERMS>
+    <?PAGE NO="88"?>
+    <FINAL>
+      <P>This Regulation shall be binding in its entirety and directly applicable in all Member States.</P>
+      <SIGNATURE>
+        <PL.DATE>
+          <P>Done at Brussels, <DATE ISO="20160427">27 April 2016</DATE>.</P>
+        </PL.DATE>
+        <SIGNATORY>
+          <P>
+            <HT TYPE="ITALIC">For the European Parliament</HT>
+          </P>
+          <P>
+            <HT TYPE="ITALIC">The President</HT>
+          </P>
+          <P>M. <HT TYPE="UC">Schulz</HT></P>
+        </SIGNATORY>
+        <SIGNATORY>
+          <P>
+            <HT TYPE="ITALIC">For the Council</HT>
+          </P>
+          <P>
+            <HT TYPE="ITALIC">The President</HT>
+          </P>
+          <P>J.A. <HT TYPE="UC">Hennis-Plasschaert</HT></P>
+        </SIGNATORY>
+      </SIGNATURE>
+    </FINAL>
+  </ACT>
+</LEXP.COMBINED>

@@ -1,0 +1,9 @@
+SELECT ?celex ?date ?lang
+WHERE {{
+    ?work cdm:resource_legal_id_celex ?celex .
+    ?work cdm:act_consolidated_date ?date .
+    ?expression cdm:expression_belongs_to_work ?work .
+    ?expression cdm:expression_uses_language ?lang
+    FILTER(?date >= '{first}'^^xsd:date) .
+    FILTER(?date <= '{ultimo}'^^xsd:date) .
+}}

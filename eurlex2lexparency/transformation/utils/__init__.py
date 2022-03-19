@@ -1,0 +1,2 @@
+class TransformingRepealerError(Exception):
+    pass

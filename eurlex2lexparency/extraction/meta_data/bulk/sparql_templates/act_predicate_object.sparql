@@ -1,0 +1,6 @@
+SELECT ?p ?value
+WHERE {{
+	?s ?p ?value .
+    ?s eli:id_local '{celex}' .
+    FILTER( ?p != eli:is_about ) .
+}}

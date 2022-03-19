@@ -1,0 +1,10 @@
+SELECT ?celex ?value
+WHERE {{
+   ?s cdm:resource_legal_id_celex ?celex .
+   OPTIONAL {{
+      ?s cdm:resource_legal_in-force ?value .
+   }}
+   FILTER( regex(?celex, '^3{year}{law_type}[0-9]{{4}}$') )
+}}
+ORDER BY ?celex
+LIMIT 5000

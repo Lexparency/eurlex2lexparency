@@ -1,0 +1,6 @@
+-- actually it's SQL, but ... for convenience.
+UPDATE act
+SET in_force = 0
+WHERE celex IN ( SELECT DISTINCT celex_changee
+                 FROM changes
+                 WHERE `change` = 'repeals')
