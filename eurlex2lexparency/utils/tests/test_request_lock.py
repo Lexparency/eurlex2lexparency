@@ -9,7 +9,10 @@ from eurlex2lexparency.utils.eurlex_request_lock import eurlex_request_queue
 class TestRequestLock(unittest.TestCase):
 
     def setUp(self) -> None:
-        os.remove(eurlex_request_queue.file_path)
+        try:
+            os.remove(eurlex_request_queue.file_path)
+        except FileNotFoundError: 
+            pass
 
     def test(self):
         lct_init = eurlex_request_queue.get()
