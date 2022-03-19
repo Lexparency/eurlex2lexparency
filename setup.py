@@ -7,7 +7,7 @@ setup(
     author_email="mail@lexparency.org",
     url="https://github.com/Lexparency/eurlex2lexparency",
     description="Transforming documents from Eur-Lex to Lexparency",
-    version="1.0",
+    version="1.1",
     packages=['eurlex2lexparency'],
     install_requires=[
         'lexref',
