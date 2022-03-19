@@ -1,5 +1,4 @@
 lexref == 1.1
-multiprocessing-logging==0.3.1
 singletonmetaclasss
 pandas==1.3.5
 cachier==1.5.4

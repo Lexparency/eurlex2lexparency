@@ -11,7 +11,6 @@ setup(
     packages=['eurlex2lexparency'],
     install_requires=[
         'lexref',
-        'multiprocessing',
         'singletonmetaclasss',
         'pandas',
         'cachier',
