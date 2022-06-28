@@ -1,5 +1,4 @@
-from setuptools import setup
-
+from setuptools import setup, find_packages
 
 setup(
     name="eurlex2lexparency",
@@ -7,8 +6,9 @@ setup(
     author_email="mail@lexparency.org",
     url="https://github.com/Lexparency/eurlex2lexparency",
     description="Transforming documents from Eur-Lex to Lexparency",
-    version="1.1",
-    packages=['eurlex2lexparency'],
+    version="1.2",
+    packages=find_packages(include=["eurlex2lexparency", "eurlex2lexparency.*"],
+                           exclude=["*.tests"]),
     install_requires=[
         'lexref',
         'singletonmetaclasss',
