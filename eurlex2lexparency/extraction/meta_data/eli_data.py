@@ -8,10 +8,10 @@ import requests
 from abc import ABC
 
 from eurlex2lexparency.extraction.meta_data.graph_data import new_graph
-from eurlex2lexparency.utils import prefixes
+from eurlex2lexparency.utils.sparql_kraken import prefixes
 from eurlex2lexparency.extraction.generic import Retriever
-from eurlex2lexparency.utils import remove
-from eurlex2lexparency.celex_manager import CelexCompound
+from eurlex2lexparency.utils.xtml import remove
+from eurlex2lexparency.celex_manager.celex import CelexCompound
 
 
 def construct_url_from(celex, consoli_date, language='EN'):

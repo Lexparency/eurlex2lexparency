@@ -12,7 +12,7 @@ from sqlalchemy.exc import OperationalError
 from eurlex2lexparency.celex_manager.model import SessionManager, Representation, Act, \
     Version as ActVersion
 from eurlex2lexparency.celex_manager.celex import Version, CelexBase, UnexpectedPatternException
-from etl import AbstractAct, PhysicalAct, UploadError
+from .etl import AbstractAct, PhysicalAct, UploadError
 from settings import LEXPATH, LANG_2_ADDRESS
 from eurlex2lexparency.utils.generics import retry, get_fallbacker
 

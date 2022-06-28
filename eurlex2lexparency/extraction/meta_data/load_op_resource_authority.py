@@ -1,7 +1,7 @@
 import os
 
 from settings import LEXPATH
-from eurlex2lexparency.extraction.meta_data import prefixes, new_graph
+from eurlex2lexparency.extraction.meta_data.graph_data import prefixes, new_graph
 
 
 # with urllib.request.urlopen(prefixes['op-rt']) as connection:

@@ -4,8 +4,8 @@ import logging
 
 from eurlex2lexparency.extraction.generic import Retriever
 from settings import LEXPATH
-from eurlex2lexparency.celex_manager import CelexBase, Version
-from eurlex2lexparency.celex_manager import SessionManager, Representation
+from eurlex2lexparency.celex_manager.celex import CelexBase, Version
+from eurlex2lexparency.celex_manager.model import SessionManager, Representation
 
 
 class PDFLoader(Retriever):

@@ -6,9 +6,9 @@ from lxml import etree as et
 from PIL import Image
 import logging
 
-from eurlex2lexparency.celex_manager import country_mapping
+from eurlex2lexparency.celex_manager.eurlex import country_mapping
 from eurlex2lexparency.extraction.generic import Retriever, FormatNotAvailable, img_2_base64
-from eurlex2lexparency.utils import eurlex_request_queue
+from eurlex2lexparency.utils.eurlex_request_lock import eurlex_request_queue
 
 
 class FileCheater:

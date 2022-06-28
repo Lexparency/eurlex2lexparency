@@ -5,7 +5,7 @@ from lxml import etree as et
 import logging
 
 from eurlex2lexparency.extraction.generic import Retriever, img_2_base64
-from eurlex2lexparency.utils import retry
+from eurlex2lexparency.utils.generics import retry
 
 
 # TODO: Find raw documents that have java-script elements directly embedded.

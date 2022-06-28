@@ -6,9 +6,9 @@ from datetime import date
 
 from eurlex2lexparency.extraction import textify
 from eurlex2lexparency.extraction.generic import FormatsNotLoaded, Formats
-from eurlex2lexparency.celex_manager import SessionManager, Representation
+from eurlex2lexparency.celex_manager.model import SessionManager, Representation
 from eurlex2lexparency.extraction.meta_data.eli_data import EurLexDocumentLandingPage
-from eurlex2lexparency.utils import SwingingFileLogger
+from eurlex2lexparency.utils.generics import SwingingFileLogger
 
 
 class EurLexLanguagesAndFormats:
@@ -143,6 +143,6 @@ class EurLexLanguagesAndFormats:
 
 if __name__ == '__main__':
     from settings import LEXPATH
-    from eurlex2lexparency.celex_manager import CelexBase
+    from eurlex2lexparency.celex_manager.celex import CelexBase
     c = CelexBase.from_string('32013R0575')
     ellaf = EurLexLanguagesAndFormats(os.path.join(LEXPATH, c.path), str(c), date(2013, 6, 28))

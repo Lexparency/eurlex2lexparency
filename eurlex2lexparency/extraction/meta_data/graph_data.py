@@ -2,7 +2,7 @@ from rdflib import Graph
 from rdflib.plugins.stores.sparqlstore import NSSPARQLWrapper
 from SPARQLWrapper import XML, CSV
 
-from eurlex2lexparency.utils import prefixes, bind_prefixes
+from eurlex2lexparency.utils.sparql_kraken import prefixes, bind_prefixes
 
 
 def new_graph(*args, **kwargs) -> Graph:
