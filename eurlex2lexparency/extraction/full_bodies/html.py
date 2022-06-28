@@ -47,6 +47,8 @@ class HTMLoader(Retriever):
                                                  element.attrib[attrib])
 
             for k, resource in enumerate(document.xpath(f'//img[@{attrib}]')):
+                if resource.attrib[attrib].startswith('data:image/jpg;base64'):
+                    continue
                 resource_url = urlparse(resource.attrib[attrib])
                 suffix = resource_url.geturl().split('.')[-1]
                 resource.attrib[attrib] = img_2_base64(
