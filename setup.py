@@ -6,7 +6,7 @@ setup(
     author_email="mail@lexparency.org",
     url="https://github.com/Lexparency/eurlex2lexparency",
     description="Transforming documents from Eur-Lex to Lexparency",
-    version="1.2.3",
+    version="1.3",
     packages=find_packages(include=["eurlex2lexparency", "eurlex2lexparency.*"],
                            exclude=["*.tests"]),
     package_data={
