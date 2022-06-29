@@ -1,11 +1,11 @@
-from eurlex2lexparency.utils import SparqlKraken
+from eurlex2lexparency.utils.sparql_kraken import SparqlKraken
 from eurlex2lexparency.celex_manager.celex import CelexCompound, UnexpectedPatternException, AnnexType, CelexBase
 from datetime import date
 from collections import namedtuple
 from typing import List
 
 from eurlex2lexparency.celex_manager.eurlex import country_mapping, PersistableHit, PreLegalContentXmlDataBase, query_templates
-from eurlex2lexparency.utils import FullMonth
+from eurlex2lexparency.utils.generics import FullMonth
 
 
 def lang_2(lang):

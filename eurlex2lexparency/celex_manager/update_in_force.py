@@ -8,9 +8,9 @@ from numpy import isnan, nan
 from sqlalchemy import update
 from sqlalchemy.exc import OperationalError
 
-from eurlex2lexparency.utils import SparqlKraken
+from eurlex2lexparency.utils.sparql_kraken import SparqlKraken
 from eurlex2lexparency.celex_manager.model import SessionManager, Act, Changes
-from eurlex2lexparency.utils import retry
+from eurlex2lexparency.utils.generics import retry
 
 ActStatus = namedtuple('ActStatus', ['celex', 'in_force'])
 
