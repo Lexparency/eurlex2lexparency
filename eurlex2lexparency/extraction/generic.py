@@ -5,7 +5,6 @@ from functools import lru_cache
 
 
 class Retriever(metaclass=ABCMeta):
-
     def __init__(self, local_path, url):
         self.url = url
         self.local_path = local_path
@@ -35,10 +34,9 @@ class FormatNotAvailable(Exception):
     pass
 
 
-Formats = namedtuple('Formats', ['html', 'pdf'])
+Formats = namedtuple("Formats", ["html", "pdf"])
 
 
 def img_2_base64(suffix, src):
     encoded = base64.b64encode(src)
-    return f"data:image/{suffix};base64, "\
-        + encoded.decode('ascii')
+    return f"data:image/{suffix};base64, " + encoded.decode("ascii")

@@ -9,10 +9,10 @@ class FormulaConversionError(Exception):
 
 
 brace_map = {
-    "<EXPR {'TYPE': 'BRACKET'}>": ('(', ')'),
-    "<EXPR {'TYPE': 'BRACE'}>": (r'\{', r'\}'),
-    "<EXPR {'TYPE': 'SQBRACKET'}>": (r'[', r']'),
-    "<EXPR {'TYPE': 'BAR'}>": ('|', '|'),
+    "<EXPR {'TYPE': 'BRACKET'}>": ("(", ")"),
+    "<EXPR {'TYPE': 'BRACE'}>": (r"\{", r"\}"),
+    "<EXPR {'TYPE': 'SQBRACKET'}>": (r"[", r"]"),
+    "<EXPR {'TYPE': 'BAR'}>": ("|", "|"),
 }
 
 
@@ -30,32 +30,32 @@ latex_operators = {
     "<UNDER>": "_",
     "<FT {'TYPE': 'NUMBER'}>": "",
     "<FMT.VALUE": "",
-    '<ROOT>': r'\sqrt',
+    "<ROOT>": r"\sqrt",
 }
 
 
 simple_mapping = {
-    'ln': r'\ln',
-    'min': r'\min',
-    'max': r'\max',
-    'sin': r'\sin',
-    'cos': r'\cos',
-    'exp': r'\exp',
-    "<OP.MATH {'TYPE': 'CARTPROD'}>": '\\times',
-    "<OP.MATH {'TYPE': 'DIV'}>": '/',
-    "<OP.MATH {'TYPE': 'MINUS'}>": '-',
-    "<OP.MATH {'TYPE': 'MULT'}>": '\\cdot',
-    "<OP.MATH {'TYPE': 'PLUS'}>": '+',
-    "<OP.MATH {'TYPE': 'PLUSMINUS'}>": '\\pm',
-    "<OP.CMP {'TYPE': 'EQ'}>": '=',
-    "<OP.CMP {'TYPE': 'LT'}>": '<',
-    "<OP.CMP {'TYPE': 'GT'}>": '>',
-    "<OP.CMP {'TYPE': 'NE'}>": '\\ne',
-    "<OP.CMP {'TYPE': 'LE'}>": '\\le',
-    "<OP.CMP {'TYPE': 'GE'}>": '\\ge',
-    "<OP.CMP {'TYPE': 'AP'}>": '\\approx',
-    "<OP.CMP {'TYPE': 'EQV'}>": '\\equiv',
-    "<SUM>": r'\sum',
+    "ln": r"\ln",
+    "min": r"\min",
+    "max": r"\max",
+    "sin": r"\sin",
+    "cos": r"\cos",
+    "exp": r"\exp",
+    "<OP.MATH {'TYPE': 'CARTPROD'}>": "\\times",
+    "<OP.MATH {'TYPE': 'DIV'}>": "/",
+    "<OP.MATH {'TYPE': 'MINUS'}>": "-",
+    "<OP.MATH {'TYPE': 'MULT'}>": "\\cdot",
+    "<OP.MATH {'TYPE': 'PLUS'}>": "+",
+    "<OP.MATH {'TYPE': 'PLUSMINUS'}>": "\\pm",
+    "<OP.CMP {'TYPE': 'EQ'}>": "=",
+    "<OP.CMP {'TYPE': 'LT'}>": "<",
+    "<OP.CMP {'TYPE': 'GT'}>": ">",
+    "<OP.CMP {'TYPE': 'NE'}>": "\\ne",
+    "<OP.CMP {'TYPE': 'LE'}>": "\\le",
+    "<OP.CMP {'TYPE': 'GE'}>": "\\ge",
+    "<OP.CMP {'TYPE': 'AP'}>": "\\approx",
+    "<OP.CMP {'TYPE': 'EQV'}>": "\\equiv",
+    "<SUM>": r"\sum",
 }
 
 special_characters = {
@@ -113,8 +113,8 @@ special_characters = {
     chr(903): r"\cdot",
     chr(8211): "-",
     chr(8212): "-",
-    chr(8706): r'\partial',
-    '%': r'\%',
+    chr(8706): r"\partial",
+    "%": r"\%",
     chr(215): r"\times",
     chr(8721): r"\sum",
     chr(8804): r"\le",
@@ -124,14 +124,14 @@ special_characters = {
 
 def urep(s):
     n = ord(s)
-    return r'\u' + hex(n)[2:].upper().zfill(4)
+    return r"\u" + hex(n)[2:].upper().zfill(4)
 
 
 simple_mapping.update(special_characters)
 
 
-word_sequence_pattern = re.compile('^[a-z ]+$', flags=re.IGNORECASE)
-abbreviation_pattern = re.compile('^[A-Z]{2,}$')
+word_sequence_pattern = re.compile("^[a-z ]+$", flags=re.IGNORECASE)
+abbreviation_pattern = re.compile("^[A-Z]{2,}$")
 
 
 def tokenize_string(string: str):
@@ -140,16 +140,16 @@ def tokenize_string(string: str):
         return [string]
     else:
         # Regex don't seem to work here.
-        for clear_token in list(';:*/+-') + list(special_characters.keys()):
-            string = string.replace(clear_token, '###{}###'.format(clear_token))
+        for clear_token in list(";:*/+-") + list(special_characters.keys()):
+            string = string.replace(clear_token, "###{}###".format(clear_token))
         return [
-            token.strip() for token in string.split('###')
-            if token.strip() not in (None, '')
+            token.strip()
+            for token in string.split("###")
+            if token.strip() not in (None, "")
         ]
 
 
 class FormulaNodeParser(NodeMixin):
-
     def __init__(self, source, parent=None):
         self.parent = parent
         self.source = source
@@ -172,25 +172,25 @@ class FormulaNodeParser(NodeMixin):
 
     @property
     def could_be_sum(self):
-        """ Some summations are implemented using the greek letter "\Sigma" (literally).
+        """Some summations are implemented using the greek letter "\Sigma" (literally).
         This property evaluates whether the present token should be converted to \sum in latex.
         This is a complex logic and would require testing
         :return: bool, indicating whether it makes sense to interpret the present token as summation symbol
         """
-        if simple_mapping.get(self.representation) != r'\Sigma':
+        if simple_mapping.get(self.representation) != r"\Sigma":
             return False
         next_sibling = self.get_next()
         if next_sibling is None:
             return False
         next_operator = latex_operators.get(next_sibling.representation)
-        if next_operator == '_':
+        if next_operator == "_":
             return True
-        if next_operator == '^':
+        if next_operator == "^":
             next_next_sibling = next_sibling.get_next()
             if next_next_sibling is None:
                 return False
             next_next_operator = latex_operators.get(next_next_sibling.representation)
-            if next_next_operator == '_':
+            if next_next_operator == "_":
                 return True
         return False
 
@@ -198,43 +198,53 @@ class FormulaNodeParser(NodeMixin):
     def latex(self):
         if self.representation in simple_mapping:
             if self.could_be_sum:
-                return r'\sum'
+                return r"\sum"
             return simple_mapping[self.representation]
         if not self.complex_type:
-            if ((word_sequence_pattern.match(self.representation) and len(self.representation) >= 3)
-                or abbreviation_pattern.match(self.representation))\
-                    and self.representation not in latex_operators:  # those are handled further down the road
-                operator = r'\text' if ' ' in self.representation else r'\mathrm'
-                return operator + '{{{}}}'.format(self.representation)
+            if (
+                (
+                    word_sequence_pattern.match(self.representation)
+                    and len(self.representation) >= 3
+                )
+                or abbreviation_pattern.match(self.representation)
+            ) and self.representation not in latex_operators:  # those are handled further down the road
+                operator = r"\text" if " " in self.representation else r"\mathrm"
+                return operator + "{{{}}}".format(self.representation)
             return self.representation
-        if self.representation == '<FRACTION>':
-            return r'\frac{}{}'.format(*map(attrgetter('latex'), self.children))
-        inner = ' '.join(child.latex for child in self.children)
-        if self.representation in ('<EXPR>', '<DIVIDEND>', '<DIVISOR>'):
-            return '{{{}}}'.format(inner)
+        if self.representation == "<FRACTION>":
+            return r"\frac{}{}".format(*map(attrgetter("latex"), self.children))
+        inner = " ".join(child.latex for child in self.children)
+        if self.representation in ("<EXPR>", "<DIVIDEND>", "<DIVISOR>"):
+            return "{{{}}}".format(inner)
         if self.representation in brace_map:
-            if re.search(r'\\(frac|sum)\b', inner):
+            if re.search(r"\\(frac|sum)\b", inner):
                 # Adapt braces sizes if inner contains fractions
-                braces = map(lambda a, b: ' '.join([a, b]), (r'\left', r'\right'), brace_map[self.representation])
+                braces = map(
+                    lambda a, b: " ".join([a, b]),
+                    (r"\left", r"\right"),
+                    brace_map[self.representation],
+                )
             else:
                 braces = brace_map[self.representation]
-            return '{}{inner}{}'.format(*braces, inner=inner)
+            return "{}{inner}{}".format(*braces, inner=inner)
         if self.representation in latex_operators:
             operator = latex_operators[self.representation]
-            if operator != '':
-                if operator == r'\mathrm' and (inner.startswith(operator) or inner.startswith(r'\text')):
+            if operator != "":
+                if operator == r"\mathrm" and (
+                    inner.startswith(operator) or inner.startswith(r"\text")
+                ):
                     return inner
-                return operator + '{{{}}}'.format(inner)
+                return operator + "{{{}}}".format(inner)
             else:
                 return inner
         return inner
 
     def _set_children_from_element(self, source: et.ElementBase):
-        """ Actually a tokenisation step. """
-        if (source.tail or '').strip() != '':
+        """Actually a tokenisation step."""
+        if (source.tail or "").strip() != "":
             for token_string in tokenize_string(source.tail):
                 FormulaNodeParser(token_string, parent=self.parent)
-        if (source.text or '').strip() != '':
+        if (source.text or "").strip() != "":
             for token_string in tokenize_string(source.text):
                 FormulaNodeParser(token_string, parent=self)
         for child in source.iterchildren():
@@ -246,24 +256,26 @@ class FormulaNodeParser(NodeMixin):
 
     def __repr__(self):
         if self.complex_type:
-            return '<{} {}>'.format(self.source.tag, self.source.attrib).replace(' {}', '')
-        return self.source.replace('\n', '').strip()
+            return "<{} {}>".format(self.source.tag, self.source.attrib).replace(
+                " {}", ""
+            )
+        return self.source.replace("\n", "").strip()
 
     def __str__(self):
         return str(RenderTree(self))
 
     def correct_nesting(self):
-        """ In some versions of formex, the fractions within the formulas are expressed as
-            <EXPR/><OVER/><EXPR/>
+        """In some versions of formex, the fractions within the formulas are expressed as
+        <EXPR/><OVER/><EXPR/>
         """
         fractions = []
         roots = []
         for k, child in enumerate(self.children):
-            if child.representation == '<OVER>' and k > 0 and len(child.children) == 0:
-                child.representation = '<FRACTION>'
-                fractions.append((self.children[k-1], child, self.children[k+1]))
-            if child.representation == '<ROOT>' and len(child.children) == 0:
-                roots.append((child, self.children[k+1]))
+            if child.representation == "<OVER>" and k > 0 and len(child.children) == 0:
+                child.representation = "<FRACTION>"
+                fractions.append((self.children[k - 1], child, self.children[k + 1]))
+            if child.representation == "<ROOT>" and len(child.children) == 0:
+                roots.append((child, self.children[k + 1]))
         for enumerator, dash, nominator in fractions:
             enumerator.parent = dash
             nominator.parent = dash
@@ -273,15 +285,17 @@ class FormulaNodeParser(NodeMixin):
 
 def formex_to_latex(formula: et.ElementBase):
     latex = FormulaNodeParser(formula).latex
-    if formula.tag == 'FORMULA.S' or (formula.tag == 'FORMULA' and formula.attrib.pop('TYPE', None) == "OUTLINE"):
-        tag = 'div'
-        wrapper = ('$$', '$$')
+    if formula.tag == "FORMULA.S" or (
+        formula.tag == "FORMULA" and formula.attrib.pop("TYPE", None) == "OUTLINE"
+    ):
+        tag = "div"
+        wrapper = ("$$", "$$")
     else:
-        tag = 'span'
-        wrapper = (r'\(', r'\)')
+        tag = "span"
+        wrapper = (r"\(", r"\)")
     for child in formula.iterchildren():
         formula.remove(child)
     formula.tag = tag
-    formula.attrib['class'] = 'lxp-math'
-    formula.text = '{}{text}{}'.format(*wrapper, text=latex)
+    formula.attrib["class"] = "lxp-math"
+    formula.text = "{}{text}{}".format(*wrapper, text=latex)
     return formula

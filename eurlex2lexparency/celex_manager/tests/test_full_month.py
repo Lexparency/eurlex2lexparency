@@ -20,7 +20,6 @@ ultimos = [
 
 
 class TestFullMonth(unittest.TestCase):
-
     def test_next(self):
         for predecessor, follower in successors:
             self.assertEqual(predecessor.next(), follower)
@@ -39,10 +38,9 @@ class TestFullMonth(unittest.TestCase):
         for month, _ in ultimos:
             self.assertEqual(
                 month,
-                FullMonth.instantiate(
-                    str(month.year) + str(month.month).zfill(2))
+                FullMonth.instantiate(str(month.year) + str(month.month).zfill(2)),
             )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

@@ -10,7 +10,8 @@ def new_graph(*args, **kwargs) -> Graph:
 
 
 class Inquirer(NSSPARQLWrapper):
-    """ Basically another wrapper for rdf-lib SPARQLEStore. """
+    """Basically another wrapper for rdf-lib SPARQLEStore."""
+
     nsBindings = prefixes
 
     def __init__(self, endpoint, return_format=XML):
@@ -21,5 +22,5 @@ class Inquirer(NSSPARQLWrapper):
         self.setQuery(query)
         r = self.query()
         if self.returnFormat == CSV:
-            return r.convert().decode('utf-8').split('\n')
+            return r.convert().decode("utf-8").split("\n")
         return r.convert()

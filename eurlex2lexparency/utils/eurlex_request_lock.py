@@ -10,7 +10,7 @@ def wait(duration):  # pass-through for testing
 
 
 class ServiceRequestDoorkeeper:
-    """ A self-made shared state for multiprocessing and single threaded """
+    """A self-made shared state for multiprocessing and single threaded"""
 
     def __init__(self, file_path, niceness):
         self.file_path = file_path
@@ -18,7 +18,7 @@ class ServiceRequestDoorkeeper:
 
     def get(self) -> datetime:
         try:
-            with open(self.file_path, mode='r') as f:
+            with open(self.file_path, mode="r") as f:
                 result = datetime.fromtimestamp(float(f.read()))
         except FileNotFoundError:
             result = datetime.now()
@@ -26,7 +26,7 @@ class ServiceRequestDoorkeeper:
         return result
 
     def set(self, value: datetime):
-        with open(self.file_path, mode='w') as f:
+        with open(self.file_path, mode="w") as f:
             f.write(str(value.timestamp()))
 
     def wait(self):
@@ -41,6 +41,6 @@ class ServiceRequestDoorkeeper:
         wait(wait_time)
 
 
-FILE_PATH = os.path.join(LEXPATH, 'last_eurlex_call_time')
+FILE_PATH = os.path.join(LEXPATH, "last_eurlex_call_time")
 
 eurlex_request_queue = ServiceRequestDoorkeeper(FILE_PATH, 1)

@@ -2,13 +2,18 @@ import unittest
 import os
 
 from eurlex2lexparency.transformation.generic.test import TestTransformation
-from eurlex2lexparency.transformation.html.document import _ModernOriginalAct, \
-    _OldFashionedOriginalAct, _ModernConsolidatedAct, _OldFashionedConsolidatedAct, _ActProposal
+from eurlex2lexparency.transformation.html.document import (
+    _ModernOriginalAct,
+    _OldFashionedOriginalAct,
+    _ModernConsolidatedAct,
+    _OldFashionedConsolidatedAct,
+    _ActProposal,
+)
 
 
 class TestHtmlTransformer(TestTransformation):
-    DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
-    language = 'EN'
+    DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
+    language = "EN"
 
     def setUp(self):
         self.maxDiff = None
@@ -16,8 +21,8 @@ class TestHtmlTransformer(TestTransformation):
 
 
 class TestModernOriginalTransformation(TestHtmlTransformer):
-    raw = 'modern_1_raw.html'
-    refined = 'modern_1_refined.html'
+    raw = "modern_1_raw.html"
+    refined = "modern_1_refined.html"
     transformer = _ModernOriginalAct
 
     def test_skeleton(self):
@@ -28,8 +33,8 @@ class TestModernOriginalTransformation(TestHtmlTransformer):
 
 
 class TestOldFashionedOriginalTransformation(TestHtmlTransformer):
-    raw = 'old_1_raw.html'
-    refined = 'old_1_refined.html'
+    raw = "old_1_raw.html"
+    refined = "old_1_refined.html"
     transformer = _OldFashionedOriginalAct
 
     def test_skeleton(self):
@@ -40,10 +45,10 @@ class TestOldFashionedOriginalTransformation(TestHtmlTransformer):
 
 
 class TestOldFashionedConsolidatedTransformation(TestHtmlTransformer):
-    raw = 'old_consolidated_raw.html'
-    refined = 'old_consolidated_refined.html'
+    raw = "old_consolidated_raw.html"
+    refined = "old_consolidated_refined.html"
     transformer = _OldFashionedConsolidatedAct
-    language = 'DE'
+    language = "DE"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -53,10 +58,10 @@ class TestOldFashionedConsolidatedTransformation(TestHtmlTransformer):
 
 
 class TestOldFashionedOriginalTransformationDde(TestHtmlTransformer):
-    raw = 'EUHb_de_raw.html'
-    refined = 'EUHb_de_refined.html'
+    raw = "EUHb_de_raw.html"
+    refined = "EUHb_de_refined.html"
     transformer = _OldFashionedOriginalAct
-    language = 'DE'
+    language = "DE"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -66,8 +71,8 @@ class TestOldFashionedOriginalTransformationDde(TestHtmlTransformer):
 
 
 class TestModernConsolidatedAct(TestHtmlTransformer):
-    raw = 'moderncons_1_raw.html'
-    refined = 'moderncons_1_refined.html'
+    raw = "moderncons_1_raw.html"
+    refined = "moderncons_1_refined.html"
     transformer = _ModernConsolidatedAct
 
     def test_skeleton(self):
@@ -78,10 +83,10 @@ class TestModernConsolidatedAct(TestHtmlTransformer):
 
 
 class TestActProposal(TestHtmlTransformer):
-    raw = 'proposal_raw.html'
-    refined = 'proposal_refined.html'
+    raw = "proposal_raw.html"
+    refined = "proposal_refined.html"
     transformer = _ActProposal
-    language = 'DE'
+    language = "DE"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -90,5 +95,5 @@ class TestActProposal(TestHtmlTransformer):
         self._test_articles()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

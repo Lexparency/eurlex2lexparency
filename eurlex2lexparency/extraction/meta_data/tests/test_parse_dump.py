@@ -6,24 +6,28 @@ from eurlex2lexparency.extraction.meta_data.cdm_data import ActMetaData
 
 
 class TestParseDump(unittest.TestCase):
-    FILE_PATH = os.path.join(os.path.dirname(__file__), 'data', 'stub_{}.html')
+    FILE_PATH = os.path.join(os.path.dirname(__file__), "data", "stub_{}.html")
 
     @staticmethod
     def get_metas(sauce: str):
         e = et.fromstring(sauce, parser=et.HTMLParser())
-        return sorted([et.tostring(m, encoding='unicode')
-                       for m in e.xpath('/head/meta[@property]')])
+        return sorted(
+            [
+                et.tostring(m, encoding="unicode")
+                for m in e.xpath("/head/meta[@property]")
+            ]
+        )
 
     def setUp(self) -> None:
-        self.keys = '12'
+        self.keys = "12"
         self.raw = {
-            key: et.ElementTree(file=self.FILE_PATH.format(key),
-                                parser=et.HTMLParser(remove_blank_text=True)
-                                ).getroot()
+            key: et.ElementTree(
+                file=self.FILE_PATH.format(key),
+                parser=et.HTMLParser(remove_blank_text=True),
+            ).getroot()
             for key in self.keys
         }
-        self.parsed = {key: ActMetaData.parse(raw)
-                       for key, raw in self.raw.items()}
+        self.parsed = {key: ActMetaData.parse(raw) for key, raw in self.raw.items()}
 
     def test(self):
         for key in self.keys:
@@ -32,5 +36,5 @@ class TestParseDump(unittest.TestCase):
             self.assertEqual(in_metas, out_metas)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

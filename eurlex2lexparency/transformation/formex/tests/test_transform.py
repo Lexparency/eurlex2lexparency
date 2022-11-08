@@ -6,11 +6,11 @@ from eurlex2lexparency.transformation.formex.document import FormexTransformer
 
 
 class TestFormexTransformation(TestTransformation):
-    raw = 'document_1.xml'
-    refined = 'document_1.html'
-    DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
+    raw = "document_1.xml"
+    refined = "document_1.html"
+    DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
     transformer = FormexTransformer
-    language = 'EN'
+    language = "EN"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -20,11 +20,11 @@ class TestFormexTransformation(TestTransformation):
 
 
 class TestFormexCapitalRequirementsGerman(TestTransformation):
-    raw = 'crr.xml'
-    refined = 'crr.html'
-    DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
+    raw = "crr.xml"
+    refined = "crr.html"
+    DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
     transformer = FormexTransformer
-    language = 'DE'
+    language = "DE"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -34,11 +34,11 @@ class TestFormexCapitalRequirementsGerman(TestTransformation):
 
 
 class TestFormexMifidGerman(TestTransformation):
-    raw = 'mifid_ii.xml'
-    refined = 'mifid_ii.html'
-    DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
+    raw = "mifid_ii.xml"
+    refined = "mifid_ii.html"
+    DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
     transformer = FormexTransformer
-    language = 'DE'
+    language = "DE"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -48,11 +48,11 @@ class TestFormexMifidGerman(TestTransformation):
 
 
 class TestFormexVisaKodexGerman(TestTransformation):
-    raw = 'visakodex.xml'
-    refined = 'visakodex.html'
-    DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
+    raw = "visakodex.xml"
+    refined = "visakodex.html"
+    DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
     transformer = FormexTransformer
-    language = 'DE'
+    language = "DE"
 
     def test_skeleton(self):
         self._test_skeleton()
@@ -61,5 +61,5 @@ class TestFormexVisaKodexGerman(TestTransformation):
         self._test_articles()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

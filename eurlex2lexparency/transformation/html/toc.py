@@ -10,13 +10,8 @@ class CorruptContentsTable(Exception):
 
 
 class SkeletonNode(NodeMixin):
-
     def __init__(
-            self,
-            axis: str,
-            value: str or None,
-            element: et.ElementBase = None,
-            parent=None
+        self, axis: str, value: str or None, element: et.ElementBase = None, parent=None
     ):
         self.std_axis = axis
         self.value = value
@@ -25,33 +20,30 @@ class SkeletonNode(NodeMixin):
 
     @property
     def id(self):
-        return self.element.attrib.get('id')
+        return self.element.attrib.get("id")
 
     @id.setter
     def id(self, value: str):
-        self.element.attrib['id'] = value
+        self.element.attrib["id"] = value
 
     @property
     def standardized_ordinate(self):
         if self.value is None:
             return self.std_axis
-        return '{}_{}'.format(self.std_axis, self.value)
+        return "{}_{}".format(self.std_axis, self.value)
 
     @property
     def type(self) -> str:
-        if self.std_axis == 'toc':
-            return 'container'
-        return self.element.attrib['class'].replace('lxp-', '')
+        if self.std_axis == "toc":
+            return "container"
+        return self.element.attrib["class"].replace("lxp-", "")
 
     @type.setter
     def type(self, value: str):
-        self.element.attrib['class'] = 'lxp-' + value
+        self.element.attrib["class"] = "lxp-" + value
 
     def __repr__(self):
-        return "{}[{}]".format(
-            self.type,
-            self.id or self.standardized_ordinate
-        )
+        return "{}[{}]".format(self.type, self.id or self.standardized_ordinate)
 
     def __str__(self):
         return str(RenderTree(self))
@@ -62,32 +54,27 @@ class SkeletonNode(NodeMixin):
             std_axis,
             value,
             et.SubElement(
-                et.Element(
-                    'div',
-                    attrib={
-                        'class': f'lxp-{type_}'
-                    }
-                ),
-                'div',
+                et.Element("div", attrib={"class": f"lxp-{type_}"}),
+                "div",
                 attrib={
-                    'class': 'lxp-heading',
-                }
-            ).getparent()
+                    "class": "lxp-heading",
+                },
+            ).getparent(),
         )
 
     @classmethod
     def annex(cls):
-        anx = cls.create('ANX', None, 'container')
-        et.SubElement(anx.element[0], 'h1', attrib={'class': 'lxp-ordinate'})\
-            .text = 'ANNEX'
+        anx = cls.create("ANX", None, "container")
+        et.SubElement(
+            anx.element[0], "h1", attrib={"class": "lxp-ordinate"}
+        ).text = "ANNEX"
         return anx
 
 
 class TableOfContents:
-
     def __init__(self, body: et.ElementBase):
-        self.root = SkeletonNode('toc', None, body)
-        self.root.id = 'toc'
+        self.root = SkeletonNode("toc", None, body)
+        self.root.id = "toc"
         self._flat_node_list = []
         self._nested = False
 
@@ -95,12 +82,12 @@ class TableOfContents:
         for node in self.iter_nodes():
             if node == self.root:
                 continue
-            if node.type == 'container':
+            if node.type == "container":
                 try:
                     node.element.getparent().remove(node.element)
                 except AttributeError:
                     # Annex container may be introduced by the nesting
-                    if node.standardized_ordinate != 'ANX':
+                    if node.standardized_ordinate != "ANX":
                         raise
 
     def iter_nodes(self) -> Iterator[SkeletonNode]:
@@ -108,12 +95,12 @@ class TableOfContents:
 
     def iter_leaves(self) -> Iterator[SkeletonNode]:
         for node in PreOrderIter(self.root):
-            if node.type == 'article':
+            if node.type == "article":
                 yield node
 
     def iter_container(self) -> Iterator[SkeletonNode]:
         for node in PreOrderIter(self.root):
-            if node.type == 'container':
+            if node.type == "container":
                 yield node
 
     def _get_latest_parent(self, sought_axis, starting_point=None):
@@ -128,7 +115,7 @@ class TableOfContents:
                 break
             if current_element.std_axis == sought_axis:
                 parent = current_element.parent
-        if parent.type == 'article' and starting_point is None:
+        if parent.type == "article" and starting_point is None:
             # TODO: In the future, whether or nor a ToC item is a sub-item
             #     of another one should be recognized, using the information
             #     whether or not there is a 'body' between the headings.
@@ -140,14 +127,13 @@ class TableOfContents:
             return
         annex = SkeletonNode.annex()
         for node in self._flat_node_list:
-            if node.std_axis.split('_')[0] == 'ANX':
+            if node.std_axis.split("_")[0] == "ANX":
                 if annex.parent is None:
                     annex.parent = self.root
                 node.parent = annex
-            elif annex.parent is not None and node.type.endswith('container'):
+            elif annex.parent is not None and node.type.endswith("container"):
                 node.parent = self._get_latest_parent(
-                    node.std_axis,
-                    starting_point=annex.children[-1]
+                    node.std_axis, starting_point=annex.children[-1]
                 )
             else:
                 node.parent = self._get_latest_parent(node.std_axis)
@@ -162,22 +148,22 @@ class TableOfContents:
         self._nested = True
 
     def leaves_and_container(self, node: SkeletonNode, left=False):
-        """ Assign final tag to each inner node
+        """Assign final tag to each inner node
         :param node:
             Node whose sub-nodes shall be assigned with the final tag.
         :param left: bool
             Indicates whether current node is (sub-) element of a Leave node.
         """
         for child in node.children:
-            if child.std_axis == 'CNT_ANX':
+            if child.std_axis == "CNT_ANX":
                 self.leaves_and_container(child)
-            elif child.type == 'container':
+            elif child.type == "container":
                 if left:
-                    child.type = 'sub-container'
+                    child.type = "sub-container"
                 self.leaves_and_container(child, left)
-            elif child.type == 'article':
+            elif child.type == "article":
                 self.leaves_and_container(child, left=True)
-            elif child.type == 'sub-container':
+            elif child.type == "sub-container":
                 self.leaves_and_container(child, left)
 
     def aggregate_ids(self):
@@ -185,8 +171,8 @@ class TableOfContents:
         for node in self.iter_nodes():
             if node == self.root:
                 continue
-            if node.type in ('container', 'sub-container'):
-                node.id = node.parent.id + '-' + node.standardized_ordinate
+            if node.type in ("container", "sub-container"):
+                node.id = node.parent.id + "-" + node.standardized_ordinate
             else:
                 node.id = node.standardized_ordinate
 
@@ -198,16 +184,16 @@ class TableOfContents:
         """
         if self._nested:
             raise RuntimeError("Trying to attach after finalization")
-        ordinate = element.attrib.pop('standardized-ordinate')
+        ordinate = element.attrib.pop("standardized-ordinate")
         try:
-            axis, value = ordinate.split('_')
+            axis, value = ordinate.split("_")
         except ValueError:
             axis, value = ordinate, None
         self._flat_node_list.append(SkeletonNode(axis, value, element))
 
     def transpose_nesting(self):
-        """ At this stage the nesting of the elements is only done
-            virtually on the anytree nodes level. Not for the xml-elments.
+        """At this stage the nesting of the elements is only done
+        virtually on the anytree nodes level. Not for the xml-elments.
         """
         for node in self.iter_nodes():
             if node == self.root or node.parent == self.root:
@@ -225,12 +211,12 @@ class TableOfContents:
         :param body: Body of the document to be parsed.
         """
         toc = cls(body)
-        classes = ['lxp-container', 'lxp-article', 'lxp-sub-container']
-        for element in body.xpath('|'.join(map('./*[@class="{}"]'.format, classes))):
+        classes = ["lxp-container", "lxp-article", "lxp-sub-container"]
+        for element in body.xpath("|".join(map('./*[@class="{}"]'.format, classes))):
             toc.attach(element)
-            if element.attrib.get('class') in ('lxp-article', 'lxp-sub-container'):
+            if element.attrib.get("class") in ("lxp-article", "lxp-sub-container"):
                 for sibling in list(element.itersiblings()):
-                    if sibling.attrib.get('class') in classes:
+                    if sibling.attrib.get("class") in classes:
                         break
                     element.append(sibling)
         toc.nest()
@@ -244,14 +230,13 @@ class TableOfContents:
 
 
 class NodeMarker:
-
     def __init__(
-            self,
-            heading_title_eligibility: Callable[[et.ElementBase, str], float],
-            heading_ordinate_eligibility: Callable[[et.ElementBase], bool],
-            textify: Callable[[et.ElementBase], str],
-            language='EN',
-            domain='eu'
+        self,
+        heading_title_eligibility: Callable[[et.ElementBase, str], float],
+        heading_ordinate_eligibility: Callable[[et.ElementBase], bool],
+        textify: Callable[[et.ElementBase], str],
+        language="EN",
+        domain="eu",
     ):
         """
         Function to detect and label (with further attributes) section
@@ -276,10 +261,7 @@ class NodeMarker:
         self.textify = textify
 
     def __call__(
-            self,
-            before: et.ElementBase,
-            center: et.ElementBase,
-            after: et.ElementBase
+        self, before: et.ElementBase, center: et.ElementBase, after: et.ElementBase
     ):
         if not self.heading_ordinate_eligibility(center) or after is None:
             return
@@ -288,12 +270,10 @@ class NodeMarker:
             co, ordinate, title = self.heading_analyzer(center_text)
         except ValueError:
             return
-        if co.axis in ('PAR', 'LTR', 'NUM', 'DIGIT',
-                       'SUBPAR', 'REC', 'PT', 'PG'):
+        if co.axis in ("PAR", "LTR", "NUM", "DIGIT", "SUBPAR", "REC", "PT", "PG"):
             return
         # End: recognition of headings
-        if not (before.tag == 'div'
-                and before.attrib.get('class') == 'lxp-container'):
+        if not (before.tag == "div" and before.attrib.get("class") == "lxp-container"):
             pre_score = self.heading_title_eligibility(before, co.role.name)
         else:  # before is title of a previous heading element.
             pre_score = 0
@@ -301,29 +281,34 @@ class NodeMarker:
         if title is None:
             if max(pre_score, post_score) != 0:
                 title_element = before if pre_score > post_score else after
-                title_element.attrib['class'] = 'lxp-title'
-                title_element.tag = 'h2'
+                title_element.attrib["class"] = "lxp-title"
+                title_element.tag = "h2"
             else:
                 title_element = None
         else:
             # case: title is contained in same element with ordinate
             #   (axis and value)
-            center.addnext(et.Element('h2'))
+            center.addnext(et.Element("h2"))
             title_element = center.getnext()
             title_element.text = title
-        center.tag = 'h1'
-        center.attrib['class'] = 'lxp-ordinate'
-        center.addnext(et.Element('div', attrib={'class': 'lxp-heading'}))
+        center.tag = "h1"
+        center.attrib["class"] = "lxp-ordinate"
+        center.addnext(et.Element("div", attrib={"class": "lxp-heading"}))
         heading = center.getnext()
         heading.append(center)
         if title_element is not None:
             heading.append(title_element)
-        role = 'leaf' if co.axis == 'ANX' else co.role.name
-        heading.addnext(et.Element(
-            'article' if role == 'leaf' else 'div',
-            attrib={
-                'class':
-                    'lxp-{}'.format('article' if role == 'leaf' else co.role.name),
-                'standardized-ordinate': co.collated}))
+        role = "leaf" if co.axis == "ANX" else co.role.name
+        heading.addnext(
+            et.Element(
+                "article" if role == "leaf" else "div",
+                attrib={
+                    "class": "lxp-{}".format(
+                        "article" if role == "leaf" else co.role.name
+                    ),
+                    "standardized-ordinate": co.collated,
+                },
+            )
+        )
         node_element = heading.getnext()
         node_element.append(heading)

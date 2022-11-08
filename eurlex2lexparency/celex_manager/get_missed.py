@@ -4,14 +4,24 @@ from abc import ABCMeta, abstractmethod
 from itertools import product
 
 from eurlex2lexparency.celex_manager.legislation_getter import LegislationGetter
-from eurlex2lexparency.celex_manager.model import SessionManager, Version, Act, Corrigendum, Changes
-from eurlex2lexparency.celex_manager.celex import CelexCompound, UnexpectedPatternException, CelexBase
+from eurlex2lexparency.celex_manager.model import (
+    SessionManager,
+    Version,
+    Act,
+    Corrigendum,
+    Changes,
+)
+from eurlex2lexparency.celex_manager.celex import (
+    CelexCompound,
+    UnexpectedPatternException,
+    CelexBase,
+)
 
 
 class MissedGetter(LegislationGetter, metaclass=ABCMeta):
 
     YEARS = list(map(str, range(1950, date.today().year + 2)))
-    INTERS = list('RLDF')
+    INTERS = list("RLDF")
     TYPE = None
 
     def __init__(self):
@@ -44,17 +54,18 @@ class MissedGetter(LegislationGetter, metaclass=ABCMeta):
     def get(cls):
         self = cls()
         missings = self.remote - self.local
-        self.logger.info(f'Missed {len(missings)} {self.TYPE}.')
+        self.logger.info(f"Missed {len(missings)} {self.TYPE}.")
         self._pull_all_missings(missings)
         superfluous = self.local - self.remote
         if superfluous:
             self.logger.warning(
-                'Superfluous: \n  ' + '\n  '.join(map(str, superfluous)))
+                "Superfluous: \n  " + "\n  ".join(map(str, superfluous))
+            )
 
 
 class MissedVersionsGetter(MissedGetter):
 
-    TYPE = 'versions'
+    TYPE = "versions"
 
     def _local(self):
         result = set()
@@ -71,19 +82,19 @@ class MissedVersionsGetter(MissedGetter):
     def _remote(self):
         result = set()
         for year in self.YEARS:
-            for c in self('missed_consolidates', year=year):
+            for c in self("missed_consolidates", year=year):
                 result.add(CelexCompound.from_string(c[0].toPython()))
         return result
 
     def _pull_all_missings(self, missings):
         for missed in missings:
-            self.logger.info(f'Pulling for {missed}.')
+            self.logger.info(f"Pulling for {missed}.")
             self.pull_compound_celex_representations(missed)
 
 
 class MissedActsGetter(MissedGetter):
 
-    TYPE = 'acts'
+    TYPE = "acts"
 
     def _local(self):
         result = set()
@@ -98,7 +109,7 @@ class MissedActsGetter(MissedGetter):
     def _remote(self):
         result = set()
         for year, inter in product(self.YEARS, self.INTERS):
-            for (c,) in self('celexes_inter_year', year=year, inter=inter):
+            for (c,) in self("celexes_inter_year", year=year, inter=inter):
                 result.add(CelexBase.from_string(c.toPython()))
         return result
 
@@ -109,7 +120,7 @@ class MissedActsGetter(MissedGetter):
 
 class MissedCorrigendaGetter(MissedGetter):
 
-    TYPE = 'corrigendum'
+    TYPE = "corrigendum"
 
     def _local(self):
         result = set()
@@ -125,7 +136,7 @@ class MissedCorrigendaGetter(MissedGetter):
         result = set()
         for year, inter in product(self.YEARS, self.INTERS):
             self.logger.info(f"Querying Corrigenda for ({year}, {inter})")
-            for (c,) in self('corrigenda', year=year, inter=inter):
+            for (c,) in self("corrigenda", year=year, inter=inter):
                 result.add(CelexCompound.from_string(c.toPython()))
         return result
 
@@ -138,10 +149,10 @@ class MissedCorrigendaGetter(MissedGetter):
 class MissedChangesGetter(MissedGetter):
 
     change_2_cdm = [
-        ('amends', 'resource_legal_amends_resource_legal'),
-        ('completes', 'resource_legal_completes_resource_legal'),
-        ('repeals', 'resource_legal_implicitly_repeals_resource_legal'),
-        ('repeals', 'resource_legal_repeals_resource_legal')
+        ("amends", "resource_legal_amends_resource_legal"),
+        ("completes", "resource_legal_completes_resource_legal"),
+        ("repeals", "resource_legal_implicitly_repeals_resource_legal"),
+        ("repeals", "resource_legal_repeals_resource_legal"),
     ]
 
     def _local(self):
@@ -149,9 +160,13 @@ class MissedChangesGetter(MissedGetter):
         with self.sm() as s:
             for r in s.query(Changes):
                 try:
-                    result.add((CelexBase.from_string(r.celex_changer),
-                                r.change,
-                                CelexBase.from_string(r.celex_changee)))
+                    result.add(
+                        (
+                            CelexBase.from_string(r.celex_changer),
+                            r.change,
+                            CelexBase.from_string(r.celex_changee),
+                        )
+                    )
                 except UnexpectedPatternException:
                     pass
         return result
@@ -159,11 +174,15 @@ class MissedChangesGetter(MissedGetter):
     def _remote(self):
         result = set()
         for year, (change, cdm) in product(self.YEARS, self.change_2_cdm):
-            for changer, changee in self('changes_year', year=year, change=cdm):
+            for changer, changee in self("changes_year", year=year, change=cdm):
                 try:
-                    result.add((CelexBase.from_string(str(changer)),
-                                change,
-                                CelexBase.from_string(str(changee))))
+                    result.add(
+                        (
+                            CelexBase.from_string(str(changer)),
+                            change,
+                            CelexBase.from_string(str(changee)),
+                        )
+                    )
                 except UnexpectedPatternException:
                     pass
         return result
@@ -180,12 +199,16 @@ class MissedChangesGetter(MissedGetter):
                     celexes.add(missing_celex)
                     s.add(Act(celex=missing_celex))
                 # noinspection PyArgumentList
-                s.add(Changes(celex_changer=celex_changer,
-                              change=change,
-                              celex_changee=celex_changee))
+                s.add(
+                    Changes(
+                        celex_changer=celex_changer,
+                        change=change,
+                        celex_changee=celex_changee,
+                    )
+                )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     MissedActsGetter.get()
     MissedVersionsGetter.get()
     MissedCorrigendaGetter.get()

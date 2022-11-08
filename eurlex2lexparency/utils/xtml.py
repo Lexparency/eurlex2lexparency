@@ -7,13 +7,13 @@ from typing import List, Iterator
 
 
 def is_negligible(in_text):
-    """" Checks if text or tail of XML element is either empty string or None
-        Copied from the interface (doq).
+    """ " Checks if text or tail of XML element is either empty string or None
+    Copied from the interface (doq).
     """
     if in_text is None:
         return True
     elif type(in_text) is str:
-        if in_text.strip(chr(160) + ' \t\n\r') == '':
+        if in_text.strip(chr(160) + " \t\n\r") == "":
             return True
         else:
             return False
@@ -29,7 +29,7 @@ def leader(in_element: et.ElementBase) -> et.ElementBase:
 
 
 def get_lead(in_element: et.ElementBase) -> str:
-    """ Return value can also be None. """
+    """Return value can also be None."""
     leader_ = in_element.getprevious()
     if leader_ is not None:
         return leader_.tail
@@ -59,23 +59,25 @@ def strip_subelements(element: et.ElementBase, sub_x_path: str) -> List[et.Eleme
 
 
 def unfold(in_element, processing_instruction=False):
-    """ moves content of element to parent element,
+    """moves content of element to parent element,
         appends its tail to the tail of the final sub-element,
         finally removes element
     :param in_element:
     :param processing_instruction:
     """
+
     def member_to_text(member):
-        return '' if member is None else member
+        return "" if member is None else member
 
     in_parent = in_element.getparent()
-    first = (in_parent.index(in_element) == 0)
+    first = in_parent.index(in_element) == 0
     if in_element.text is not None and not processing_instruction:
         if first:
             in_parent.text = member_to_text(in_parent.text) + in_element.text
         else:
-            in_element.getprevious().tail = \
+            in_element.getprevious().tail = (
                 member_to_text(in_element.getprevious().tail) + in_element.text
+            )
         in_element.text = None
     if len(in_element) > 0:
         for sub_element in in_element.iterchildren(reversed=True):
@@ -85,35 +87,36 @@ def unfold(in_element, processing_instruction=False):
             if first:
                 in_parent.text = member_to_text(in_parent.text) + in_element.tail
             else:
-                in_element.getprevious().tail = \
+                in_element.getprevious().tail = (
                     member_to_text(in_element.getprevious().tail) + in_element.tail
+                )
     in_parent.remove(in_element)
 
 
 def unfold_all(ultimate_parent: et, tags):
-    for desc in ultimate_parent.xpath('.//*'):
+    for desc in ultimate_parent.xpath(".//*"):
         if desc.tag in tags:
             unfold(desc)
 
 
 def remove(element: et.ElementBase, keep_tail=True):
-    if keep_tail and element.tail not in (None, ''):
-        if element.tail not in (None, ''):
-            set_lead(element, (get_lead(element) or '') + element.tail)
+    if keep_tail and element.tail not in (None, ""):
+        if element.tail not in (None, ""):
+            set_lead(element, (get_lead(element) or "") + element.tail)
     element.getparent().remove(element)
 
 
 def flatten_by_paths(element: et.ElementBase, *paths):
-    for sub_element in element.xpath(' | '.join(paths)):
+    for sub_element in element.xpath(" | ".join(paths)):
         unfold(sub_element)
 
 
 def analyze_attrib_frequency(in_element, attribute):
-    """ Counts frequencies of values of given attribute fields """
-    return collections.Counter(in_element.xpath('//@{}'.format(attribute)))
+    """Counts frequencies of values of given attribute fields"""
+    return collections.Counter(in_element.xpath("//@{}".format(attribute)))
 
 
-def reunite(body, element_tag='p', class_list='doc-ti'):
+def reunite(body, element_tag="p", class_list="doc-ti"):
     """Merges all adjacent elements that are of the same css-class"""
     if type(class_list) is str:
         class_list = [class_list]
@@ -122,10 +125,10 @@ def reunite(body, element_tag='p', class_list='doc-ti'):
         group_list = []
         k = 0
         while k <= len(candidate_list) - 1:
-            if candidate_list[k].getnext() == candidate_list[k+1]:
+            if candidate_list[k].getnext() == candidate_list[k + 1]:
                 current_list = [k]
                 for sibling in candidate_list[k].itersiblings(element_tag):
-                    if sibling.attrib.get('class') != _class:
+                    if sibling.attrib.get("class") != _class:
                         break
                     k += 1
                     current_list.append(k)
@@ -142,21 +145,21 @@ def reunite(body, element_tag='p', class_list='doc-ti'):
 
 def concatenate_siblings(element, tag, **attrib):
     predicates = [f'@{key}="{value}"' for key, value in attrib.items()]
-    selector = '{}[{}]'.format(tag, ' and '.join(predicates)).replace('[]', '')
+    selector = "{}[{}]".format(tag, " and ".join(predicates)).replace("[]", "")
     # Find all elements that match the selector where its direct next neighbour
     # matches the same selector
-    for candidate in element.xpath('.//{}'.format(selector)):
+    for candidate in element.xpath(".//{}".format(selector)):
         if candidate.tail is not None:
-            if candidate.tail.strip() != '':
+            if candidate.tail.strip() != "":
                 continue
         next_ = candidate.getnext()
         if et.iselement(next_):
-            if next_.xpath('self::{}'.format(selector)):
+            if next_.xpath("self::{}".format(selector)):
                 break
     else:
         return
-    for sibling in candidate.xpath('following-sibling::*'):
-        if sibling.xpath('self::{}'.format(selector)):
+    for sibling in candidate.xpath("following-sibling::*"):
+        if sibling.xpath("self::{}".format(selector)):
             candidate.append(sibling)
             unfold(sibling)
         else:
@@ -171,35 +174,35 @@ def migrate_attributes(element, name, mapping):
 
 
 def unfold_redundant_paragraphs(item, *tags):
-    while (item.text or '').strip() == '' and len(item) > 0:
+    while (item.text or "").strip() == "" and len(item) > 0:
         if item[0].tag not in tags:
             break
         unfold(item[0])
 
 
 def push(host: et.ElementBase, adoptee: et.ElementBase):
-    """ Makes a true insert to the very front of the host element. """
+    """Makes a true insert to the very front of the host element."""
     text = host.text
     host.text = None
     if text is not None:
-        adoptee.tail = (adoptee.tail or '') + ' ' + text
+        adoptee.tail = (adoptee.tail or "") + " " + text
     host.insert(0, adoptee)
 
 
 def cut_append(host: et.ElementBase, adoptee: et.ElementBase):
-    """ Appends the adoptee to the end of the host but leaves the adoptee's
-        tail outside. """
+    """Appends the adoptee to the end of the host but leaves the adoptee's
+    tail outside."""
     tail = adoptee.tail
     if tail is not None:
         if host.tail is not None:
-            host.tail = tail + ' ' + host.tail
+            host.tail = tail + " " + host.tail
         else:
             host.tail = tail
     host.append(adoptee)
 
 
 def subskeleton(element: et.Element) -> et.ElementBase:
-    """ For debugging """
+    """For debugging"""
     proxy = et.Element(element.tag, dict(**element.attrib))
     for child in element.iterchildren():
         if isinstance(child.tag, str):
@@ -208,7 +211,7 @@ def subskeleton(element: et.Element) -> et.ElementBase:
 
 
 def iter_column(table: et.ElementBase, col: int) -> Iterator[et.ElementBase]:
-    for row in table.xpath('./tr | ./*/tr'):
+    for row in table.xpath("./tr | ./*/tr"):
         yield row[col]
 
 
@@ -222,8 +225,8 @@ def iter_table_columns(table: et.ElementBase) -> Iterator[List[et.ElementBase]]:
 
 def rollback_on(errors, logger: logging.Logger):
     def rollback_on_error(f):
-        """ Decorator for functions transforming an XML-Element (e).
-            Performs a rollback on the element if anything fails.
+        """Decorator for functions transforming an XML-Element (e).
+        Performs a rollback on the element if anything fails.
         """
 
         @wraps(f)
@@ -232,11 +235,11 @@ def rollback_on(errors, logger: logging.Logger):
             try:
                 f(e, *args, **kwargs)
             except errors:  # rollback
-                logger.error(f'Could not transform {ec.tag}, {ec.attrib}')
-                for child in e.xpath('./*'):
+                logger.error(f"Could not transform {ec.tag}, {ec.attrib}")
+                for child in e.xpath("./*"):
                     e.remove(child)
                 e.text = ec.text
-                for child in ec.xpath('./*'):
+                for child in ec.xpath("./*"):
                     e.append(child)
                 for key in list(e.attrib):
                     e.attrib.pop(key)
@@ -244,4 +247,5 @@ def rollback_on(errors, logger: logging.Logger):
                     e.attrib[key] = value
 
         return wrapped
+
     return rollback_on_error
